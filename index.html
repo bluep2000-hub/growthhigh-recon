@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RECON · 그로스하이 크롤링 팀 관제</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#14181c; --bg-2:#191f25; --panel:#1c242c; --lane:#12171c; --line:#2a3742; --line-2:#384754;
+    --ink:#e6eef4; --ink-mute:#7f8f9d; --ink-dim:#52616e;
+    --work:#6fe08a; --work-l:#b6f6c4; --input:#ff9d42; --input-l:#ffd39a;
+    --idle:#8ea4bb; --idle-l:#c3d2e0; --new:#ecdcae; --new-l:#f7eecd; --new-o:#c9a86a;
+    --err:#ff6f61; --err-l:#ffb3ab; --dark:#10130f;
+    --s1:#6fe08a; --s2:#7fc9ff; --s3:#ff9d42;
+    --pix:'DotGothic16','Press Start 2P',ui-monospace,monospace;
+    --data:ui-monospace,'SFMono-Regular','DotGothic16',monospace; --px:5px;
+  }
+  *{box-sizing:border-box;} html,body{margin:0;}
+  body{ background:
+      radial-gradient(1000px 560px at 84% -10%, #1d2833 0%, transparent 58%),
+      radial-gradient(820px 480px at 6% 112%, #182220 0%, transparent 52%), var(--bg);
+    color:var(--ink); font-family:var(--data); -webkit-font-smoothing:antialiased; min-height:100vh;
+    padding:18px clamp(12px,3.5vw,36px) 40px; }
+
+  .topbar{ display:flex; align-items:flex-end; justify-content:space-between; gap:18px; flex-wrap:wrap;
+    border-bottom:1px dashed var(--line); padding-bottom:14px; margin-bottom:16px; }
+  .brand{ display:flex; align-items:center; gap:12px; }
+  .brand .logo{ font-family:var(--pix); font-size:22px; letter-spacing:2px; color:var(--work); text-shadow:0 0 12px rgba(111,224,138,.35); }
+  .brand h1{ font-family:var(--pix); font-size:13px; font-weight:400; margin:0; }
+  .brand .sub{ font-size:10px; color:var(--ink-mute); letter-spacing:2px; text-transform:uppercase; margin-top:3px; }
+  .glance{ display:flex; gap:8px; flex-wrap:wrap; }
+  .chip{ background:var(--panel); border:1px solid var(--line); border-radius:11px; padding:8px 13px; display:flex; flex-direction:column; gap:2px; min-width:78px; }
+  .chip .k{ font-size:9px; color:var(--ink-dim); letter-spacing:1.2px; text-transform:uppercase; }
+  .chip .v{ font-family:var(--pix); font-size:17px; } .chip .v small{ font-size:10px; color:var(--ink-mute); }
+  .chip.alert .v{ color:var(--input); }
+  .chip.err .v{ color:var(--err); }
+  .fresh{ color:var(--work); } .fresh.stale{ color:var(--err); }
+
+  .attention{ display:flex; align-items:center; gap:12px; flex-wrap:wrap;
+    background:linear-gradient(90deg, rgba(255,157,66,.14), rgba(255,157,66,.04));
+    border:1px solid rgba(255,157,66,.4); border-left:4px solid var(--input);
+    border-radius:12px; padding:11px 15px; margin-bottom:16px; }
+  .attention .bang{ font-family:var(--pix); color:var(--input); font-size:14px; }
+  .attention .msg{ font-size:12px; color:var(--input-l); } .attention .msg b{ font-family:var(--pix); font-size:13px; color:var(--input); }
+  .attention.hide{ display:none; }
+  .attention.errband{ background:linear-gradient(90deg, rgba(255,111,97,.14), rgba(255,111,97,.04));
+    border-color:rgba(255,111,97,.4); border-left-color:var(--err); }
+  .attention.errband .bang{ color:var(--err); }
+  .attention.errband .msg{ color:var(--err-l); } .attention.errband .msg b{ color:var(--err); }
+
+  .pipeline{ display:grid; gap:10px; align-items:stretch;
+    grid-template-columns:1fr auto 1fr auto 1fr; margin-bottom:20px; }
+  @media(max-width:900px){ .pipeline{ grid-template-columns:1fr; } }
+
+  .lane{ background:linear-gradient(180deg,var(--panel) 0%,var(--lane) 100%);
+    border:1px solid var(--line); border-radius:16px; padding:0 0 12px; overflow:hidden; display:flex; flex-direction:column; }
+  .lane-head{ padding:12px 15px 11px; border-bottom:1px solid var(--line); border-top:3px solid var(--stage); }
+  .lane.s1{ --stage:var(--s1); } .lane.s2{ --stage:var(--s2); } .lane.s3{ --stage:var(--s3); }
+  .lane-head .row{ display:flex; align-items:center; justify-content:space-between; }
+  .lane-no{ font-family:var(--pix); font-size:11px; color:var(--stage); letter-spacing:1px; }
+  .lane-title{ font-family:var(--pix); font-size:14px; letter-spacing:.5px; margin-top:3px; }
+  .lane-skill{ font-size:10px; color:var(--ink-dim); letter-spacing:.5px; margin-top:3px; }
+  .lane-metric{ text-align:right; } .lane-metric .m{ font-family:var(--pix); font-size:16px; color:var(--stage); }
+  .lane-metric .ml{ font-size:9px; color:var(--ink-dim); letter-spacing:1px; }
+  .lane-sub{ font-size:10px; color:var(--ink-mute); text-align:right; margin-top:2px; }
+
+  .agents{ display:flex; flex-direction:column; gap:8px; padding:10px; flex:1; }
+  .empty-lane{ font-size:11px; color:var(--ink-dim); text-align:center; padding:20px 8px; }
+
+  .connector{ align-self:center; display:flex; flex-direction:column; align-items:center; gap:4px;
+    color:var(--ink-dim); font-size:10px; text-align:center; padding:0 2px; min-width:64px; }
+  .connector .arw{ font-family:var(--pix); font-size:15px; color:var(--line-2); }
+  .connector .batch{ background:var(--bg-2); border:1px solid var(--line); border-radius:8px; padding:5px 8px; line-height:1.4; }
+  .connector .batch b{ font-family:var(--pix); font-size:11px; color:var(--ink); }
+  @media(max-width:900px){ .connector .arw{ transform:rotate(90deg); } }
+
+  .agent{ position:relative; display:grid; grid-template-columns:auto 1fr auto; gap:11px; align-items:center;
+    background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(0,0,0,.16)), var(--bg-2);
+    border:1px solid var(--line); border-radius:12px; padding:9px 11px; transition:border-color .3s,box-shadow .3s; }
+  .agent.s-input{ border-color:rgba(255,157,66,.5); box-shadow:inset 0 0 22px -12px var(--input); }
+  .agent.s-working{ border-color:rgba(111,224,138,.24); }
+  .agent.s-error{ border-color:rgba(255,111,97,.55); box-shadow:inset 0 0 22px -12px var(--err); }
+  .stage-box{ width:52px; height:48px; display:grid; place-items:end center; }
+  .creature{ display:grid; grid-template-columns:repeat(10,var(--px)); grid-template-rows:repeat(9,var(--px)); width:calc(10*var(--px)); }
+  .creature i{ width:var(--px); height:var(--px); }
+  .creature i.g{background:var(--body);} .creature i.l{background:var(--light);} .creature i.d{background:var(--dark);}
+  .creature i.s{background:#fff3a8;} .creature i.o{background:var(--spot);}
+  .s-working .creature{ --body:var(--work); --light:var(--work-l); }
+  .s-input   .creature{ --body:var(--input); --light:var(--input-l); }
+  .s-idle    .creature{ --body:var(--idle);  --light:var(--idle-l); }
+  .s-new     .creature{ --body:var(--new);   --light:var(--new-l); --spot:var(--new-o); }
+  .s-error   .creature{ --body:var(--err);   --light:var(--err-l); }
+  .a-info{ min-width:0; } .a-name{ font-family:var(--pix); font-size:12px; }
+  .a-machine{ font-size:9px; color:var(--ink-dim); letter-spacing:.5px; margin-top:2px; }
+  .a-machine .mtag{ background:#0f151b; border:1px solid var(--line); border-radius:5px; padding:1px 5px; }
+  .a-stat{ font-size:10px; color:var(--ink-mute); margin-top:4px; line-height:1.5; } .a-stat b{ font-family:var(--pix); color:var(--ink); }
+  .a-stat .rate{ color:var(--work); }
+  .a-msg{ font-size:9px; color:var(--ink-dim); margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:100%; }
+  .a-right{ text-align:right; display:flex; flex-direction:column; align-items:flex-end; gap:5px; }
+  .pill{ font-family:var(--pix); font-size:9px; padding:3px 7px; border-radius:20px; white-space:nowrap; }
+  .pill.working{ color:var(--work); background:rgba(111,224,138,.12);} .pill.input{ color:var(--input); background:rgba(255,157,66,.14);}
+  .pill.idle{ color:var(--idle); background:rgba(142,164,187,.14);} .pill.new{ color:var(--new); background:rgba(236,220,174,.14);}
+  .pill.error{ color:var(--err); background:rgba(255,111,97,.14);}
+  .beat{ font-size:9px; color:var(--ink-dim); }
+  .beat.old{ color:var(--err); }
+  .zzz{ position:absolute; top:2px; left:40px; font-family:var(--pix); font-size:10px; color:var(--idle-l); opacity:.7; }
+
+  .gate{ margin:2px 10px 0; border:1px dashed rgba(255,157,66,.5); border-radius:12px; padding:11px 12px; background:rgba(255,157,66,.05); }
+  .gate .gt{ font-family:var(--pix); font-size:11px; color:var(--input); letter-spacing:.5px; }
+  .gate .gsub{ font-size:10px; color:var(--input-l); margin-top:5px; line-height:1.5; }
+  .gate .flow{ display:flex; gap:6px; margin-top:9px; }
+  .gate .node{ flex:1; text-align:center; background:var(--bg-2); border:1px solid var(--line); border-radius:9px; padding:8px 4px; }
+  .gate .node .n{ font-family:var(--pix); font-size:15px; } .gate .node .l{ font-size:8px; color:var(--ink-dim); letter-spacing:.5px; margin-top:3px; }
+  .gate .node.pending .n{ color:var(--input); } .gate .node.done .n{ color:var(--work); }
+
+  .overlay{ text-align:center; padding:60px 20px; }
+  .overlay .face{ font-family:var(--pix); font-size:26px; color:var(--ink-dim); }
+  .overlay .t{ font-family:var(--pix); font-size:13px; margin-top:14px; color:var(--ink-mute); }
+  .overlay .d{ font-size:11px; color:var(--ink-dim); margin-top:8px; line-height:1.7; }
+  .hide{ display:none !important; }
+
+  .legend{ margin-top:18px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap; font-size:11px; color:var(--ink-dim); }
+  .legend span{ display:flex; align-items:center; gap:6px; } .legend .sw{ width:10px; height:10px; border-radius:2px; }
+  .note{ margin-top:12px; text-align:center; font-size:10px; color:var(--ink-dim); }
+
+  @media (prefers-reduced-motion: no-preference){
+    .s-working .creature{ animation:bounce 1.3s ease-in-out infinite; transform-origin:center bottom; }
+    .s-input .creature, .s-error .creature{ animation:shake .5s ease-in-out infinite; }
+    .s-idle .creature{ animation:bob 3.2s ease-in-out infinite; transform-origin:center bottom; }
+    .s-working .creature i.s{ animation:twinkle 1s steps(2) infinite; }
+    .agent.s-input,.gate{ animation:glow 1.6s ease-in-out infinite; }
+    .agent.s-error{ animation:glowerr 1.2s ease-in-out infinite; }
+    @keyframes bounce{0%,100%{transform:translateY(0) scaleY(1);}45%,55%{transform:translateY(-3px) scaleY(1.05);}}
+    @keyframes bob{0%,100%{transform:translateY(0);}50%{transform:translateY(2px);}}
+    @keyframes shake{0%,100%{transform:translateX(-1px) rotate(-1deg);}50%{transform:translateX(1px) rotate(1deg);}}
+    @keyframes twinkle{0%{opacity:.2;}100%{opacity:1;}}
+    @keyframes glow{0%,100%{box-shadow:inset 0 0 22px -12px var(--input);}50%{box-shadow:inset 0 0 30px -8px var(--input);}}
+    @keyframes glowerr{0%,100%{box-shadow:inset 0 0 22px -12px var(--err);}50%{box-shadow:inset 0 0 30px -8px var(--err);}}
+  }
+</style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">▚▞ RECON</span>
+      <div><h1>크롤링 팀 관제</h1><div class="sub">Growth&#39;High · 3-stage harness</div></div>
+    </div>
+    <div class="glance">
+      <div class="chip"><span class="k">가동</span><span class="v" id="g-live">—</span></div>
+      <div class="chip alert"><span class="k">승인 대기</span><span class="v" id="g-wait">—</span></div>
+      <div class="chip err"><span class="k">오류</span><span class="v" id="g-err">—</span></div>
+      <div class="chip"><span class="k">오늘 수집</span><span class="v" id="g-today">—</span></div>
+      <div class="chip"><span class="k">확보율</span><span class="v" id="g-rate">—</span></div>
+      <div class="chip"><span class="k">데이터</span><span class="v fresh" id="g-fresh">—</span></div>
+    </div>
+  </header>
+
+  <div class="attention hide" id="att-input"><span class="bang">▲</span><span class="msg" id="att-input-msg"></span></div>
+  <div class="attention errband hide" id="att-error"><span class="bang">✕</span><span class="msg" id="att-error-msg"></span></div>
+
+  <div class="overlay hide" id="overlay">
+    <div class="face" id="ov-face">( ... )</div>
+    <div class="t" id="ov-title">불러오는 중</div>
+    <div class="d" id="ov-desc"></div>
+  </div>
+
+  <div class="pipeline hide" id="pipeline">
+    <section class="lane s1">
+      <div class="lane-head"><div class="row">
+        <div><div class="lane-no">STAGE 01</div><div class="lane-title">수집</div><div class="lane-skill">db-research-agent · 연락처</div></div>
+        <div class="lane-metric"><div class="m" id="m1">—</div><div class="ml">오늘 수집</div><div class="lane-sub" id="m1sub"></div></div>
+      </div></div>
+      <div class="agents" id="lane-collect"></div>
+    </section>
+
+    <div class="connector"><div class="arw">▶</div><div class="batch hide" id="h1box"><b id="h1">—</b>건</div></div>
+
+    <section class="lane s2">
+      <div class="lane-head"><div class="row">
+        <div><div class="lane-no">STAGE 02</div><div class="lane-title">신호</div><div class="lane-skill">ta-contact-memo · 활동신호</div></div>
+        <div class="lane-metric"><div class="m" id="m2">—</div><div class="ml">오늘 메모</div></div>
+      </div></div>
+      <div class="agents" id="lane-signal"></div>
+    </section>
+
+    <div class="connector"><div class="arw">▶</div><div class="batch hide" id="h2box"><b id="h2">—</b>건</div></div>
+
+    <section class="lane s3">
+      <div class="lane-head"><div class="row">
+        <div><div class="lane-no">STAGE 03</div><div class="lane-title">적재</div><div class="lane-skill">db-notion-pipeline · 노션 병합</div></div>
+        <div class="lane-metric"><div class="m" id="m3">—</div><div class="ml">반영 누계</div></div>
+      </div></div>
+      <div class="agents" id="lane-load"></div>
+      <div class="gate">
+        <div class="gt">▲ 승인 게이트</div>
+        <div class="gsub">배치 준비 완료 시 <b>승인대기</b>로 표시 · 드라이런 확인 후 승인하면 노션 기업 DB로 병합</div>
+        <div class="flow">
+          <div class="node"><div class="n" id="f-crawl">—</div><div class="l">오늘 수집</div></div>
+          <div class="node pending"><div class="n" id="f-pending">—</div><div class="l">승인 대기</div></div>
+          <div class="node done"><div class="n" id="f-done">—</div><div class="l">반영 누계</div></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="legend">
+    <span><i class="sw" style="background:var(--work)"></i>수집중</span>
+    <span><i class="sw" style="background:var(--input)"></i>승인 대기</span>
+    <span><i class="sw" style="background:var(--idle)"></i>유휴</span>
+    <span><i class="sw" style="background:var(--new)"></i>신규</span>
+    <span><i class="sw" style="background:var(--err)"></i>오류</span>
+  </div>
+  <p class="note" id="foot-note">30초마다 자동 갱신 · 데이터: 노션 「파이프라인 현황」 → dashboard.json</p>
+
+<script>
+/* ══════════════════════════════════════════════════════════════
+   RECON 대시보드 — 실데이터판
+   같은 폴더의 ./dashboard.json (계약 §3) 을 30초마다 읽어 렌더.
+   ══════════════════════════════════════════════════════════════ */
+const REFRESH_MS = 30000;
+const BEAT_OLD_MIN = 10;      // 신호가 이보다 오래되면 붉게 표시
+const DATA_STALE_MIN = 12;    // generated_at이 이보다 오래되면 export 정지 의심
+
+const ART={
+  working:["s........s","..gggggg..",".gggggggg.","gggggggggg","ggdggggdgg","gggggggggg","gglllllgg.",".gggggggg.","..gg..gg.."],
+  input:  ["..........","..gggggg..",".gd.gg.dg.","gggggggggg","ggdggggdgg","gggggggggg","gggddddggg",".gggggggg.","..g....g.."],
+  idle:   ["..........","..gggggg..",".gggggggg.","gggggggggg","gglggglggg","gggggggggg","gggggggggg",".gggggggg.","..gg..gg.."],
+  new:    ["...gggg...","..gggggg..",".gggogggg.",".gggggggg.","gggggggggg","ggggggoggg","gggggggggg",".gggggggg.","..gggggg.."],
+  error:  ["..........","..gggggg..",".gd.gg.dg.","gggggggggg","ggdggggdgg","gggggggggg","ggdddddggg",".gggggggg.","..g....g.."],
+};
+const cre=s=>{let c='';for(const r of (ART[s]||ART.idle))for(const ch of r)c+=`<i class="${'gldso'.includes(ch)?ch:''}"></i>`;return `<div class="creature">${c}</div>`;};
+const PILL={working:'수집중',input:'승인대기',idle:'유휴',new:'신규',error:'오류'};
+const KNOWN=new Set(Object.keys(PILL));
+const fmt=n=>(n??0).toLocaleString();
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+
+function agoText(iso){
+  if(!iso) return {txt:'신호 없음', old:true};
+  const sec=Math.max(0, Math.floor((Date.now()-new Date(iso).getTime())/1000));
+  const old = sec > BEAT_OLD_MIN*60;
+  if(sec<60)    return {txt:`${sec}초 전`, old};
+  if(sec<3600)  return {txt:`${Math.floor(sec/60)}분 전`, old};
+  if(sec<86400) return {txt:`${Math.floor(sec/3600)}시간 전`, old};
+  return {txt:`${Math.floor(sec/86400)}일 전`, old:true};
+}
+
+function agentHTML(a){
+  const state = KNOWN.has(a.state) ? a.state : 'error';   // 계약 밖 값은 관심 필요로 취급
+  const rate = a.today ? (a.hits/a.today*100) : 0;
+  const beat = agoText(a.last_beat);
+  let stat;
+  if(a.stage==='collect'){
+    stat = state==='new' ? `<span style="color:var(--ink-dim)">부화 대기 · 신규</span>`
+         : `오늘 <b>${fmt(a.today)}</b> · 확보 <b class="rate">${rate.toFixed(0)}%</b>`;
+  } else if(a.stage==='signal'){
+    stat = `오늘 메모 <b>${fmt(a.today)}</b>건`;
+  } else {
+    stat = a.pending>0 ? `배치 준비 <b style="color:var(--input)">${fmt(a.pending)}</b>건`
+         : `오늘 반영 <b>${fmt(a.today)}</b>건`;
+  }
+  const zzz = state==='idle' ? `<span class="zzz">z Z</span>` : '';
+  const msg = a.message ? `<div class="a-msg" title="${esc(a.message)}">${esc(a.message)}</div>` : '';
+  return `<div class="agent s-${state}">
+    <div class="stage-box">${cre(state)}${zzz}</div>
+    <div class="a-info">
+      <div class="a-name">${esc(a.name)}</div>
+      <div class="a-machine"><span class="mtag">${esc(a.machine||'—')}</span></div>
+      <div class="a-stat">${stat}</div>${msg}
+    </div>
+    <div class="a-right">
+      <span class="pill ${state}">${PILL[state]}</span>
+      <span class="beat ${beat.old?'old':''}">${beat.txt}</span>
+    </div>
+  </div>`;
+}
+
+function overlay(face,title,desc){
+  document.getElementById('pipeline').classList.add('hide');
+  const ov=document.getElementById('overlay'); ov.classList.remove('hide');
+  document.getElementById('ov-face').textContent=face;
+  document.getElementById('ov-title').textContent=title;
+  document.getElementById('ov-desc').innerHTML=desc;
+}
+
+function render(d){
+  document.getElementById('overlay').classList.add('hide');
+  document.getElementById('pipeline').classList.remove('hide');
+
+  const agents = d.agents||[];
+  const by=s=>agents.filter(a=>a.stage===s);
+  const laneFill=(id,list,emptyMsg)=>{
+    document.getElementById(id).innerHTML = list.length
+      ? list.map(agentHTML).join('')
+      : `<div class="empty-lane">${emptyMsg}</div>`;
+  };
+  laneFill('lane-collect', by('collect'), '수집 워커 없음 — 코워크 세션이 뜨면 여기 나타납니다');
+  laneFill('lane-signal',  by('signal'),  '신호 워커 없음');
+  laneFill('lane-load',    by('load'),    '적재봇 대기 — 파이프라인 실행 시 나타납니다');
+
+  const st=d.stages||{}, c=st.collect||{}, s=st.signal||{}, l=st.load||{};
+  document.getElementById('m1').textContent=fmt(c.today);
+  document.getElementById('m1sub').textContent=`확보 ${fmt(c.hits)} · ${(c.rate??0).toFixed(1)}%`;
+  document.getElementById('m2').textContent=fmt(s.today);
+  document.getElementById('m3').textContent=fmt(l.done_total);
+  document.getElementById('f-crawl').textContent=fmt(c.today);
+  document.getElementById('f-pending').textContent=fmt(l.pending);
+  document.getElementById('f-done').textContent=fmt(l.done_total);
+
+  // handoffs는 계약상 선택 — 있으면만 표시
+  const h=d.handoffs||{};
+  const setH=(box,val,el)=>{ const b=document.getElementById(box);
+    if(val!=null){ b.classList.remove('hide'); document.getElementById(el).textContent=fmt(val); }
+    else b.classList.add('hide'); };
+  setH('h1box',h.collect_to_signal,'h1'); setH('h2box',h.signal_to_load,'h2');
+
+  // 상단 요약
+  const live=agents.filter(a=>a.state==='working').length;
+  const waiting=agents.filter(a=>a.state==='input');
+  const errs=agents.filter(a=>a.state==='error'||!KNOWN.has(a.state));
+  document.getElementById('g-live').innerHTML=`${live} <small>/ ${agents.length}</small>`;
+  document.getElementById('g-wait').textContent=waiting.length;
+  document.getElementById('g-err').textContent=errs.length;
+  document.getElementById('g-today').textContent=fmt(c.today);
+  document.getElementById('g-rate').textContent=(c.rate??0).toFixed(0)+'%';
+
+  // 데이터 신선도
+  const gen=agoText(d.generated_at);
+  const genOld = d.generated_at ? (Date.now()-new Date(d.generated_at).getTime()) > DATA_STALE_MIN*60000 : true;
+  const gf=document.getElementById('g-fresh');
+  gf.textContent=gen.txt; gf.classList.toggle('stale',genOld);
+  document.getElementById('foot-note').textContent = genOld
+    ? `⚠ 데이터가 ${gen.txt}에 멈춰 있습니다 — export 스케줄러(크롤링 PC)가 꺼져 있을 수 있어요`
+    : '30초마다 자동 갱신 · 데이터: 노션 「파이프라인 현황」 → dashboard.json';
+
+  // 배너
+  const ai=document.getElementById('att-input');
+  if(waiting.length){
+    document.getElementById('att-input-msg').innerHTML=
+      `<b>승인 대기 ${waiting.length}건</b> — ${waiting.map(a=>`${esc(a.name)} (${fmt(a.pending)}건)`).join(' · ')} · 드라이런 확인 후 승인`;
+    ai.classList.remove('hide');
+  } else ai.classList.add('hide');
+
+  const ae=document.getElementById('att-error');
+  if(errs.length){
+    document.getElementById('att-error-msg').innerHTML=
+      `<b>오류 ${errs.length}건</b> — ${errs.map(a=>`${esc(a.name)}${a.message?': '+esc(a.message):''}`).join(' · ')}`;
+    ae.classList.remove('hide');
+  } else ae.classList.add('hide');
+}
+
+async function load(){
+  try{
+    const res=await fetch('./dashboard.json?t='+Date.now(),{cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const d=await res.json();
+    if(!d.agents || !d.agents.length){
+      overlay('( ‥ )','아직 워커가 없습니다',
+        '노션 「파이프라인 현황」에 행이 생기면 여기 나타납니다.<br>코워크 세션을 시작하거나 파이프라인을 실행해 보세요.');
+      // 상단 신선도만은 갱신
+      const gen=agoText(d.generated_at);
+      const gf=document.getElementById('g-fresh'); gf.textContent=gen.txt;
+      return;
+    }
+    render(d);
+  }catch(e){
+    overlay('(x_x)','dashboard.json을 읽지 못했습니다',
+      `${esc(e.message)}<br><br>이 파일을 로컬(file://)로 직접 열었다면 fetch가 차단됩니다 —<br>` +
+      `GitHub Pages URL로 열거나, 로컬 확인은 <b>python -m http.server</b>로 띄워서 보세요.`);
+  }
+}
+load();
+setInterval(load, REFRESH_MS);
+</script>
+</body>
+</html>
