@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-07-22T23:24:47+09:00",
+  "stages": {
+    "collect": {
+      "label": "수집",
+      "skill": "db-research-agent",
+      "today": 0,
+      "hits": 0,
+      "rate": 0.0
+    },
+    "signal": {
+      "label": "신호",
+      "skill": "ta-contact-memo",
+      "today": 0
+    },
+    "load": {
+      "label": "적재",
+      "skill": "db-notion-pipeline",
+      "pending": 0,
+      "done_total": 0
+    }
+  },
+  "agents": [
+    {
+      "name": "권한확인-테스트",
+      "stage": "load",
+      "machine": "데스크톱 A · 클로드코드",
+      "state": "idle",
+      "today": 0,
+      "hits": 0,
+      "pending": 0,
+      "last_beat": "2026-07-22T22:56:00.000+09:00",
+      "message": "통합 토큰 권한 확인 — 확인 후 삭제해도 됩니다"
+    }
+  ]
+}
