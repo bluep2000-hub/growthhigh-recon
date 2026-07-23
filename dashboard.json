@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T17:01:06+09:00",
+  "generated_at": "2026-07-23T17:04:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -17,7 +17,7 @@
       "label": "적재",
       "skill": "db-notion-pipeline",
       "pending": 0,
-      "done_total": 173
+      "done_total": 159
     }
   },
   "agents": [
