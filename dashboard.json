@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-23T15:06:05+09:00",
+  "generated_at": "2026-07-23T15:09:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1080,
-      "hits": 287,
-      "rate": 26.6
+      "today": 1095,
+      "hits": 288,
+      "rate": 26.3
     },
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 105
+      "today": 120
     },
     "load": {
       "label": "적재",
@@ -48,22 +48,22 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 150,
-      "hits": 36,
+      "today": 165,
+      "hits": 37,
       "pending": 0,
-      "last_beat": "2026-07-23T14:49:00.000+09:00",
-      "message": "batch10 완료(15건), 누적 150건 진행, 컨택정보 확보 36/150(24%). 브라우저 재연결 이슈 해결 후 계속 진행"
+      "last_beat": "2026-07-23T15:06:00.000+09:00",
+      "message": "batch11 완료(15건), 누적 165건 진행, 컨택정보 확보 37/165(22%). Bing 브라우저 복구 확인, 검색엔진 정상화"
     },
     {
       "name": "컨택로그 에이전트1",
       "stage": "signal",
       "machine": "데스크톱 A",
       "state": "idle",
-      "today": 105,
-      "hits": 33,
+      "today": 120,
+      "hits": 35,
       "pending": 0,
-      "last_beat": "2026-07-23T14:45:00.000+09:00",
-      "message": "[선정]유어케이스 TIPS 선정·[선정]이나우스 근로자주도훈련기관 선정 등, 누계 105건/신호33건"
+      "last_beat": "2026-07-23T15:04:00.000+09:00",
+      "message": "[판로]이스포츠코리아 울주 e스포츠대회 용역계약·[판로]이음경영컨설팅 외식업컨설팅 낙찰 등, 누계 120건/신호35건"
     },
     {
       "name": "권한확인-테스트",
