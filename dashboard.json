@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T15:35:35+09:00",
+  "generated_at": "2026-07-23T15:37:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -11,7 +11,7 @@
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 135
+      "today": 150
     },
     "load": {
       "label": "적재",
@@ -59,11 +59,11 @@
       "stage": "signal",
       "machine": "데스크톱 A",
       "state": "idle",
-      "today": 135,
-      "hits": 37,
+      "today": 150,
+      "hits": 41,
       "pending": 0,
-      "last_beat": "2026-07-23T15:24:00.000+09:00",
-      "message": "[수상]인에프 이인화대표 SMT어워즈 대상·[기타]인사이팅 지역아동복지관 기부 등, 누계 135건/신호37건"
+      "last_beat": "2026-07-23T15:35:00.000+09:00",
+      "message": "[판로]제이이에스티 독일합작 전기차온도센서 국내최초개발·[수상]자전거총각 TEBA대상 등, 누계 150건/신호41건"
     },
     {
       "name": "권한확인-테스트",
