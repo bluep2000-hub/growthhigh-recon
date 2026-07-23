@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T13:10:07+09:00",
+  "generated_at": "2026-07-23T13:14:35+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 45,
-      "hits": 12,
-      "rate": 26.7
+      "today": 60,
+      "hits": 15,
+      "rate": 25.0
     },
     "signal": {
       "label": "신호",
@@ -26,11 +26,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 45,
-      "hits": 12,
+      "today": 60,
+      "hits": 15,
       "pending": 0,
-      "last_beat": "2026-07-23T12:56:00.000+09:00",
-      "message": "batch3 완료(15건), 누적 45건 진행, 컨택정보 확보 12/45(27%). Google CAPTCHA 지속으로 Bing 전용 운영중"
+      "last_beat": "2026-07-23T13:13:00.000+09:00",
+      "message": "batch4 완료(15건), 누적 60건 진행, 컨택정보 확보 15/60(25%). Google 일부 복구, Bing/Google 혼용 운영중"
     },
     {
       "name": "컨택로그 에이전트1",
