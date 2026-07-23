@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-23T17:38:41+09:00",
+  "generated_at": "2026-07-23T17:40:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7665,
-      "hits": 1531,
+      "today": 7680,
+      "hits": 1533,
       "rate": 20.0
     },
     "signal": {
@@ -26,11 +26,11 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6135,
-      "hits": 1114,
+      "today": 6150,
+      "hits": 1116,
       "pending": 0,
-      "last_beat": "2026-07-23T17:19:00.000+09:00",
-      "message": "(주)데이션, (주)제이씨메디칼 연락처 확보"
+      "last_beat": "2026-07-23T17:37:00.000+09:00",
+      "message": "(주)플렉스걸글로벌, (주)삼성에스티 연락처 확보"
     },
     {
       "name": "적재봇",
