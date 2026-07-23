@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T15:04:06+09:00",
+  "generated_at": "2026-07-23T15:05:34+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1065,
-      "hits": 286,
-      "rate": 26.9
+      "today": 1080,
+      "hits": 287,
+      "rate": 26.6
     },
     "signal": {
       "label": "신호",
@@ -26,11 +26,11 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 915,
-      "hits": 250,
+      "today": 930,
+      "hits": 251,
       "pending": 0,
-      "last_beat": "2026-07-23T15:01:00.000+09:00",
-      "message": "61차 15건 완료; 케이티아이 이메일·전화·홈페이지 등 4개사 공개채널 확정, 62차 준비"
+      "last_beat": "2026-07-23T15:05:00.000+09:00",
+      "message": "63차 931~945번 1차 검색 시작"
     },
     {
       "name": "코워크-01",
