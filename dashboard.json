@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-23T22:07:06+09:00",
+  "generated_at": "2026-07-23T22:19:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8250,
-      "hits": 1653,
+      "today": 8265,
+      "hits": 1655,
       "rate": 20.0
     },
     "signal": {
@@ -26,11 +26,11 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6375,
-      "hits": 1132,
+      "today": 6390,
+      "hits": 1134,
       "pending": 0,
-      "last_beat": "2026-07-23T21:52:00.000+09:00",
-      "message": "배치17 완료(6362-6376): 15건 처리, 신규 이메일 2건(올댓조이-allthatgolf.kr, 알고봇코리아-algobot.com 본사), 누적 done=6375 email=1132 phone=343 web=1441. 배치18 즉시 진행."
+      "last_beat": "2026-07-23T22:16:00.000+09:00",
+      "message": "배치18 완료(6377-6391): 15건 처리, 신규 이메일/전화 2건(미르본코리아-gmarket, 레이븐-hermont.kr), 누적 done=6390 email=1134 phone=345 web=1443. 배치19 즉시 진행."
     },
     {
       "name": "적재봇",
