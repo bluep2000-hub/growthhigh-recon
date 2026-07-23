@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-07-26T17:39:38+09:00",
+  "generated_at": "2026-07-23T14:25:33+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 0,
-      "hits": 0,
-      "rate": 0.0,
-      "daily_today": 0,
-      "daily_hits": 0
+      "today": 975,
+      "hits": 258,
+      "rate": 26.5
     },
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 0,
-      "daily_today": 0,
-      "daily_hits": 0
+      "today": 75
     },
     "load": {
       "label": "적재",
@@ -28,69 +24,48 @@
   },
   "agents": [
     {
-      "name": "코워크-DB01",
-      "stage": "collect",
-      "machine": "데스크톱 A",
-      "state": "working",
-      "today": 0,
-      "hits": 0,
-      "pending": 0,
-      "last_beat": "2026-07-25T04:22:00.000+09:00",
-      "message": "batch181 완료 (rows 8822-8836). 신규 연락처 없음, 신원 확인만 진행.",
-      "daily_today": 0,
-      "daily_hits": 0
-    },
-    {
-      "name": "적재봇",
-      "stage": "load",
-      "machine": "데스크톱 A · 클로드코드",
-      "state": "idle",
-      "today": 0,
-      "hits": 0,
-      "pending": 0,
-      "last_beat": "2026-07-24T13:51:00.000+09:00",
-      "message": "81건 병합 반영 완료",
-      "daily_today": 81,
-      "daily_hits": 0
-    },
-    {
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 0,
-      "hits": 0,
+      "today": 855,
+      "hits": 229,
       "pending": 0,
-      "last_beat": "2026-07-24T16:18:00.000+09:00",
-      "message": "131차 1951~1965 공개 연락처 조사 시작",
-      "daily_today": 0,
-      "daily_hits": 0
+      "last_beat": "2026-07-23T14:15:00.000+09:00",
+      "message": "Google CAPTCHA 해제 확인; 58차 수집 재개"
     },
     {
       "name": "코워크-01",
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 0,
-      "hits": 0,
+      "today": 120,
+      "hits": 29,
       "pending": 0,
-      "last_beat": "2026-07-24T20:39:00.000+09:00",
-      "message": "배치83(최종) 완료(3106-3111), 3110건 전체 완료! 전체 3110행 데이터셋 리서치 100% 완료. 1건 연락처 확보(팅민크리에이티브-이메일). 3111행(허니기프트)이 누락되어 있던 것을 발견해 함께 처리 완료.",
-      "daily_today": 0,
-      "daily_hits": 0
+      "last_beat": "2026-07-23T14:18:00.000+09:00",
+      "message": "batch8 완료(15건), 누적 120건 진행, 컨택정보 확보 29/120(24%). Bing 안정적 운영, 오매칭 다수 배제(아톤/atoncorp 등)"
     },
     {
       "name": "컨택로그 에이전트1",
       "stage": "signal",
       "machine": "데스크톱 A",
       "state": "idle",
+      "today": 75,
+      "hits": 25,
+      "pending": 0,
+      "last_beat": "2026-07-23T14:07:00.000+09:00",
+      "message": "[판로]원웨이랩 인터참코리아 참가·[수상]우진환경닥트 우수브랜드대상 등, 누계 75건/신호25건"
+    },
+    {
+      "name": "권한확인-테스트",
+      "stage": "load",
+      "machine": "데스크톱 A · 클로드코드",
+      "state": "idle",
       "today": 0,
       "hits": 0,
       "pending": 0,
-      "last_beat": "2026-07-24T09:21:00.000+09:00",
-      "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판",
-      "daily_today": 0,
-      "daily_hits": 0
+      "last_beat": "2026-07-23T13:09:00.000+09:00",
+      "message": "통합 토큰 권한 확인 — 확인 후 삭제해도 됩니다"
     }
   ]
 }
