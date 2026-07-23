@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T12:19:07+09:00",
+  "generated_at": "2026-07-23T12:26:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -21,6 +21,17 @@
     }
   },
   "agents": [
+    {
+      "name": "컨택로그 에이전트1",
+      "stage": "signal",
+      "machine": "데스크톱 A",
+      "state": "new",
+      "today": 0,
+      "hits": 0,
+      "pending": 0,
+      "last_beat": "2026-07-23T12:21:00.000+09:00",
+      "message": "세션 시작 - 미진행 358건 중 15건 처리 예정"
+    },
     {
       "name": "권한확인-테스트",
       "stage": "load",
