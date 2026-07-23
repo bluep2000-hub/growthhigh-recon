@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T14:31:09+09:00",
+  "generated_at": "2026-07-23T14:32:45+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 991,
-      "hits": 263,
-      "rate": 26.5
+      "today": 1006,
+      "hits": 266,
+      "rate": 26.4
     },
     "signal": {
       "label": "신호",
@@ -37,11 +37,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 120,
-      "hits": 29,
+      "today": 135,
+      "hits": 32,
       "pending": 0,
-      "last_beat": "2026-07-23T14:18:00.000+09:00",
-      "message": "batch8 완료(15건), 누적 120건 진행, 컨택정보 확보 29/120(24%). Bing 안정적 운영, 오매칭 다수 배제(아톤/atoncorp 등)"
+      "last_beat": "2026-07-23T14:30:00.000+09:00",
+      "message": "batch9 완료(15건), 누적 135건 진행, 컨택정보 확보 32/135(24%). Bing 간헐 오류 시 DuckDuckGo 대체 운영"
     },
     {
       "name": "컨택로그 에이전트1",
