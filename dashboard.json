@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-23T15:30:02+09:00",
+  "generated_at": "2026-07-23T15:32:40+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1170,
-      "hits": 307,
+      "today": 1185,
+      "hits": 311,
       "rate": 26.2
     },
     "signal": {
@@ -41,18 +41,18 @@
       "hits": 267,
       "pending": 0,
       "last_beat": "2026-07-23T15:29:00.000+09:00",
-      "message": "66차 976~990번 15건 완료; 4개 기업 공개 연락처 확보, 공식 사이트 및 사업장 연속성 검증"
+      "message": "67차 991~1005번 대상 목록 준비 및 1차 검색 시작"
     },
     {
       "name": "코워크-01",
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 180,
-      "hits": 40,
+      "today": 195,
+      "hits": 44,
       "pending": 0,
-      "last_beat": "2026-07-23T15:19:00.000+09:00",
-      "message": "batch12 완료(15건), 누적 180건 진행, 컨택정보 확보 40/180(22%). Bing 재차 오류로 DuckDuckGo 대체 운영 지속"
+      "last_beat": "2026-07-23T15:31:00.000+09:00",
+      "message": "batch13 완료(15건), 누적 195건 진행, 컨택정보 확보 44/195(23%). 브라우저 재연결 이슈 재발 및 해결(deviceId 2459ee26 선택), 계속 진행"
     },
     {
       "name": "컨택로그 에이전트1",
