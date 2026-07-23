@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-23T14:52:06+09:00",
+  "generated_at": "2026-07-23T14:53:34+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1022,
-      "hits": 272,
+      "today": 1037,
+      "hits": 276,
       "rate": 26.6
     },
     "signal": {
@@ -37,11 +37,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 135,
-      "hits": 32,
+      "today": 150,
+      "hits": 36,
       "pending": 0,
-      "last_beat": "2026-07-23T14:30:00.000+09:00",
-      "message": "batch9 완료(15건), 누적 135건 진행, 컨택정보 확보 32/135(24%). Bing 간헐 오류 시 DuckDuckGo 대체 운영"
+      "last_beat": "2026-07-23T14:49:00.000+09:00",
+      "message": "batch10 완료(15건), 누적 150건 진행, 컨택정보 확보 36/150(24%). 브라우저 재연결 이슈 해결 후 계속 진행"
     },
     {
       "name": "컨택로그 에이전트1",
