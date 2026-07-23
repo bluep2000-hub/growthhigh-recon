@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T18:25:07+09:00",
+  "generated_at": "2026-07-23T18:28:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7815,
-      "hits": 1584,
-      "rate": 20.3
+      "today": 7845,
+      "hits": 1585,
+      "rate": 20.2
     },
     "signal": {
       "label": "신호",
@@ -26,11 +26,11 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6150,
-      "hits": 1116,
+      "today": 6180,
+      "hits": 1117,
       "pending": 0,
-      "last_beat": "2026-07-23T17:37:00.000+09:00",
-      "message": "(주)플렉스걸글로벌, (주)삼성에스티 연락처 확보"
+      "last_beat": "2026-07-23T18:27:00.000+09:00",
+      "message": "배치4(15건) 완료: 신규 확인 연락처 0건 - 동명이업체 다수(과실채소가공/유통업 밀집 구간), 기업DB사이트만 등재된 케이스 다수"
     },
     {
       "name": "적재봇",
