@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:44:34+09:00",
+  "generated_at": "2026-07-23T14:46:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -11,7 +11,7 @@
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 90
+      "today": 105
     },
     "load": {
       "label": "적재",
@@ -48,11 +48,11 @@
       "stage": "signal",
       "machine": "데스크톱 A",
       "state": "idle",
-      "today": 90,
-      "hits": 29,
+      "today": 105,
+      "hits": 33,
       "pending": 0,
-      "last_beat": "2026-07-23T14:28:00.000+09:00",
-      "message": "[투자]유니플러스 나눔엔젤스 시드투자·[수상]유니포트 혁신IT대상 등, 누계 90건/신호29건"
+      "last_beat": "2026-07-23T14:45:00.000+09:00",
+      "message": "[선정]유어케이스 TIPS 선정·[선정]이나우스 근로자주도훈련기관 선정 등, 누계 105건/신호33건"
     },
     {
       "name": "권한확인-테스트",
