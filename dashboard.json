@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-23T17:42:05+09:00",
+  "generated_at": "2026-07-23T17:45:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7680,
-      "hits": 1533,
+      "today": 7695,
+      "hits": 1537,
       "rate": 20.0
     },
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 225
+      "today": 240
     },
     "load": {
       "label": "적재",
@@ -59,22 +59,22 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 315,
-      "hits": 71,
+      "today": 330,
+      "hits": 75,
       "pending": 0,
-      "last_beat": "2026-07-23T17:28:00.000+09:00",
-      "message": "Batch 21 완료 (2176-2190), 누적 2189건"
+      "last_beat": "2026-07-23T17:41:00.000+09:00",
+      "message": "Batch 22 완료 (2191-2205), 누적 2204건"
     },
     {
       "name": "컨택로그 에이전트1",
       "stage": "signal",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 225,
-      "hits": 68,
+      "today": 240,
+      "hits": 73,
       "pending": 0,
-      "last_beat": "2026-07-23T17:22:00.000+09:00",
-      "message": "[수상]케이잡스컨설팅 모범여성기업인+서울고용노동청장표창, [판로]코스루틴 에끌라바 브랜드론칭, [판로]코드그래스 제주융합체험관 구축사례"
+      "last_beat": "2026-07-23T17:40:00.000+09:00",
+      "message": "[투자]큐스템 시드22억+우수R&D2년연속, [선정]크리스타비전 식약처혁신의료기기지정, [선정]콤마스페이스 SBA팀빌딩우수기업"
     }
   ]
 }
