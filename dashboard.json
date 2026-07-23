@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-23T17:43:08+09:00",
+  "generated_at": "2026-07-23T17:44:35+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7680,
-      "hits": 1533,
+      "today": 7695,
+      "hits": 1537,
       "rate": 20.0
     },
     "signal": {
@@ -59,11 +59,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 315,
-      "hits": 71,
+      "today": 330,
+      "hits": 75,
       "pending": 0,
-      "last_beat": "2026-07-23T17:28:00.000+09:00",
-      "message": "Batch 21 완료 (2176-2190), 누적 2189건"
+      "last_beat": "2026-07-23T17:41:00.000+09:00",
+      "message": "Batch 22 완료 (2191-2205), 누적 2204건"
     },
     {
       "name": "컨택로그 에이전트1",
