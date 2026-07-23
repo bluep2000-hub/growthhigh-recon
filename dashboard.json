@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T13:37:07+09:00",
+  "generated_at": "2026-07-23T13:44:36+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 75,
-      "hits": 17,
-      "rate": 22.7
+      "today": 900,
+      "hits": 238,
+      "rate": 26.4
     },
     "signal": {
       "label": "신호",
@@ -21,6 +21,17 @@
     }
   },
   "agents": [
+    {
+      "name": "codex-DB-노트북",
+      "stage": "collect",
+      "machine": "박재현 노트북 codex",
+      "state": "working",
+      "today": 825,
+      "hits": 221,
+      "pending": 0,
+      "last_beat": "2026-07-23T13:35:00.000+09:00",
+      "message": "826~840번 배치 수집 시작"
+    },
     {
       "name": "코워크-01",
       "stage": "collect",
