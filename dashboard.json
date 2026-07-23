@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-23T17:15:05+09:00",
+  "generated_at": "2026-07-23T17:27:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1485,
-      "hits": 405,
-      "rate": 27.3
+      "today": 7635,
+      "hits": 1521,
+      "rate": 19.9
     },
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 210
+      "today": 225
     },
     "load": {
       "label": "적재",
@@ -21,6 +21,17 @@
     }
   },
   "agents": [
+    {
+      "name": "코워크-DB01",
+      "stage": "collect",
+      "machine": "데스크톱 A",
+      "state": "working",
+      "today": 6135,
+      "hits": 1114,
+      "pending": 0,
+      "last_beat": "2026-07-23T17:19:00.000+09:00",
+      "message": "(주)데이션, (주)제이씨메디칼 연락처 확보"
+    },
     {
       "name": "적재봇",
       "stage": "load",
@@ -37,11 +48,11 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1185,
-      "hits": 337,
+      "today": 1200,
+      "hits": 339,
       "pending": 0,
-      "last_beat": "2026-07-23T17:13:00.000+09:00",
-      "message": "79차 1171~1185 조사 확정 저장; 8개 기업 공개 연락처 확보, 누적 1185건 완료"
+      "last_beat": "2026-07-23T17:25:00.000+09:00",
+      "message": "80차 1186~1200 조사 확정 저장; 2개 기업 공개 연락처 확보, 누적 1200건 완료"
     },
     {
       "name": "코워크-01",
@@ -59,11 +70,11 @@
       "stage": "signal",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 210,
-      "hits": 63,
+      "today": 225,
+      "hits": 68,
       "pending": 0,
-      "last_beat": "2026-07-23T16:54:00.000+09:00",
-      "message": "[수상]컴파스로즈 가치경영대상+[판로]잠실플래그십, [판로]케이바이오스 팜에이트공급계약, [선정]케이아이티랩 초기창업패키지"
+      "last_beat": "2026-07-23T17:22:00.000+09:00",
+      "message": "[수상]케이잡스컨설팅 모범여성기업인+서울고용노동청장표창, [판로]코스루틴 에끌라바 브랜드론칭, [판로]코드그래스 제주융합체험관 구축사례"
     },
     {
       "name": "권한확인-테스트",
