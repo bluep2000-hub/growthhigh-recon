@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T17:25:09+09:00",
+  "generated_at": "2026-07-23T17:25:25+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1485,
-      "hits": 405,
-      "rate": 27.3
+      "today": 7620,
+      "hits": 1519,
+      "rate": 19.9
     },
     "signal": {
       "label": "신호",
@@ -21,6 +21,17 @@
     }
   },
   "agents": [
+    {
+      "name": "코워크-DB01",
+      "stage": "collect",
+      "machine": "데스크톱 A",
+      "state": "working",
+      "today": 6135,
+      "hits": 1114,
+      "pending": 0,
+      "last_beat": "2026-07-23T17:19:00.000+09:00",
+      "message": "(주)데이션, (주)제이씨메디칼 연락처 확보"
+    },
     {
       "name": "적재봇",
       "stage": "load",
