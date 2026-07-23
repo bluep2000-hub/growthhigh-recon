@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T16:14:34+09:00",
+  "generated_at": "2026-07-23T16:16:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -11,7 +11,7 @@
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 165
+      "today": 180
     },
     "load": {
       "label": "적재",
@@ -58,12 +58,12 @@
       "name": "컨택로그 에이전트1",
       "stage": "signal",
       "machine": "데스크톱 A",
-      "state": "idle",
-      "today": 165,
-      "hits": 47,
+      "state": "working",
+      "today": 180,
+      "hits": 51,
       "pending": 0,
-      "last_beat": "2026-07-23T15:45:00.000+09:00",
-      "message": "[투자]제이1농업회사법인 팀프레시투자유치·[선정]제주시트러스랩스 INCI등재 등, 누계 165건/신호47건"
+      "last_beat": "2026-07-23T16:13:00.000+09:00",
+      "message": "[판로] GHS WDHL JUNIOR 홀덤 프랜차이즈 가맹개시, [선정]이지서티 IITP우수과제"
     },
     {
       "name": "권한확인-테스트",
