@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T16:25:06+09:00",
+  "generated_at": "2026-07-23T16:26:35+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1335,
-      "hits": 348,
-      "rate": 26.1
+      "today": 1350,
+      "hits": 351,
+      "rate": 26.0
     },
     "signal": {
       "label": "신호",
@@ -48,11 +48,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 240,
-      "hits": 52,
+      "today": 255,
+      "hits": 55,
       "pending": 0,
-      "last_beat": "2026-07-23T16:13:00.000+09:00",
-      "message": "batch16 완료(15건), 누적 240건 진행, 컨택정보 확보 52/240(22%). 자사몰 사업자정보 페이지에서 다수 확보(피플일렉트릭 010확보, 던팩토리, 디발리쎄 등), 계속 진행"
+      "last_beat": "2026-07-23T16:24:00.000+09:00",
+      "message": "batch17 완료(15건), 누적 255건 진행, 컨택정보 확보 55/255(22%). Gmarket/bizbank 판매자정보에서 추가확보, 계속 진행"
     },
     {
       "name": "컨택로그 에이전트1",
