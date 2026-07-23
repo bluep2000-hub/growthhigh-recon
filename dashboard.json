@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T15:10:06+09:00",
+  "generated_at": "2026-07-23T15:17:36+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1095,
-      "hits": 288,
-      "rate": 26.3
+      "today": 1110,
+      "hits": 294,
+      "rate": 26.5
     },
     "signal": {
       "label": "신호",
@@ -37,11 +37,11 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 930,
-      "hits": 251,
+      "today": 945,
+      "hits": 257,
       "pending": 0,
-      "last_beat": "2026-07-23T15:05:00.000+09:00",
-      "message": "63차 931~945번 1차 검색 시작"
+      "last_beat": "2026-07-23T15:15:00.000+09:00",
+      "message": "63차 931~945번 15건 완료; 6개 기업 공개 연락처 확보, 그림온 010 대표번호 우선 반영"
     },
     {
       "name": "코워크-01",
