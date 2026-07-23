@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T13:55:07+09:00",
+  "generated_at": "2026-07-23T13:56:35+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -29,8 +29,8 @@
       "today": 843,
       "hits": 228,
       "pending": 0,
-      "last_beat": "2026-07-23T13:51:00.000+09:00",
-      "message": "57차 중 844·851·852 누적 저장; Google CAPTCHA 및 Bing 연결 재설정으로 2차 검색 대기"
+      "last_beat": "2026-07-23T13:55:00.000+09:00",
+      "message": "Google CAPTCHA 지속 및 Bing ERR_CONNECTION_CLOSED 반복; 사용자 CAPTCHA 해제 대기"
     },
     {
       "name": "코워크-01",
