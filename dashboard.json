@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-23T16:44:32+09:00",
+  "generated_at": "2026-07-23T16:47:34+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1380,
-      "hits": 363,
+      "today": 1395,
+      "hits": 367,
       "rate": 26.3
     },
     "signal": {
@@ -48,11 +48,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 255,
-      "hits": 55,
+      "today": 270,
+      "hits": 59,
       "pending": 0,
-      "last_beat": "2026-07-23T16:24:00.000+09:00",
-      "message": "batch17 완료(15건), 누적 255건 진행, 컨택정보 확보 55/255(22%). Gmarket/bizbank 판매자정보에서 추가확보, 계속 진행"
+      "last_beat": "2026-07-23T16:43:00.000+09:00",
+      "message": "배치18 완료(2131-2145): 팔레오테이블/대치동날개/덱서 전화+이메일 확보, 더맥스미디어 전화 확보(참고용). 누적 2144건 처리, 배치19 진행 예정"
     },
     {
       "name": "컨택로그 에이전트1",
