@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-23T17:28:49+09:00",
+  "generated_at": "2026-07-23T17:29:33+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7635,
-      "hits": 1521,
+      "today": 7650,
+      "hits": 1524,
       "rate": 19.9
     },
     "signal": {
@@ -59,11 +59,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 300,
-      "hits": 68,
+      "today": 315,
+      "hits": 71,
       "pending": 0,
-      "last_beat": "2026-07-23T17:11:00.000+09:00",
-      "message": "배치20 완료(2161-2175): 아크로몰/주연에스디씨/코리아스피드/피규어센터 연락처 확보(4건). 누적 2174건 처리, 배치21 진행 예정"
+      "last_beat": "2026-07-23T17:28:00.000+09:00",
+      "message": "Batch 21 완료 (2176-2190), 누적 2189건"
     },
     {
       "name": "컨택로그 에이전트1",
