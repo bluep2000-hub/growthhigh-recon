@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T13:49:09+09:00",
+  "generated_at": "2026-07-23T13:50:39+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 915,
-      "hits": 242,
-      "rate": 26.4
+      "today": 930,
+      "hits": 247,
+      "rate": 26.6
     },
     "signal": {
       "label": "신호",
@@ -37,11 +37,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 75,
-      "hits": 17,
+      "today": 90,
+      "hits": 22,
       "pending": 0,
-      "last_beat": "2026-07-23T13:34:00.000+09:00",
-      "message": "batch5 완료(15건) [정정] 누적 75건 진행, 컨택정보 확보 17/75(23%). Bing 위주 진행중, Google 간헐적 CAPTCHA"
+      "last_beat": "2026-07-23T13:48:00.000+09:00",
+      "message": "batch6 완료(15건), 누적 90건 진행, 컨택정보 확보 22/90(24%). Bing 쿠키 일시오류로 DuckDuckGo 병행, 이후 Bing 복구"
     },
     {
       "name": "컨택로그 에이전트1",
