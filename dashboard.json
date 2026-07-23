@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-23T21:52:06+09:00",
+  "generated_at": "2026-07-23T21:55:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8235,
-      "hits": 1651,
+      "today": 8250,
+      "hits": 1653,
       "rate": 20.0
     },
     "signal": {
@@ -26,11 +26,11 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6360,
-      "hits": 1130,
+      "today": 6375,
+      "hits": 1132,
       "pending": 0,
-      "last_beat": "2026-07-23T21:27:00.000+09:00",
-      "message": "배치16 완료(6347-6361): 짐샤크하안 전화 확보, 나머지 대부분 신원확인-연락처미확보. 카이로즈/해피브로스는 매칭 불확실. 누적 6360/11898."
+      "last_beat": "2026-07-23T21:52:00.000+09:00",
+      "message": "배치17 완료(6362-6376): 15건 처리, 신규 이메일 2건(올댓조이-allthatgolf.kr, 알고봇코리아-algobot.com 본사), 누적 done=6375 email=1132 phone=343 web=1441. 배치18 즉시 진행."
     },
     {
       "name": "적재봇",
