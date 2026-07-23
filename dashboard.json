@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T15:46:08+09:00",
+  "generated_at": "2026-07-23T15:47:36+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1230,
-      "hits": 326,
-      "rate": 26.5
+      "today": 1245,
+      "hits": 328,
+      "rate": 26.3
     },
     "signal": {
       "label": "신호",
@@ -41,18 +41,18 @@
       "hits": 282,
       "pending": 0,
       "last_beat": "2026-07-23T15:44:00.000+09:00",
-      "message": "69차 1021~1035번 15건 완료; 4개 기업 공개 연락처 확보, 코리아호버제트·비엠피파트너스 010 우선 반영"
+      "message": "70차 1036~1050번 대상 목록 준비 및 1차 검색 시작"
     },
     {
       "name": "코워크-01",
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 195,
-      "hits": 44,
+      "today": 210,
+      "hits": 46,
       "pending": 0,
-      "last_beat": "2026-07-23T15:31:00.000+09:00",
-      "message": "batch13 완료(15건), 누적 195건 진행, 컨택정보 확보 44/195(23%). 브라우저 재연결 이슈 재발 및 해결(deviceId 2459ee26 선택), 계속 진행"
+      "last_beat": "2026-07-23T15:45:00.000+09:00",
+      "message": "batch14 완료(15건), 누적 210건 진행, 컨택정보 확보 46/210(22%). Bing CAPTCHA 감지되어 DuckDuckGo로 전환, 계속 진행"
     },
     {
       "name": "컨택로그 에이전트1",
