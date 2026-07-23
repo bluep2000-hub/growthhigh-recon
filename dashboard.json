@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-23T15:52:10+09:00",
+  "generated_at": "2026-07-23T15:53:35+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1245,
-      "hits": 328,
+      "today": 1260,
+      "hits": 332,
       "rate": 26.3
     },
     "signal": {
@@ -37,11 +37,11 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1035,
-      "hits": 282,
+      "today": 1050,
+      "hits": 286,
       "pending": 0,
-      "last_beat": "2026-07-23T15:47:00.000+09:00",
-      "message": "하네스 상태 파일 경로 및 파일명 교정 완료; 70차 리서치 계속 진행"
+      "last_beat": "2026-07-23T15:53:00.000+09:00",
+      "message": "71차 1051~1065번 대상 목록 준비 및 1차 검색 시작"
     },
     {
       "name": "코워크-01",
