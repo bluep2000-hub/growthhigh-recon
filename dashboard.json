@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T16:01:06+09:00",
+  "generated_at": "2026-07-23T16:02:34+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1260,
-      "hits": 332,
-      "rate": 26.3
+      "today": 1275,
+      "hits": 333,
+      "rate": 26.1
     },
     "signal": {
       "label": "신호",
@@ -16,8 +16,8 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 25,
-      "done_total": 0
+      "pending": 0,
+      "done_total": 10
     }
   },
   "agents": [
@@ -25,12 +25,12 @@
       "name": "적재봇",
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
-      "state": "input",
-      "today": 0,
+      "state": "idle",
+      "today": 10,
       "hits": 0,
-      "pending": 25,
-      "last_beat": "2026-07-23T15:47:00.000+09:00",
-      "message": "배치 25건 준비 완료 · 승인 대기"
+      "pending": 0,
+      "last_beat": "2026-07-23T16:01:00.000+09:00",
+      "message": "10건 병합 반영 완료"
     },
     {
       "name": "codex-DB-노트북",
@@ -48,11 +48,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 210,
-      "hits": 46,
+      "today": 225,
+      "hits": 47,
       "pending": 0,
-      "last_beat": "2026-07-23T15:45:00.000+09:00",
-      "message": "batch14 완료(15건), 누적 210건 진행, 컨택정보 확보 46/210(22%). Bing CAPTCHA 감지되어 DuckDuckGo로 전환, 계속 진행"
+      "last_beat": "2026-07-23T16:01:00.000+09:00",
+      "message": "batch15 완료(15건), 누적 225건 진행, 컨택정보 확보 47/225(21%). 브라우저 재연결 이슈 3회째 재발(계속 해결), moneypin 일일조회한도 초과로 일부 상세정보 미확인, 계속 진행"
     },
     {
       "name": "컨택로그 에이전트1",
