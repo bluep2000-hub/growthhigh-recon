@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T15:19:06+09:00",
+  "generated_at": "2026-07-23T15:20:37+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 1110,
-      "hits": 294,
-      "rate": 26.5
+      "today": 1140,
+      "hits": 301,
+      "rate": 26.4
     },
     "signal": {
       "label": "신호",
@@ -37,22 +37,22 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 945,
-      "hits": 257,
+      "today": 960,
+      "hits": 261,
       "pending": 0,
-      "last_beat": "2026-07-23T15:15:00.000+09:00",
-      "message": "63차 931~945번 15건 완료; 6개 기업 공개 연락처 확보, 그림온 010 대표번호 우선 반영"
+      "last_beat": "2026-07-23T15:20:00.000+09:00",
+      "message": "65차 961~975번 대상 목록 준비 및 1차 검색 시작"
     },
     {
       "name": "코워크-01",
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 165,
-      "hits": 37,
+      "today": 180,
+      "hits": 40,
       "pending": 0,
-      "last_beat": "2026-07-23T15:06:00.000+09:00",
-      "message": "batch11 완료(15건), 누적 165건 진행, 컨택정보 확보 37/165(22%). Bing 브라우저 복구 확인, 검색엔진 정상화"
+      "last_beat": "2026-07-23T15:19:00.000+09:00",
+      "message": "batch12 완료(15건), 누적 180건 진행, 컨택정보 확보 40/180(22%). Bing 재차 오류로 DuckDuckGo 대체 운영 지속"
     },
     {
       "name": "컨택로그 에이전트1",
