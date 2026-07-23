@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T18:20:39+09:00",
+  "generated_at": "2026-07-23T18:22:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -11,7 +11,7 @@
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 255
+      "today": 270
     },
     "load": {
       "label": "적재",
@@ -70,11 +70,11 @@
       "stage": "signal",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 255,
-      "hits": 74,
+      "today": 270,
+      "hits": 78,
       "pending": 0,
-      "last_beat": "2026-07-23T17:59:00.000+09:00",
-      "message": "[선정]트라디노이 Wezoree 한국TOP5웨딩플래너 선정(26.4), 이번 배치는 대체로 신호가 약함(무신호 다수)"
+      "last_beat": "2026-07-23T18:20:00.000+09:00",
+      "message": "[투자]트러스컴퍼니 SMCC 시드투자유치, [판로]티모라 올인원슈퍼앱 출시, [판로]파쿠아 29CM+롯데팝업(민주킴), [채용]티이십일소프트 AI개발자채용"
     }
   ]
 }
