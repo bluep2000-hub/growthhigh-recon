@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T16:31:07+09:00",
+  "generated_at": "2026-07-23T16:34:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -11,12 +11,12 @@
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 180
+      "today": 195
     },
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 0,
+      "pending": 229,
       "done_total": 99
     }
   },
@@ -25,12 +25,12 @@
       "name": "적재봇",
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
-      "state": "idle",
-      "today": 72,
+      "state": "input",
+      "today": 0,
       "hits": 0,
-      "pending": 0,
-      "last_beat": "2026-07-23T16:12:00.000+09:00",
-      "message": "72건 병합 반영 완료"
+      "pending": 229,
+      "last_beat": "2026-07-23T16:33:00.000+09:00",
+      "message": "배치 229건 준비 완료 · 승인 대기"
     },
     {
       "name": "codex-DB-노트북",
@@ -59,11 +59,11 @@
       "stage": "signal",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 180,
-      "hits": 51,
+      "today": 195,
+      "hits": 55,
       "pending": 0,
-      "last_beat": "2026-07-23T16:13:00.000+09:00",
-      "message": "[판로] GHS WDHL JUNIOR 홀덤 프랜차이즈 가맹개시, [선정]이지서티 IITP우수과제"
+      "last_beat": "2026-07-23T16:33:00.000+09:00",
+      "message": "[수상]커리어노트 공명전투자IR대회우승+[선정]경희대캠퍼스타운, [선정]천양스틸 외국인투자기업인증"
     },
     {
       "name": "권한확인-테스트",
