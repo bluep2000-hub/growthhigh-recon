@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T13:07:08+09:00",
+  "generated_at": "2026-07-23T13:10:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 0,
-      "hits": 0,
-      "rate": 0.0
+      "today": 45,
+      "hits": 12,
+      "rate": 26.7
     },
     "signal": {
       "label": "신호",
@@ -21,6 +21,17 @@
     }
   },
   "agents": [
+    {
+      "name": "코워크-01",
+      "stage": "collect",
+      "machine": "박재현 노트북",
+      "state": "working",
+      "today": 45,
+      "hits": 12,
+      "pending": 0,
+      "last_beat": "2026-07-23T12:56:00.000+09:00",
+      "message": "batch3 완료(15건), 누적 45건 진행, 컨택정보 확보 12/45(27%). Google CAPTCHA 지속으로 Bing 전용 운영중"
+    },
     {
       "name": "컨택로그 에이전트1",
       "stage": "signal",
@@ -40,7 +51,7 @@
       "today": 0,
       "hits": 0,
       "pending": 0,
-      "last_beat": "2026-07-23T12:05:00.000+09:00",
+      "last_beat": "2026-07-23T13:09:00.000+09:00",
       "message": "통합 토큰 권한 확인 — 확인 후 삭제해도 됩니다"
     }
   ]
