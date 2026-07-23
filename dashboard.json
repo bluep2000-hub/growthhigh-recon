@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:10:09+09:00",
+  "generated_at": "2026-07-23T14:11:35+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -25,12 +25,12 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "working",
+      "state": "error",
       "today": 855,
       "hits": 229,
       "pending": 0,
-      "last_beat": "2026-07-23T14:06:00.000+09:00",
-      "message": "841~855번 리서치·교차검증 및 57차 누적 저장 완료"
+      "last_beat": "2026-07-23T14:10:00.000+09:00",
+      "message": "58차 시작 후 Google CAPTCHA 재발 및 Bing 연결 종료; 856~860 1차 결과 보존"
     },
     {
       "name": "코워크-01",
