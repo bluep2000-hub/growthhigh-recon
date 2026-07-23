@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T18:07:07+09:00",
+  "generated_at": "2026-07-23T18:11:37+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7755,
-      "hits": 1561,
-      "rate": 20.1
+      "today": 7770,
+      "hits": 1566,
+      "rate": 20.2
     },
     "signal": {
       "label": "신호",
@@ -59,11 +59,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 345,
-      "hits": 79,
+      "today": 360,
+      "hits": 84,
       "pending": 0,
-      "last_beat": "2026-07-23T17:52:00.000+09:00",
-      "message": "Batch 23 완료 (2206-2220), 누적 2219건"
+      "last_beat": "2026-07-23T18:10:00.000+09:00",
+      "message": "배치24 완료(2221-2235), 2234건 누적. 5건 컨택정보 확보(미유키,실루엣포뮬러,씨에이엘글로벌,여린스튜디오,파쏘다이내믹스)"
     },
     {
       "name": "컨택로그 에이전트1",
