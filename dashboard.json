@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T00:01:08+09:00",
+  "generated_at": "2026-07-25T00:02:33+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -7,8 +7,8 @@
       "today": 0,
       "hits": 0,
       "rate": 0.0,
-      "daily_today": 1281,
-      "daily_hits": 267
+      "daily_today": 0,
+      "daily_hits": 0
     },
     "signal": {
       "label": "신호",
@@ -63,8 +63,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T16:18:00.000+09:00",
       "message": "131차 1951~1965 공개 연락처 조사 시작",
-      "daily_today": 510,
-      "daily_hits": 135
+      "daily_today": 0,
+      "daily_hits": 0
     },
     {
       "name": "코워크-01",
@@ -76,8 +76,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T20:39:00.000+09:00",
       "message": "배치83(최종) 완료(3106-3111), 3110건 전체 완료! 전체 3110행 데이터셋 리서치 100% 완료. 1건 연락처 확보(팅민크리에이티브-이메일). 3111행(허니기프트)이 누락되어 있던 것을 발견해 함께 처리 완료.",
-      "daily_today": 771,
-      "daily_hits": 132
+      "daily_today": 0,
+      "daily_hits": 0
     },
     {
       "name": "컨택로그 에이전트1",
