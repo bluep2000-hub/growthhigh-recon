@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T19:43:10+09:00",
+  "generated_at": "2026-07-24T19:44:35+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 10170,
-      "hits": 1973,
+      "today": 10185,
+      "hits": 1975,
       "rate": 19.4,
-      "daily_today": 1800,
-      "daily_hits": 301
+      "daily_today": 1815,
+      "daily_hits": 303
     },
     "signal": {
       "label": "신호",
@@ -71,13 +71,13 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 1155,
-      "hits": 236,
+      "today": 1170,
+      "hits": 238,
       "pending": 0,
-      "last_beat": "2026-07-24T17:18:00.000+09:00",
-      "message": "배치76 완료(3001-3015), 3014건 누적. 2건 연락처 확보(더하나이엔지-전화, 바이노-이메일). 계속 순차 진행 중.",
-      "daily_today": 675,
-      "daily_hits": 117
+      "last_beat": "2026-07-24T19:41:00.000+09:00",
+      "message": "배치77 완료(3016-3030), 3029건 누적. 2건 연락처 확보(치유상담대학원대학교산학협력단-전화, 프로앤팀-이메일). 계속 순차 진행 중.",
+      "daily_today": 690,
+      "daily_hits": 119
     },
     {
       "name": "컨택로그 에이전트1",
