@@ -153,6 +153,7 @@
       <div class="chip"><span class="k">가동</span><span class="v" id="g-live">—</span></div>
       <div class="chip alert"><span class="k">승인 대기</span><span class="v" id="g-wait">—</span></div>
       <div class="chip err"><span class="k">오류</span><span class="v" id="g-err">—</span></div>
+      <div class="chip"><span class="k">오늘 수집</span><span class="v" id="g-daily">—</span></div>
       <div class="chip"><span class="k">수집 누적</span><span class="v" id="g-today">—</span></div>
       <div class="chip"><span class="k">확보율</span><span class="v" id="g-rate">—</span></div>
       <div class="chip"><span class="k">데이터</span><span class="v fresh" id="g-fresh">—</span></div>
@@ -172,7 +173,7 @@
     <section class="lane s1">
       <div class="lane-head"><div class="row">
         <div><div class="lane-no">STAGE 01</div><div class="lane-title">수집</div><div class="lane-skill">db-research-agent · 연락처</div></div>
-        <div class="lane-metric"><div class="m" id="m1">—</div><div class="ml">배치 누적</div><div class="lane-sub" id="m1sub"></div></div>
+        <div class="lane-metric"><div class="m" id="m1">—</div><div class="ml">배치 누적</div><div class="lane-sub" id="m1daily" style="color:var(--work)"></div><div class="lane-sub" id="m1sub"></div></div>
       </div></div>
       <div class="agents" id="lane-collect"></div>
     </section>
@@ -182,7 +183,7 @@
     <section class="lane s2">
       <div class="lane-head"><div class="row">
         <div><div class="lane-no">STAGE 02</div><div class="lane-title">신호</div><div class="lane-skill">ta-contact-memo · 활동신호</div></div>
-        <div class="lane-metric"><div class="m" id="m2">—</div><div class="ml">메모 누적</div></div>
+        <div class="lane-metric"><div class="m" id="m2">—</div><div class="ml">메모 누적</div><div class="lane-sub" id="m2daily" style="color:var(--s2)"></div></div>
       </div></div>
       <div class="agents" id="lane-signal"></div>
     </section>
@@ -255,9 +256,9 @@ function agentHTML(a){
   let stat;
   if(a.stage==='collect'){
     stat = state==='new' ? `<span style="color:var(--ink-dim)">부화 대기 · 신규</span>`
-         : `누적 <b>${fmt(a.today)}</b> · 확보 <b class="rate">${rate.toFixed(0)}%</b>`;
+         : `누적 <b>${fmt(a.today)}</b>${a.daily_today!=null?` · 오늘 <b class="rate">+${fmt(a.daily_today)}</b>`:''} · 확보 ${rate.toFixed(0)}%`;
   } else if(a.stage==='signal'){
-    stat = `메모 누적 <b>${fmt(a.today)}</b>건`;
+    stat = `메모 누적 <b>${fmt(a.today)}</b>건${a.daily_today!=null?` · 오늘 <b style="color:var(--s2)">+${fmt(a.daily_today)}</b>`:''}`;
   } else {
     stat = a.pending>0 ? `배치 준비 <b style="color:var(--input)">${fmt(a.pending)}</b>건`
          : `금회 반영 <b>${fmt(a.today)}</b>건`;
@@ -303,8 +304,10 @@ function render(d){
 
   const st=d.stages||{}, c=st.collect||{}, s=st.signal||{}, l=st.load||{};
   document.getElementById('m1').textContent=fmt(c.today);
+  document.getElementById('m1daily').textContent = c.daily_today!=null ? `오늘 +${fmt(c.daily_today)} · 확보 +${fmt(c.daily_hits??0)}` : '';
   document.getElementById('m1sub').textContent=`확보 ${fmt(c.hits)} · ${(c.rate??0).toFixed(1)}%`;
   document.getElementById('m2').textContent=fmt(s.today);
+  document.getElementById('m2daily').textContent = s.daily_today!=null ? `오늘 +${fmt(s.daily_today)}` : '';
   document.getElementById('m3').textContent=fmt(l.done_total);
   document.getElementById('f-crawl').textContent=fmt(c.today);
   document.getElementById('f-pending').textContent=fmt(l.pending);
@@ -325,6 +328,7 @@ function render(d){
   document.getElementById('g-wait').textContent=waiting.length;
   document.getElementById('g-err').textContent=errs.length;
   document.getElementById('g-today').textContent=fmt(c.today);
+  document.getElementById('g-daily').textContent = c.daily_today!=null ? '+'+fmt(c.daily_today) : '—';
   document.getElementById('g-rate').textContent=(c.rate??0).toFixed(0)+'%';
 
   // 데이터 신선도
