@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-24T09:34:07+09:00",
+  "generated_at": "2026-07-24T09:35:35+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6585,
-      "hits": 1147,
-      "rate": 17.4
+      "today": 7080,
+      "hits": 1267,
+      "rate": 17.9
     },
     "signal": {
       "label": "신호",
@@ -59,11 +59,11 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 0,
-      "hits": 0,
+      "today": 495,
+      "hits": 120,
       "pending": 0,
-      "last_beat": "2026-07-23T19:48:00.000+09:00",
-      "message": "배치32 완료(2341-2355), 2354건 누적. 4건 컨택정보 확보(슈니트,스킨에스엠,아우룸아트,아포카)"
+      "last_beat": "2026-07-24T09:34:00.000+09:00",
+      "message": "배치33 완료(2356-2370), 2369건 누적. 1건 컨택정보 확보(임효진-이메일만)"
     },
     {
       "name": "컨택로그 에이전트1",
