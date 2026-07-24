@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T22:08:33+09:00",
+  "generated_at": "2026-07-24T22:13:10+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 10761,
+      "today": 10776,
       "hits": 1988,
-      "rate": 18.5,
-      "daily_today": 2391,
+      "rate": 18.4,
+      "daily_today": 2406,
       "daily_hits": 316
     },
     "signal": {
@@ -32,12 +32,12 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 7560,
+      "today": 7575,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-24T22:06:00.000+09:00",
-      "message": "배치96(7547-7561) 완료: bizno.net 기반 신원 확인 진행. 15건 처리(완전확정 9건, 부분확인 3건, 미확정 3건)",
-      "daily_today": 1110,
+      "last_beat": "2026-07-24T22:10:00.000+09:00",
+      "message": "배치97(7562-7576) 완료: bizno.net 기반 신원 확인 진행. 15건 처리(완전확정 10건, 부분확인 1건, 미확정 4건)",
+      "daily_today": 1125,
       "daily_hits": 49
     },
     {
