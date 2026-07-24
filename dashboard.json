@@ -1,23 +1,29 @@
 {
-  "generated_at": "2026-07-24T10:32:32+09:00",
+  "generated_at": "2026-07-24T10:34:06+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
       "today": 8715,
       "hits": 1719,
-      "rate": 19.7
+      "rate": 19.7,
+      "daily_today": 45,
+      "daily_hits": 9
     },
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 358
+      "today": 358,
+      "daily_today": 0,
+      "daily_hits": 0
     },
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
       "pending": 0,
-      "done_total": 159
+      "done_total": 159,
+      "daily_today": 0,
+      "daily_hits": 0
     }
   },
   "agents": [
@@ -30,7 +36,9 @@
       "hits": 1151,
       "pending": 0,
       "last_beat": "2026-07-24T10:30:00.000+09:00",
-      "message": "배치35 완료(6632-6646, 15건). (주)친정아빠건강식품 전화/이메일/홈페이지 트리플 확보, 에이디에이치코리아(주) 전화/이메일/홈페이지 트리플 확보. 여러 동명 데코이 기업 배제(주식회사 바름, 에이에치코리아(주) 등). 누적 6645/11898건 완료."
+      "message": "배치35 완료(6632-6646, 15건). (주)친정아빠건강식품 전화/이메일/홈페이지 트리플 확보, 에이디에이치코리아(주) 전화/이메일/홈페이지 트리플 확보. 여러 동명 데코이 기업 배제(주식회사 바름, 에이에치코리아(주) 등). 누적 6645/11898건 완료.",
+      "daily_today": 15,
+      "daily_hits": 2
     },
     {
       "name": "적재봇",
@@ -41,7 +49,9 @@
       "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-23T16:41:00.000+09:00",
-      "message": "64건 병합 반영 완료"
+      "message": "64건 병합 반영 완료",
+      "daily_today": 0,
+      "daily_hits": 0
     },
     {
       "name": "codex-DB-노트북",
@@ -78,7 +88,9 @@
       "hits": 110,
       "pending": 0,
       "last_beat": "2026-07-24T09:21:00.000+09:00",
-      "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판"
+      "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판",
+      "daily_today": 0,
+      "daily_hits": 0
     }
   ]
 }
