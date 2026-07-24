@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T12:35:38+09:00",
+  "generated_at": "2026-07-24T12:37:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -7,15 +7,15 @@
       "today": 9045,
       "hits": 1785,
       "rate": 19.7,
-      "daily_today": 375,
-      "daily_hits": 88
+      "daily_today": 555,
+      "daily_hits": 83
     },
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
       "today": 358,
-      "daily_today": 0,
-      "daily_hits": 0
+      "daily_today": 13,
+      "daily_hits": 3
     },
     "load": {
       "label": "적재",
@@ -50,8 +50,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T12:23:00.000+09:00",
       "message": "배치42 완료(6737-6751, 15건). (주)디에스약품 자사몰에서 전화+홈페이지 확보(경기 용인시 기흥구 보라동). 신원완전확정/부분확인 다수(서아그룹/코어시비티/셀바이셀럽/제이제이케이그룹 등 대표자·주소 일치), 신원미확정 소수(풍안물류). 누계 done=6750, email=1166, phone=401, web=1477. 다음 배치43(6752-6",
-      "daily_today": 0,
-      "daily_hits": 0
+      "daily_today": 300,
+      "daily_hits": 25
     },
     {
       "name": "적재봇",
@@ -76,8 +76,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T12:35:00.000+09:00",
       "message": "104차 1546~1560 공개 연락처 조사 시작",
-      "daily_today": 105,
-      "daily_hits": 30
+      "daily_today": 60,
+      "daily_hits": 17
     },
     {
       "name": "코워크-01",
@@ -89,8 +89,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T12:32:00.000+09:00",
       "message": "배치50 완료(2611-2625), 2624건 누적. 4건 연락처 확보(아드피넴-자사몰 전화+이메일, 아리스타랩-bizno 이메일, 에이아이부자학교-bizno 이메일+자사몰 홈페이지, 온프북스-bizno 전화+이메일). 소태우/썬업글로벌(대표자불일치로 반려)/아디안텀(대표자·지역불일치)/아이모스/에스디씨글로벌(기존업체)/에스제이포애몽(지역만일치)/엔유그로스",
-      "daily_today": 270,
-      "daily_hits": 58
+      "daily_today": 195,
+      "daily_hits": 41
     },
     {
       "name": "컨택로그 에이전트1",
@@ -102,8 +102,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T09:21:00.000+09:00",
       "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판",
-      "daily_today": 0,
-      "daily_hits": 0
+      "daily_today": 13,
+      "daily_hits": 3
     }
   ]
 }
