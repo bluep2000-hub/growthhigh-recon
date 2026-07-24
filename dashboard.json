@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T14:10:09+09:00",
+  "generated_at": "2026-07-24T14:14:50+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9420,
-      "hits": 1875,
+      "today": 9450,
+      "hits": 1879,
       "rate": 19.9,
-      "daily_today": 1050,
-      "daily_hits": 203
+      "daily_today": 1080,
+      "daily_hits": 207
     },
     "signal": {
       "label": "신호",
@@ -58,26 +58,26 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1695,
-      "hits": 504,
+      "today": 1710,
+      "hits": 506,
       "pending": 0,
-      "last_beat": "2026-07-24T14:07:00.000+09:00",
-      "message": "114차 1696~1710 공개 연락처 조사 시작",
-      "daily_today": 255,
-      "daily_hits": 92
+      "last_beat": "2026-07-24T14:14:00.000+09:00",
+      "message": "114차 1696~1710 조사 확정 저장; 2개 기업 공개 연락처 확보, 누적 1710건 완료",
+      "daily_today": 270,
+      "daily_hits": 94
     },
     {
       "name": "코워크-01",
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 885,
-      "hits": 198,
+      "today": 900,
+      "hits": 200,
       "pending": 0,
-      "last_beat": "2026-07-24T13:58:00.000+09:00",
-      "message": "배치59 완료(2746-2760), 2759건 누적. 1건 연락처 확보(아틀라스로지스틱스-bizno 대표자명·주소일치, 이메일). 메이드인코리아바이세라/대건도시정비/애자일로지스틱스/제이엑스로지스틱스/해랑글로벌로지스틱스/더스타로지스/에스앤케이쉬핑은 bizno/moneypin/marketbz/forwarder.kr 주소일치로 신원확인했으나 연락처 미확보. 나머",
-      "daily_today": 405,
-      "daily_hits": 79
+      "last_beat": "2026-07-24T14:11:00.000+09:00",
+      "message": "배치60 완료(2761-2775), 2774건 누적. 2건 연락처 확보(온코밀-이메일, 새결회계법인-전화). 선웨이로지스틱스/넥스트베이/유니콘빌딩관리단/엔제이세이프티/아쿠아웰니스랩은 moneypin/bizno 주소일치 또는 대표자명 언론확인으로 신원확인했으나 연락처 미확보. 나머지는 무관/미확인 결과로 미기재.",
+      "daily_today": 420,
+      "daily_hits": 81
     },
     {
       "name": "컨택로그 에이전트1",
