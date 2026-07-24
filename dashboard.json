@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T13:26:38+09:00",
+  "generated_at": "2026-07-24T13:28:11+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9240,
-      "hits": 1839,
+      "today": 9255,
+      "hits": 1840,
       "rate": 19.9,
-      "daily_today": 870,
-      "daily_hits": 167
+      "daily_today": 885,
+      "daily_hits": 168
     },
     "signal": {
       "label": "신호",
@@ -20,7 +20,7 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 177,
+      "pending": 94,
       "done_total": 159,
       "daily_today": 0,
       "daily_hits": 0
@@ -32,13 +32,13 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6795,
-      "hits": 1168,
+      "today": 6810,
+      "hits": 1169,
       "pending": 0,
-      "last_beat": "2026-07-24T13:09:00.000+09:00",
-      "message": "배치45 완료(6782-6796, 15건). 이번 배치 신규 이메일/전화 확보 없음(홈페이지 1건: cafedleplus.com 추정). 다수 동명이업체 디코이 배제(문시스템류와 유사 패턴): 케이에프엠씨(경남 창원 컨설팅업체, moneypin 주물부재료업체와 구분), 메가골프GDR아카데미(주소 상이), 그린트레이딩코리아(상호 상이). (주)홀썸은 신원미확",
-      "daily_today": 345,
-      "daily_hits": 27
+      "last_beat": "2026-07-24T13:26:00.000+09:00",
+      "message": "배치46 완료(6797~6811, 15건). (주)에스와이컴퍼니(email), (주)이케이컴퍼니, 씨케이오(주), (주)엘씨광학, (주)이천리, (주)비즈블라, 더웰마켓(주)(phone+homepage), (주)월드폼, (주)혜명씨인포(phone+homepage), (주)코스트릭스, (주)아인디앤씨 등 신원 완전확정. (주)메타픽셀은 동명 유명인사(스타일리",
+      "daily_today": 360,
+      "daily_hits": 28
     },
     {
       "name": "적재봇",
@@ -47,9 +47,9 @@
       "state": "input",
       "today": 0,
       "hits": 0,
-      "pending": 177,
-      "last_beat": "2026-07-24T13:16:00.000+09:00",
-      "message": "배치 177건 준비 완료 · 승인 대기",
+      "pending": 94,
+      "last_beat": "2026-07-24T13:26:00.000+09:00",
+      "message": "배치 94건 준비 완료 · 승인 대기",
       "daily_today": 0,
       "daily_hits": 0
     },
