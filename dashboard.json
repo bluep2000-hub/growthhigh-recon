@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T13:10:11+09:00",
+  "generated_at": "2026-07-24T13:11:41+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9165,
-      "hits": 1812,
+      "today": 9195,
+      "hits": 1820,
       "rate": 19.8,
-      "daily_today": 795,
-      "daily_hits": 140
+      "daily_today": 825,
+      "daily_hits": 148
     },
     "signal": {
       "label": "신호",
@@ -58,26 +58,26 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1575,
-      "hits": 456,
+      "today": 1590,
+      "hits": 462,
       "pending": 0,
-      "last_beat": "2026-07-24T13:01:00.000+09:00",
-      "message": "106차 1576~1590 공개 연락처 조사 시작",
-      "daily_today": 135,
-      "daily_hits": 44
+      "last_beat": "2026-07-24T13:10:00.000+09:00",
+      "message": "106차 1576~1590 조사 확정 저장; 6개 기업 공개 연락처 확보, 누적 1590건 완료",
+      "daily_today": 150,
+      "daily_hits": 50
     },
     {
       "name": "코워크-01",
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 795,
-      "hits": 188,
+      "today": 810,
+      "hits": 190,
       "pending": 0,
-      "last_beat": "2026-07-24T13:02:00.000+09:00",
-      "message": "배치53 완료(2656-2670), 2669건 누적. 4건 연락처 확보(브랜딧코리아-bizno 이메일, 비엔비바이오-bizno 전화+이메일, 씨씨브라더스-bizno 이메일, 아비투센트-bizno 이메일). 알에프티씨/애그테크미디어는 marketbz/moneypin 주소일치로 신원확인했으나 연락처 미확보. 나머지는 무관/미확인 결과로 미기재.",
-      "daily_today": 315,
-      "daily_hits": 69
+      "last_beat": "2026-07-24T13:09:00.000+09:00",
+      "message": "배치54 완료(2671-2685), 2684건 누적. 2건 연락처 확보(이즈인-bizno 이메일, 정원플로리코-자사몰 전화+이메일). 나머지는 무관/미확인 결과로 미기재.",
+      "daily_today": 330,
+      "daily_hits": 71
     },
     {
       "name": "컨택로그 에이전트1",
