@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T13:53:35+09:00",
+  "generated_at": "2026-07-24T13:58:10+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9360,
-      "hits": 1862,
+      "today": 9375,
+      "hits": 1864,
       "rate": 19.9,
-      "daily_today": 990,
-      "daily_hits": 190
+      "daily_today": 1005,
+      "daily_hits": 192
     },
     "signal": {
       "label": "신호",
@@ -32,13 +32,13 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6825,
-      "hits": 1171,
+      "today": 6840,
+      "hits": 1173,
       "pending": 0,
-      "last_beat": "2026-07-24T13:39:00.000+09:00",
-      "message": "배치47 완료(6812~6826, 15건). (주)더블유제이컴퍼니(email+phone+homepage), (주)리홈솔루션(email+phone+homepage), (주)팜팜(phone), 더웰마켓 등 다수 신원 완전확정. (주)장한은 동명이업체 다수로 신원 미확정. 누적: done=6825/11898, email=1171, phone=410, web=14",
-      "daily_today": 375,
-      "daily_hits": 30
+      "last_beat": "2026-07-24T13:57:00.000+09:00",
+      "message": "배치48 완료(6827-6841, 15건): 케이브인터내셔널(주)/이앤에스개발/으뜸컴퍼니 등 완전확정 다수, 농업회사법인 가루매(양평가루매마을) email+phone 확보, 보건산업최고경영자회의 신원미확정. 누적 6840/11898건, 이메일 1173건, 전화 412건, 홈페이지 1486건",
+      "daily_today": 390,
+      "daily_hits": 32
     },
     {
       "name": "적재봇",
