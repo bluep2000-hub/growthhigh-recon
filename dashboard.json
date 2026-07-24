@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T14:34:08+09:00",
+  "generated_at": "2026-07-24T14:37:10+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9510,
+      "today": 9525,
       "hits": 1899,
-      "rate": 20.0,
-      "daily_today": 1140,
+      "rate": 19.9,
+      "daily_today": 1155,
       "daily_hits": 227
     },
     "signal": {
@@ -32,12 +32,12 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6855,
+      "today": 6870,
       "hits": 1176,
       "pending": 0,
-      "last_beat": "2026-07-24T14:13:00.000+09:00",
-      "message": "배치49 완료(6842-6856, 15건): (주)아페토월드(affetto.com email+phone+homepage), (주)노벨푸드(ricemax.net email+phone+homepage), (주)복플레이스(bokplace.com email+phone+homepage) 등 트리플히트 다수. 두진중공업/엠시티글로벌/자람테크/데스펙트라/글로벌세미 등 ",
-      "daily_today": 405,
+      "last_beat": "2026-07-24T14:35:00.000+09:00",
+      "message": "배치50 완료(6857-6871, 15건). 제이앤알컴퍼니/유선/투제이컴퍼니/르원알앤아이/스텝바이/이사벨라 등 완전확정, 룩미보이/더블베이스/필앤굿 강한 연락처 확보(전화+홈페이지), 엠버스는 다수 동명이업체로 신원 미확정. 누적 done=6870/11898, email=1176, phone=418, web=1493.",
+      "daily_today": 420,
       "daily_hits": 35
     },
     {
