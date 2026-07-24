@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-25T03:54:04+09:00",
+  "generated_at": "2026-07-25T04:00:04+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8730,
+      "today": 8745,
       "hits": 1190,
       "rate": 13.6
     },
@@ -37,11 +37,11 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 8730,
+      "today": 8745,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-25T03:50:00.000+09:00",
-      "message": "batch174 완료 (rows 8717-8731). 신원확정 매칭 지속 진행중."
+      "last_beat": "2026-07-25T03:57:00.000+09:00",
+      "message": "batch175 완료(8732-8746), 신설법인 경기 리스트 리서치 계속 진행 중"
     },
     {
       "name": "적재봇",
