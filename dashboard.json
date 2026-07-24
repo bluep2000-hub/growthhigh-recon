@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T12:47:37+09:00",
+  "generated_at": "2026-07-24T12:50:33+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -28,15 +28,15 @@
   },
   "agents": [
     {
-      "name": "권한확인-테스트",
+      "name": "_check",
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
       "state": "idle",
       "today": 0,
       "hits": 0,
       "pending": 0,
-      "last_beat": "2026-07-24T12:27:00.000+09:00",
-      "message": "통합 토큰 권한 확인 — 확인 후 삭제해도 됩니다",
+      "last_beat": "2026-07-24T12:47:00.000+09:00",
+      "message": "통합 토큰 권한 확인 (_ 시작이라 대시보드 미표시)",
       "daily_today": 0,
       "daily_hits": 0
     },
