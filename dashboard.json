@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T13:19:08+09:00",
+  "generated_at": "2026-07-24T13:20:39+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9210,
-      "hits": 1831,
+      "today": 9225,
+      "hits": 1834,
       "rate": 19.9,
-      "daily_today": 840,
-      "daily_hits": 159
+      "daily_today": 855,
+      "daily_hits": 162
     },
     "signal": {
       "label": "신호",
@@ -71,13 +71,13 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 810,
-      "hits": 190,
+      "today": 825,
+      "hits": 193,
       "pending": 0,
-      "last_beat": "2026-07-24T13:09:00.000+09:00",
-      "message": "배치54 완료(2671-2685), 2684건 누적. 2건 연락처 확보(이즈인-bizno 이메일, 정원플로리코-자사몰 전화+이메일). 나머지는 무관/미확인 결과로 미기재.",
-      "daily_today": 330,
-      "daily_hits": 71
+      "last_beat": "2026-07-24T13:17:00.000+09:00",
+      "message": "배치55 완료(2686-2700), 2699건 누적. 3건 연락처 확보(한국에스앤에스-bizno 전화, 두베로정보통신-자사몰 전화, 베르에블랑-자사몰 전화+이메일). 다온공간하우징은 moneypin 주소일치하나 연락처 미확보. 남산이엔씨/성도이엔씨/아승이엔지는 동일상호의 다른 기존법인으로 배제. 나머지는 무관/미확인 결과로 미기재.",
+      "daily_today": 345,
+      "daily_hits": 74
     },
     {
       "name": "컨택로그 에이전트1",
