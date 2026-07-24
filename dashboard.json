@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-24T13:21:05+09:00",
+  "generated_at": "2026-07-24T13:27:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9225,
-      "hits": 1834,
+      "today": 9240,
+      "hits": 1839,
       "rate": 19.9
     },
     "signal": {
@@ -16,7 +16,7 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 177,
+      "pending": 94,
       "done_total": 159
     }
   },
@@ -50,20 +50,20 @@
       "state": "input",
       "today": 0,
       "hits": 0,
-      "pending": 177,
-      "last_beat": "2026-07-24T13:16:00.000+09:00",
-      "message": "배치 177건 준비 완료 · 승인 대기"
+      "pending": 94,
+      "last_beat": "2026-07-24T13:26:00.000+09:00",
+      "message": "배치 94건 준비 완료 · 승인 대기"
     },
     {
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1605,
-      "hits": 473,
+      "today": 1620,
+      "hits": 478,
       "pending": 0,
-      "last_beat": "2026-07-24T13:15:00.000+09:00",
-      "message": "108차 1606~1620 공개 연락처 조사 시작"
+      "last_beat": "2026-07-24T13:24:00.000+09:00",
+      "message": "109차 1621~1635 공개 연락처 조사 시작"
     },
     {
       "name": "코워크-01",
