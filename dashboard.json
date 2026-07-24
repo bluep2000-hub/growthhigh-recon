@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T12:53:37+09:00",
+  "generated_at": "2026-07-24T12:56:37+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9105,
+      "today": 9120,
       "hits": 1800,
-      "rate": 19.8,
-      "daily_today": 735,
+      "rate": 19.7,
+      "daily_today": 750,
       "daily_hits": 128
     },
     "signal": {
@@ -28,29 +28,16 @@
   },
   "agents": [
     {
-      "name": "_check",
-      "stage": "load",
-      "machine": "데스크톱 A · 클로드코드",
-      "state": "idle",
-      "today": 0,
-      "hits": 0,
-      "pending": 0,
-      "last_beat": "2026-07-24T12:47:00.000+09:00",
-      "message": "통합 토큰 권한 확인 (_ 시작이라 대시보드 미표시)",
-      "daily_today": 0,
-      "daily_hits": 0
-    },
-    {
       "name": "코워크-DB01",
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6765,
+      "today": 6780,
       "hits": 1168,
       "pending": 0,
-      "last_beat": "2026-07-24T12:41:00.000+09:00",
-      "message": "배치43 완료(6752-6766, 15건). (주)나목 이메일+전화+홈페이지 트리플히트(blulegnoliving.com), (주)아고라 이메일+전화(G마켓), (주)프라운드 전화+홈페이지(자사몰 tteullan.co.kr), (주)오토매치 전화(당근마켓). 트리플에이치(주)는 동명의 2006년설립 부동산업체(tripleh.co.kr)를 디코이로 정확히 배",
-      "daily_today": 315,
+      "last_beat": "2026-07-24T12:54:00.000+09:00",
+      "message": "배치44 완료(6767-6781, 15건). 전 건 신원확정(완전확정/부분확인) 처리, 이번 배치는 신규 이메일/전화/홈페이지 확보 없음(대부분 개인정보 비공개 신설법인). 동명이인/동명업체 디코이 다수 배제: 문시스템(moonsystem.co.kr은 하남시 소재 별개 법인), 에스지솔루션(주)(2002년설립 유압기기업체와 구분), 썬앤파크는 신원미확정 처",
+      "daily_today": 330,
       "daily_hits": 27
     },
     {
@@ -74,8 +61,8 @@
       "today": 1560,
       "hits": 448,
       "pending": 0,
-      "last_beat": "2026-07-24T12:46:00.000+09:00",
-      "message": "105차 1561~1575 공개 연락처 조사 시작",
+      "last_beat": "2026-07-24T12:56:00.000+09:00",
+      "message": "105차 1561~1575 공개 연락처 교차검증 재개",
       "daily_today": 120,
       "daily_hits": 36
     },
