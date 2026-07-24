@@ -173,7 +173,7 @@
     <section class="lane s1">
       <div class="lane-head"><div class="row">
         <div><div class="lane-no">STAGE 01</div><div class="lane-title">수집</div><div class="lane-skill">db-research-agent · 연락처</div></div>
-        <div class="lane-metric"><div class="m" id="m1">—</div><div class="ml">배치 누적</div><div class="lane-sub" id="m1daily" style="color:var(--work)"></div><div class="lane-sub" id="m1sub"></div></div>
+        <div class="lane-metric"><div class="m" id="m1">—</div><div class="ml">오늘 수집</div><div class="lane-sub" id="m1sub"></div><div class="lane-sub" id="m1daily"></div></div>
       </div></div>
       <div class="agents" id="lane-collect"></div>
     </section>
@@ -183,7 +183,7 @@
     <section class="lane s2">
       <div class="lane-head"><div class="row">
         <div><div class="lane-no">STAGE 02</div><div class="lane-title">신호</div><div class="lane-skill">ta-contact-memo · 활동신호</div></div>
-        <div class="lane-metric"><div class="m" id="m2">—</div><div class="ml">메모 누적</div><div class="lane-sub" id="m2daily" style="color:var(--s2)"></div></div>
+        <div class="lane-metric"><div class="m" id="m2">—</div><div class="ml">오늘 메모</div><div class="lane-sub" id="m2daily"></div></div>
       </div></div>
       <div class="agents" id="lane-signal"></div>
     </section>
@@ -200,7 +200,7 @@
         <div class="gt">▲ 승인 게이트</div>
         <div class="gsub">배치 준비 완료 시 <b>승인대기</b>로 표시 · 드라이런 확인 후 승인하면 노션 기업 DB로 병합</div>
         <div class="flow">
-          <div class="node"><div class="n" id="f-crawl">—</div><div class="l">수집 누적</div></div>
+          <div class="node"><div class="n" id="f-crawl">—</div><div class="l">오늘 수집</div></div>
           <div class="node pending"><div class="n" id="f-pending">—</div><div class="l">승인 대기</div></div>
           <div class="node done"><div class="n" id="f-done">—</div><div class="l">반영 누계</div></div>
         </div>
@@ -256,9 +256,9 @@ function agentHTML(a){
   let stat;
   if(a.stage==='collect'){
     stat = state==='new' ? `<span style="color:var(--ink-dim)">부화 대기 · 신규</span>`
-         : `누적 <b>${fmt(a.today)}</b>${a.daily_today!=null?` · 오늘 <b class="rate">+${fmt(a.daily_today)}</b>`:''} · 확보 ${rate.toFixed(0)}%`;
+         : (()=>{const d=a.daily_today??a.today, dh=a.daily_hits??a.hits; return `오늘 <b>${fmt(d)}</b> · 확보 <b class="rate">${fmt(dh??0)}</b><br><span style="color:var(--ink-dim)">누적 ${fmt(a.today)} · ${rate.toFixed(0)}%</span>`;})();
   } else if(a.stage==='signal'){
-    stat = `메모 누적 <b>${fmt(a.today)}</b>건${a.daily_today!=null?` · 오늘 <b style="color:var(--s2)">+${fmt(a.daily_today)}</b>`:''}`;
+    stat = `오늘 메모 <b>${fmt(a.daily_today??a.today)}</b>건<br><span style="color:var(--ink-dim)">누적 ${fmt(a.today)}</span>`;
   } else {
     stat = a.pending>0 ? `배치 준비 <b style="color:var(--input)">${fmt(a.pending)}</b>건`
          : `금회 반영 <b>${fmt(a.today)}</b>건`;
@@ -303,13 +303,14 @@ function render(d){
   laneFill('lane-load',    by('load'),    '적재봇 대기 — 파이프라인 실행 시 나타납니다');
 
   const st=d.stages||{}, c=st.collect||{}, s=st.signal||{}, l=st.load||{};
-  document.getElementById('m1').textContent=fmt(c.today);
-  document.getElementById('m1daily').textContent = c.daily_today!=null ? `오늘 +${fmt(c.daily_today)} · 확보 +${fmt(c.daily_hits??0)}` : '';
-  document.getElementById('m1sub').textContent=`확보 ${fmt(c.hits)} · ${(c.rate??0).toFixed(1)}%`;
-  document.getElementById('m2').textContent=fmt(s.today);
-  document.getElementById('m2daily').textContent = s.daily_today!=null ? `오늘 +${fmt(s.daily_today)}` : '';
+  const cD = c.daily_today ?? c.today, cDH = c.daily_hits ?? c.hits;
+  document.getElementById('m1').textContent=fmt(cD);
+  document.getElementById('m1sub').textContent=`오늘 확보 ${fmt(cDH??0)}`;
+  document.getElementById('m1daily').textContent=`배치 누적 ${fmt(c.today)} · ${(c.rate??0).toFixed(1)}%`;
+  document.getElementById('m2').textContent=fmt(s.daily_today ?? s.today);
+  document.getElementById('m2daily').textContent=`메모 누적 ${fmt(s.today)}`;
   document.getElementById('m3').textContent=fmt(l.done_total);
-  document.getElementById('f-crawl').textContent=fmt(c.today);
+  document.getElementById('f-crawl').textContent=fmt(cD);
   document.getElementById('f-pending').textContent=fmt(l.pending);
   document.getElementById('f-done').textContent=fmt(l.done_total);
 
@@ -328,8 +329,8 @@ function render(d){
   document.getElementById('g-wait').textContent=waiting.length;
   document.getElementById('g-err').textContent=errs.length;
   document.getElementById('g-today').textContent=fmt(c.today);
-  document.getElementById('g-daily').textContent = c.daily_today!=null ? '+'+fmt(c.daily_today) : '—';
-  document.getElementById('g-rate').textContent=(c.rate??0).toFixed(0)+'%';
+  document.getElementById('g-daily').textContent = fmt(cD);
+  document.getElementById('g-rate').textContent = cD ? ((cDH??0)/cD*100).toFixed(0)+'%' : '0%';
 
   // 데이터 신선도
   const gen=agoText(d.generated_at);
