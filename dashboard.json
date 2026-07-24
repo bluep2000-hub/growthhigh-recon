@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-25T00:50:33+09:00",
+  "generated_at": "2026-07-25T00:52:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8115,
+      "today": 8130,
       "hits": 1190,
-      "rate": 14.7,
-      "daily_today": 165,
+      "rate": 14.6,
+      "daily_today": 180,
       "daily_hits": 0
     },
     "signal": {
@@ -32,12 +32,12 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 8115,
+      "today": 8130,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-25T00:46:00.000+09:00",
-      "message": "배치133 완료(rows 8102-8116). 경기 신설법인 리서치 진행중, 누적 8115/11898건.",
-      "daily_today": 165,
+      "last_beat": "2026-07-25T00:50:00.000+09:00",
+      "message": "배치134 완료(rows 8117-8131). 경기 신설법인 리서치 진행중, 누적 8130/11898건.",
+      "daily_today": 180,
       "daily_hits": 0
     },
     {
