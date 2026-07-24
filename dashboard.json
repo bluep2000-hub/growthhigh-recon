@@ -1,19 +1,21 @@
 {
-  "generated_at": "2026-07-24T12:31:07+09:00",
+  "generated_at": "2026-07-24T12:32:34+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
       "today": 9015,
       "hits": 1776,
-      "rate": 19.7
+      "rate": 19.7,
+      "daily_today": 345,
+      "daily_hits": 79
     },
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
       "today": 358,
-      "daily_today": 13,
-      "daily_hits": 3
+      "daily_today": 0,
+      "daily_hits": 0
     },
     "load": {
       "label": "적재",
@@ -34,7 +36,9 @@
       "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-24T12:27:00.000+09:00",
-      "message": "통합 토큰 권한 확인 — 확인 후 삭제해도 됩니다"
+      "message": "통합 토큰 권한 확인 — 확인 후 삭제해도 됩니다",
+      "daily_today": 0,
+      "daily_hits": 0
     },
     {
       "name": "코워크-DB01",
@@ -46,8 +50,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T12:23:00.000+09:00",
       "message": "배치42 완료(6737-6751, 15건). (주)디에스약품 자사몰에서 전화+홈페이지 확보(경기 용인시 기흥구 보라동). 신원완전확정/부분확인 다수(서아그룹/코어시비티/셀바이셀럽/제이제이케이그룹 등 대표자·주소 일치), 신원미확정 소수(풍안물류). 누계 done=6750, email=1166, phone=401, web=1477. 다음 배치43(6752-6",
-      "daily_today": 300,
-      "daily_hits": 25
+      "daily_today": 0,
+      "daily_hits": 0
     },
     {
       "name": "적재봇",
@@ -72,8 +76,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T12:24:00.000+09:00",
       "message": "103차 1531~1545 공개 연락처 조사 시작",
-      "daily_today": 45,
-      "daily_hits": 12
+      "daily_today": 90,
+      "daily_hits": 25
     },
     {
       "name": "코워크-01",
@@ -85,8 +89,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T12:16:00.000+09:00",
       "message": "배치49 완료(2596-2610), 2609건 누적. 8건 이메일 확보(디디에이치,런잇-홈페이지도,레이라이즈,리딕션-홈페이지도,메종씨피씨-자사몰 010휴대폰+이메일,명이엠비,브이엘티머터리얼즈-홈페이지도). 모두 bizno.net 직접조회로 대표자명+주소 완전일치 확인. 나머지는 무관/미확인 결과로 미기재.",
-      "daily_today": 180,
-      "daily_hits": 37
+      "daily_today": 255,
+      "daily_hits": 54
     },
     {
       "name": "컨택로그 에이전트1",
@@ -98,8 +102,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T09:21:00.000+09:00",
       "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판",
-      "daily_today": 13,
-      "daily_hits": 3
+      "daily_today": 0,
+      "daily_hits": 0
     }
   ]
 }
