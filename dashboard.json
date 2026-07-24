@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T21:38:33+09:00",
+  "generated_at": "2026-07-24T21:43:11+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 10656,
+      "today": 10671,
       "hits": 1988,
-      "rate": 18.7,
-      "daily_today": 2286,
+      "rate": 18.6,
+      "daily_today": 2301,
       "daily_hits": 316
     },
     "signal": {
@@ -32,12 +32,12 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 7455,
+      "today": 7470,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-24T21:35:00.000+09:00",
-      "message": "배치89 완료 (7442-7456), 누적 7455/11898건, 이메일 1190건 확보",
-      "daily_today": 1005,
+      "last_beat": "2026-07-24T21:41:00.000+09:00",
+      "message": "배치90 완료 (rows 7457-7471): 12건 완전확정, 3건 신원미확정(그레이스밸류/신흥정밀/아이엔지). 누적 7470/11898건 진행, 이메일 1190건 확보.",
+      "daily_today": 1020,
       "daily_hits": 49
     },
     {
