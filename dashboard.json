@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T12:26:35+09:00",
+  "generated_at": "2026-07-24T12:28:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -23,6 +23,19 @@
     }
   },
   "agents": [
+    {
+      "name": "권한확인-테스트",
+      "stage": "load",
+      "machine": "데스크톱 A · 클로드코드",
+      "state": "idle",
+      "today": 0,
+      "hits": 0,
+      "pending": 0,
+      "last_beat": "2026-07-24T12:27:00.000+09:00",
+      "message": "통합 토큰 권한 확인 — 확인 후 삭제해도 됩니다",
+      "daily_today": 0,
+      "daily_hits": 0
+    },
     {
       "name": "코워크-DB01",
       "stage": "collect",
@@ -54,7 +67,9 @@
       "hits": 437,
       "pending": 0,
       "last_beat": "2026-07-24T12:24:00.000+09:00",
-      "message": "103차 1531~1545 공개 연락처 조사 시작"
+      "message": "103차 1531~1545 공개 연락처 조사 시작",
+      "daily_today": 45,
+      "daily_hits": 12
     },
     {
       "name": "코워크-01",
