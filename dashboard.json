@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T10:26:35+09:00",
+  "generated_at": "2026-07-24T10:29:32+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -11,17 +11,13 @@
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 358,
-      "daily_today": 0,
-      "daily_hits": 0
+      "today": 358
     },
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
       "pending": 0,
-      "done_total": 159,
-      "daily_today": 0,
-      "daily_hits": 0
+      "done_total": 159
     }
   },
   "agents": [
@@ -34,9 +30,7 @@
       "hits": 1149,
       "pending": 0,
       "last_beat": "2026-07-24T10:11:00.000+09:00",
-      "message": "배치34 완료(6617-6631, 15건). 안다미로팜/제이미트/이엠씨코리아 등 대표자·주소·업종 삼중일치로 신원 완전확정. (주)에프티스마트는 상호 표기차이(애프티/에프티) 있으나 주소·대표자이니셜 일치로 부분확인. 누적 완료 6630/11898건.",
-      "daily_today": 0,
-      "daily_hits": 0
+      "message": "배치34 완료(6617-6631, 15건). 안다미로팜/제이미트/이엠씨코리아 등 대표자·주소·업종 삼중일치로 신원 완전확정. (주)에프티스마트는 상호 표기차이(애프티/에프티) 있으나 주소·대표자이니셜 일치로 부분확인. 누적 완료 6630/11898건."
     },
     {
       "name": "적재봇",
@@ -47,9 +41,7 @@
       "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-23T16:41:00.000+09:00",
-      "message": "64건 병합 반영 완료",
-      "daily_today": 0,
-      "daily_hits": 0
+      "message": "64건 병합 반영 완료"
     },
     {
       "name": "codex-DB-노트북",
@@ -82,9 +74,7 @@
       "hits": 110,
       "pending": 0,
       "last_beat": "2026-07-24T09:21:00.000+09:00",
-      "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판",
-      "daily_today": 0,
-      "daily_hits": 0
+      "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판"
     }
   ]
 }
