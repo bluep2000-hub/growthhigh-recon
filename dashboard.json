@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T11:19:09+09:00",
+  "generated_at": "2026-07-24T11:22:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -7,15 +7,15 @@
       "today": 8805,
       "hits": 1741,
       "rate": 19.8,
-      "daily_today": 135,
-      "daily_hits": 31
+      "daily_today": 315,
+      "daily_hits": 39
     },
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
       "today": 358,
-      "daily_today": 0,
-      "daily_hits": 0
+      "daily_today": 13,
+      "daily_hits": 3
     },
     "load": {
       "label": "적재",
@@ -37,8 +37,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T11:17:00.000+09:00",
       "message": "배치38 완료(6677-6691, 15건). 자사 홈페이지/G마켓/사업자정보 기반 다수 트리플 히트(잭솔루션/우리메탈코리아/일로밀로/에르디아대화학교/에스케이엔제이디 등).",
-      "daily_today": 60,
-      "daily_hits": 13
+      "daily_today": 240,
+      "daily_hits": 21
     },
     {
       "name": "적재봇",
@@ -89,8 +89,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T09:21:00.000+09:00",
       "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판",
-      "daily_today": 0,
-      "daily_hits": 0
+      "daily_today": 13,
+      "daily_hits": 3
     }
   ]
 }
