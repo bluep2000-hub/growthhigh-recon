@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-25T00:17:34+09:00",
+  "generated_at": "2026-07-25T00:22:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8010,
+      "today": 8025,
       "hits": 1190,
-      "rate": 14.9,
-      "daily_today": 60,
+      "rate": 14.8,
+      "daily_today": 75,
       "daily_hits": 0
     },
     "signal": {
@@ -32,12 +32,12 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 8010,
+      "today": 8025,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-25T00:13:00.000+09:00",
-      "message": "배치126 완료 (rows 7997-8011, 10 완전확정/1 부분확인/4 미확정). 누적 8010/11898건 진행.",
-      "daily_today": 60,
+      "last_beat": "2026-07-25T00:21:00.000+09:00",
+      "message": "배치127 완료 (8012-8026행): bizno.net 검색 지속 진행. 배치128로 계속 진행.",
+      "daily_today": 75,
       "daily_hits": 0
     },
     {
