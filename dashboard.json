@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T20:28:10+09:00",
+  "generated_at": "2026-07-24T20:29:35+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 10380,
-      "hits": 1984,
+      "today": 10395,
+      "hits": 1987,
       "rate": 19.1,
-      "daily_today": 2010,
-      "daily_hits": 312
+      "daily_today": 2025,
+      "daily_hits": 315
     },
     "signal": {
       "label": "신호",
@@ -71,13 +71,13 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 1230,
-      "hits": 247,
+      "today": 1245,
+      "hits": 250,
       "pending": 0,
-      "last_beat": "2026-07-24T20:18:00.000+09:00",
-      "message": "배치81 완료(3076-3090), 3089건 누적. 1건 연락처 확보(카네기러닝코리아-이메일). 계속 순차 진행 중.",
-      "daily_today": 750,
-      "daily_hits": 128
+      "last_beat": "2026-07-24T20:28:00.000+09:00",
+      "message": "배치82 완료(3091-3105), 3104건 누적. 3건 연락처 확보(아가스티아코리아-이메일, 에센셜나인-이메일/홈페이지, 유투바이오-이메일/전화). 계속 순차 진행 중.",
+      "daily_today": 765,
+      "daily_hits": 131
     },
     {
       "name": "컨택로그 에이전트1",
