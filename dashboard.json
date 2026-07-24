@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T12:43:53+09:00",
+  "generated_at": "2026-07-24T12:44:34+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -7,8 +7,8 @@
       "today": 9075,
       "hits": 1790,
       "rate": 19.7,
-      "daily_today": 330,
-      "daily_hits": 30
+      "daily_today": 405,
+      "daily_hits": 93
     },
     "signal": {
       "label": "신호",
@@ -50,8 +50,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T12:41:00.000+09:00",
       "message": "배치43 완료(6752-6766, 15건). (주)나목 이메일+전화+홈페이지 트리플히트(blulegnoliving.com), (주)아고라 이메일+전화(G마켓), (주)프라운드 전화+홈페이지(자사몰 tteullan.co.kr), (주)오토매치 전화(당근마켓). 트리플에이치(주)는 동명의 2006년설립 부동산업체(tripleh.co.kr)를 디코이로 정확히 배",
-      "daily_today": 315,
-      "daily_hits": 27
+      "daily_today": 15,
+      "daily_hits": 2
     },
     {
       "name": "적재봇",
@@ -89,8 +89,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T12:40:00.000+09:00",
       "message": "배치51 완료(2626-2640), 2639건 누적. 3건 연락처 확보(장수온돌-bizno 전화+이메일+스마트스토어, 제이케이플러스자산관리-bizno 이메일, 카비엘컴퍼니-bizno 이메일). 클린타투뷰티랩은 공식 인스타그램으로 주소일치 확인, 카카오채널만 확보(이메일/전화 없음). 케이하우스그룹은 moneypin 주소일치하나 연락처 미확보. 이리/인겐스/",
-      "daily_today": 15,
-      "daily_hits": 3
+      "daily_today": 285,
+      "daily_hits": 61
     },
     {
       "name": "컨택로그 에이전트1",
