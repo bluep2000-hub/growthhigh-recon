@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-25T03:11:33+09:00",
+  "generated_at": "2026-07-25T03:13:10+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8580,
+      "today": 8595,
       "hits": 1190,
-      "rate": 13.9,
-      "daily_today": 630,
+      "rate": 13.8,
+      "daily_today": 645,
       "daily_hits": 0
     },
     "signal": {
@@ -32,12 +32,12 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 8580,
+      "today": 8595,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-25T02:55:00.000+09:00",
-      "message": "배치164 완료 (rows 8567-8581): 경기 신설법인 리서치 8580건 완료 / 이메일 1190건 확보. bizno.net 검색 기반 신원 확정 계속 진행 중.",
-      "daily_today": 630,
+      "last_beat": "2026-07-25T03:11:00.000+09:00",
+      "message": "배치165 완료 (rows 8582-8596): 경기 신설법인 리서치 8595건 완료 / 이메일 1190건 확보. bizno.net 검색 기반 신원 확정 계속 진행 중.",
+      "daily_today": 645,
       "daily_hits": 0
     },
     {
