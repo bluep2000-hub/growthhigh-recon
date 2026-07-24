@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-25T00:06:05+09:00",
+  "generated_at": "2026-07-25T00:09:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7965,
+      "today": 7980,
       "hits": 1190,
       "rate": 14.9
     },
@@ -37,11 +37,11 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 7965,
+      "today": 7980,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-25T00:00:00.000+09:00",
-      "message": "배치123 완료 (rows 7952-7966, 11 완전확정/1 부분확인/3 미확정). 누적 7965/11898건 진행."
+      "last_beat": "2026-07-25T00:05:00.000+09:00",
+      "message": "배치124 완료 (rows 7967-7981, 10 완전확정/0 부분확인/5 미확정). 누적 7980/11898건 진행."
     },
     {
       "name": "적재봇",
