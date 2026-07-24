@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T20:40:11+09:00",
+  "generated_at": "2026-07-24T20:41:37+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 10440,
-      "hits": 1987,
+      "today": 10446,
+      "hits": 1988,
       "rate": 19.0,
-      "daily_today": 2070,
-      "daily_hits": 315
+      "daily_today": 2076,
+      "daily_hits": 316
     },
     "signal": {
       "label": "신호",
@@ -71,13 +71,13 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 1245,
-      "hits": 250,
+      "today": 1251,
+      "hits": 251,
       "pending": 0,
-      "last_beat": "2026-07-24T20:28:00.000+09:00",
-      "message": "배치82 완료(3091-3105), 3104건 누적. 3건 연락처 확보(아가스티아코리아-이메일, 에센셜나인-이메일/홈페이지, 유투바이오-이메일/전화). 계속 순차 진행 중.",
-      "daily_today": 765,
-      "daily_hits": 131
+      "last_beat": "2026-07-24T20:39:00.000+09:00",
+      "message": "배치83(최종) 완료(3106-3111), 3110건 전체 완료! 전체 3110행 데이터셋 리서치 100% 완료. 1건 연락처 확보(팅민크리에이티브-이메일). 3111행(허니기프트)이 누락되어 있던 것을 발견해 함께 처리 완료.",
+      "daily_today": 771,
+      "daily_hits": 132
     },
     {
       "name": "컨택로그 에이전트1",
