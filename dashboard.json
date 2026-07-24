@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T13:45:04+09:00",
+  "generated_at": "2026-07-24T13:48:04+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -16,8 +16,8 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 0,
-      "done_total": 180
+      "pending": 81,
+      "done_total": 190
     }
   },
   "agents": [
@@ -47,12 +47,12 @@
       "name": "적재봇",
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
-      "state": "idle",
-      "today": 11,
+      "state": "working",
+      "today": 0,
       "hits": 0,
-      "pending": 0,
-      "last_beat": "2026-07-24T13:42:00.000+09:00",
-      "message": "11건 병합 반영 완료"
+      "pending": 81,
+      "last_beat": "2026-07-24T13:47:00.000+09:00",
+      "message": "연락처 81건 반영 중"
     },
     {
       "name": "codex-DB-노트북",
