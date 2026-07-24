@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T15:56:44+09:00",
+  "generated_at": "2026-07-24T16:02:39+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9870,
-      "hits": 1943,
+      "today": 9900,
+      "hits": 1948,
       "rate": 19.7,
-      "daily_today": 1500,
-      "daily_hits": 271
+      "daily_today": 1530,
+      "daily_hits": 276
     },
     "signal": {
       "label": "신호",
@@ -58,26 +58,26 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1905,
-      "hits": 541,
+      "today": 1920,
+      "hits": 543,
       "pending": 0,
-      "last_beat": "2026-07-24T15:52:00.000+09:00",
-      "message": "128차 1906~1920 공개 연락처 조사 시작",
-      "daily_today": 465,
-      "daily_hits": 129
+      "last_beat": "2026-07-24T16:00:00.000+09:00",
+      "message": "129차 1921~1935 공개 연락처 조사 시작",
+      "daily_today": 480,
+      "daily_hits": 131
     },
     {
       "name": "코워크-01",
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 1035,
-      "hits": 222,
+      "today": 1050,
+      "hits": 225,
       "pending": 0,
-      "last_beat": "2026-07-24T15:47:00.000+09:00",
-      "message": "배치68 완료(2881-2895), 2894건 누적. 1건 연락처 확보(마인드테크-이메일). 여기쏘/나라법길잡이연구원/다온푸드팩토리/마인드스토리/크리스탈제이드는 bizno 완전일치이나 연락처 공란, 예감에듀/해람파트너스는 moneypin 주소일치로 신원확인했으나 연락처 미확보. 나머지는 무관/미확인 결과로 미기재.",
-      "daily_today": 555,
-      "daily_hits": 103
+      "last_beat": "2026-07-24T16:00:00.000+09:00",
+      "message": "배치69 완료(2896-2910), 2909건 누적. 3건 연락처 확보(화맥-이메일, 힐스포파크-전화/이메일/홈페이지, 가치와새움-전화). 씨앤에스퍼스널컨설팅/하이초이는 뉴스기사 대표자명 일치로 신원확인, 스튜디오플러스82/스펙터미디어는 bizno/구인공고 주소일치로 신원확인했으나 연락처 미확보. 나머지는 무관/미확인 결과로 미기재.",
+      "daily_today": 570,
+      "daily_hits": 106
     },
     {
       "name": "컨택로그 에이전트1",
