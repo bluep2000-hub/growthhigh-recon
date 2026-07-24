@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T15:16:11+09:00",
+  "generated_at": "2026-07-24T15:17:38+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9690,
+      "today": 9705,
       "hits": 1922,
       "rate": 19.8,
-      "daily_today": 1320,
+      "daily_today": 1335,
       "daily_hits": 250
     },
     "signal": {
@@ -58,12 +58,12 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1815,
+      "today": 1830,
       "hits": 531,
       "pending": 0,
-      "last_beat": "2026-07-24T15:09:00.000+09:00",
-      "message": "122차 1816~1830 공개 연락처 조사 시작",
-      "daily_today": 375,
+      "last_beat": "2026-07-24T15:17:00.000+09:00",
+      "message": "123차 1831~1845 공개 연락처 조사 시작",
+      "daily_today": 390,
       "daily_hits": 119
     },
     {
