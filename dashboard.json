@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T17:07:11+09:00",
+  "generated_at": "2026-07-24T17:08:35+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 10095,
-      "hits": 1966,
+      "today": 10110,
+      "hits": 1967,
       "rate": 19.5,
-      "daily_today": 1725,
-      "daily_hits": 294
+      "daily_today": 1740,
+      "daily_hits": 295
     },
     "signal": {
       "label": "신호",
@@ -71,13 +71,13 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 1125,
-      "hits": 233,
+      "today": 1140,
+      "hits": 234,
       "pending": 0,
-      "last_beat": "2026-07-24T16:53:00.000+09:00",
-      "message": "배치74 완료(2971-2985), 2984건 누적. 1건 연락처 확보(메타라이프연구소-이메일). 계속 순차 진행 중.",
-      "daily_today": 645,
-      "daily_hits": 114
+      "last_beat": "2026-07-24T17:05:00.000+09:00",
+      "message": "배치75 완료(2986-3000), 2999건 누적. 1건 연락처 확보(가르치는사람들-전화/이메일). 계속 순차 진행 중.",
+      "daily_today": 660,
+      "daily_hits": 115
     },
     {
       "name": "컨택로그 에이전트1",
