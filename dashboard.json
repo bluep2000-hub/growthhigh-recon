@@ -1,14 +1,12 @@
 {
-  "generated_at": "2026-07-24T12:28:07+09:00",
+  "generated_at": "2026-07-24T12:29:32+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
       "today": 9015,
       "hits": 1776,
-      "rate": 19.7,
-      "daily_today": 525,
-      "daily_hits": 74
+      "rate": 19.7
     },
     "signal": {
       "label": "신호",
@@ -32,9 +30,7 @@
       "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-24T12:27:00.000+09:00",
-      "message": "통합 토큰 권한 확인 — 확인 후 삭제해도 됩니다",
-      "daily_today": 0,
-      "daily_hits": 0
+      "message": "통합 토큰 권한 확인 — 확인 후 삭제해도 됩니다"
     },
     {
       "name": "코워크-DB01",
