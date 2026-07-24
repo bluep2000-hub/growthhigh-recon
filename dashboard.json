@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T20:04:08+09:00",
+  "generated_at": "2026-07-24T20:08:47+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 10260,
+      "today": 10275,
       "hits": 1980,
       "rate": 19.3,
-      "daily_today": 1890,
+      "daily_today": 1905,
       "daily_hits": 308
     },
     "signal": {
@@ -32,12 +32,12 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 7110,
+      "today": 7125,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-24T20:00:00.000+09:00",
-      "message": "batch66 완료(7097-7111): 완전확정 9, 부분확인 2, 신원미확정 4. 구글 CAPTCHA가 새 브라우저에서도 재발하여(row 7098~) bizno.net 단독 조사로 전환. 누적 7110/11898건 완료(email 1190/phone 439/web 1507). 계속 진행",
-      "daily_today": 660,
+      "last_beat": "2026-07-24T20:04:00.000+09:00",
+      "message": "batch67 완료(7112-7126): 완전확정 15/15(전건). 구글 CAPTCHA 지속으로 bizno.net 단독 조사, 이번 배치는 전건 주소/대표자 이니셜 일치로 확정. 누적 7125/11898건 완료(email 1190/phone 439/web 1507). 계속 진행",
+      "daily_today": 675,
       "daily_hits": 49
     },
     {
