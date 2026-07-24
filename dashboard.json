@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T09:22:07+09:00",
+  "generated_at": "2026-07-24T09:25:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -11,7 +11,7 @@
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 0
+      "today": 358
     },
     "load": {
       "label": "적재",
@@ -69,12 +69,12 @@
       "name": "컨택로그 에이전트1",
       "stage": "signal",
       "machine": "데스크톱 A",
-      "state": "working",
-      "today": 0,
-      "hits": 0,
+      "state": "idle",
+      "today": 358,
+      "hits": 110,
       "pending": 0,
-      "last_beat": "2026-07-23T19:53:00.000+09:00",
-      "message": "[수상]한국제어기술 2026우수특허대상+세계최초예압체인(26.7), [투자]한국회원권거래소 엔젤투자유치, [판로]한국드라이어 HARFKO2024전시참가"
+      "last_beat": "2026-07-24T09:21:00.000+09:00",
+      "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판"
     }
   ]
 }
