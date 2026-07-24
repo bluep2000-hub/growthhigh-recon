@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T13:38:42+09:00",
+  "generated_at": "2026-07-24T13:40:10+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9300,
-      "hits": 1851,
+      "today": 9315,
+      "hits": 1853,
       "rate": 19.9,
-      "daily_today": 930,
-      "daily_hits": 179
+      "daily_today": 945,
+      "daily_hits": 181
     },
     "signal": {
       "label": "신호",
@@ -32,13 +32,13 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6810,
-      "hits": 1169,
+      "today": 6825,
+      "hits": 1171,
       "pending": 0,
-      "last_beat": "2026-07-24T13:26:00.000+09:00",
-      "message": "배치46 완료(6797~6811, 15건). (주)에스와이컴퍼니(email), (주)이케이컴퍼니, 씨케이오(주), (주)엘씨광학, (주)이천리, (주)비즈블라, 더웰마켓(주)(phone+homepage), (주)월드폼, (주)혜명씨인포(phone+homepage), (주)코스트릭스, (주)아인디앤씨 등 신원 완전확정. (주)메타픽셀은 동명 유명인사(스타일리",
-      "daily_today": 360,
-      "daily_hits": 28
+      "last_beat": "2026-07-24T13:39:00.000+09:00",
+      "message": "배치47 완료(6812~6826, 15건). (주)더블유제이컴퍼니(email+phone+homepage), (주)리홈솔루션(email+phone+homepage), (주)팜팜(phone), 더웰마켓 등 다수 신원 완전확정. (주)장한은 동명이업체 다수로 신원 미확정. 누적: done=6825/11898, email=1171, phone=410, web=14",
+      "daily_today": 375,
+      "daily_hits": 30
     },
     {
       "name": "적재봇",
