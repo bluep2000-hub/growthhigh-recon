@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-25T03:15:05+09:00",
+  "generated_at": "2026-07-25T03:18:04+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8595,
+      "today": 8610,
       "hits": 1190,
       "rate": 13.8
     },
@@ -37,11 +37,11 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 8595,
+      "today": 8610,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-25T03:11:00.000+09:00",
-      "message": "배치165 완료 (rows 8582-8596): 경기 신설법인 리서치 8595건 완료 / 이메일 1190건 확보. bizno.net 검색 기반 신원 확정 계속 진행 중."
+      "last_beat": "2026-07-25T03:15:00.000+09:00",
+      "message": "배치166 완료 (rows 8597-8611): 경기 신설법인 리서치 8610건 완료 / 이메일 1190건 확보. bizno.net 검색 기반 신원 확정 계속 진행 중."
     },
     {
       "name": "적재봇",
