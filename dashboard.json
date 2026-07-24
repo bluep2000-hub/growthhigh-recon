@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T12:34:07+09:00",
+  "generated_at": "2026-07-24T12:35:38+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9015,
-      "hits": 1776,
+      "today": 9045,
+      "hits": 1785,
       "rate": 19.7,
-      "daily_today": 525,
-      "daily_hits": 74
+      "daily_today": 375,
+      "daily_hits": 88
     },
     "signal": {
       "label": "신호",
@@ -71,26 +71,26 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1530,
-      "hits": 437,
+      "today": 1545,
+      "hits": 442,
       "pending": 0,
-      "last_beat": "2026-07-24T12:24:00.000+09:00",
-      "message": "103차 1531~1545 공개 연락처 조사 시작",
-      "daily_today": 90,
-      "daily_hits": 25
+      "last_beat": "2026-07-24T12:35:00.000+09:00",
+      "message": "104차 1546~1560 공개 연락처 조사 시작",
+      "daily_today": 105,
+      "daily_hits": 30
     },
     {
       "name": "코워크-01",
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 735,
-      "hits": 173,
+      "today": 750,
+      "hits": 177,
       "pending": 0,
-      "last_beat": "2026-07-24T12:16:00.000+09:00",
-      "message": "배치49 완료(2596-2610), 2609건 누적. 8건 이메일 확보(디디에이치,런잇-홈페이지도,레이라이즈,리딕션-홈페이지도,메종씨피씨-자사몰 010휴대폰+이메일,명이엠비,브이엘티머터리얼즈-홈페이지도). 모두 bizno.net 직접조회로 대표자명+주소 완전일치 확인. 나머지는 무관/미확인 결과로 미기재.",
-      "daily_today": 255,
-      "daily_hits": 54
+      "last_beat": "2026-07-24T12:32:00.000+09:00",
+      "message": "배치50 완료(2611-2625), 2624건 누적. 4건 연락처 확보(아드피넴-자사몰 전화+이메일, 아리스타랩-bizno 이메일, 에이아이부자학교-bizno 이메일+자사몰 홈페이지, 온프북스-bizno 전화+이메일). 소태우/썬업글로벌(대표자불일치로 반려)/아디안텀(대표자·지역불일치)/아이모스/에스디씨글로벌(기존업체)/에스제이포애몽(지역만일치)/엔유그로스",
+      "daily_today": 270,
+      "daily_hits": 58
     },
     {
       "name": "컨택로그 에이전트1",
