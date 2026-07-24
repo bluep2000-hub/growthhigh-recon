@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-24T15:51:04+09:00",
+  "generated_at": "2026-07-24T15:54:04+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9840,
+      "today": 9855,
       "hits": 1941,
       "rate": 19.7
     },
@@ -59,11 +59,11 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1890,
+      "today": 1905,
       "hits": 541,
       "pending": 0,
-      "last_beat": "2026-07-24T15:46:00.000+09:00",
-      "message": "127차 1891~1905 공개 연락처 조사 시작"
+      "last_beat": "2026-07-24T15:52:00.000+09:00",
+      "message": "128차 1906~1920 공개 연락처 조사 시작"
     },
     {
       "name": "코워크-01",
