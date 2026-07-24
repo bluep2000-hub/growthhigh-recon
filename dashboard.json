@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T20:23:34+09:00",
+  "generated_at": "2026-07-24T20:28:10+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 10365,
+      "today": 10380,
       "hits": 1984,
       "rate": 19.1,
-      "daily_today": 1995,
+      "daily_today": 2010,
       "daily_hits": 312
     },
     "signal": {
@@ -32,12 +32,12 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 7185,
+      "today": 7200,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-24T20:19:00.000+09:00",
-      "message": "batch71 완료(7172-7186): 완전확정 11, 신원미확정 4. bizno.net 단독 조사 지속. 누적 7185/11898건 완료(email 1190/phone 439/web 1507). 계속 진행",
-      "daily_today": 735,
+      "last_beat": "2026-07-24T20:26:00.000+09:00",
+      "message": "배치72 완료 (7187-7201), 누적 7200/11898건, 이메일 1190건/전화 439건/홈페이지 1507건",
+      "daily_today": 750,
       "daily_hits": 49
     },
     {
