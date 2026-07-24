@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-24T20:32:33+09:00",
+  "generated_at": "2026-07-24T20:37:10+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 10410,
+      "today": 10425,
       "hits": 1987,
       "rate": 19.1,
-      "daily_today": 2040,
+      "daily_today": 2055,
       "daily_hits": 315
     },
     "signal": {
@@ -32,12 +32,12 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 7215,
+      "today": 7230,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-24T20:30:00.000+09:00",
-      "message": "배치73 완료 (7202-7216), 누적 7215/11898건, 이메일 1190건/전화 439건/홈페이지 1507건",
-      "daily_today": 765,
+      "last_beat": "2026-07-24T20:34:00.000+09:00",
+      "message": "배치74 완료 (7217-7231), 누적 7230/11898건, 이메일 1190건/전화 439건/홈페이지 1507건",
+      "daily_today": 780,
       "daily_hits": 49
     },
     {
