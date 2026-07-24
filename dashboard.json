@@ -1,23 +1,29 @@
 {
-  "generated_at": "2026-07-24T12:20:34+09:00",
+  "generated_at": "2026-07-24T12:22:06+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
       "today": 8985,
       "hits": 1772,
-      "rate": 19.7
+      "rate": 19.7,
+      "daily_today": 495,
+      "daily_hits": 70
     },
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 358
+      "today": 358,
+      "daily_today": 13,
+      "daily_hits": 3
     },
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
       "pending": 0,
-      "done_total": 159
+      "done_total": 159,
+      "daily_today": 0,
+      "daily_hits": 0
     }
   },
   "agents": [
@@ -43,7 +49,9 @@
       "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-23T16:41:00.000+09:00",
-      "message": "64건 병합 반영 완료"
+      "message": "64건 병합 반영 완료",
+      "daily_today": 0,
+      "daily_hits": 0
     },
     {
       "name": "codex-DB-노트북",
@@ -67,7 +75,9 @@
       "hits": 173,
       "pending": 0,
       "last_beat": "2026-07-24T12:16:00.000+09:00",
-      "message": "배치49 완료(2596-2610), 2609건 누적. 8건 이메일 확보(디디에이치,런잇-홈페이지도,레이라이즈,리딕션-홈페이지도,메종씨피씨-자사몰 010휴대폰+이메일,명이엠비,브이엘티머터리얼즈-홈페이지도). 모두 bizno.net 직접조회로 대표자명+주소 완전일치 확인. 나머지는 무관/미확인 결과로 미기재."
+      "message": "배치49 완료(2596-2610), 2609건 누적. 8건 이메일 확보(디디에이치,런잇-홈페이지도,레이라이즈,리딕션-홈페이지도,메종씨피씨-자사몰 010휴대폰+이메일,명이엠비,브이엘티머터리얼즈-홈페이지도). 모두 bizno.net 직접조회로 대표자명+주소 완전일치 확인. 나머지는 무관/미확인 결과로 미기재.",
+      "daily_today": 180,
+      "daily_hits": 37
     },
     {
       "name": "컨택로그 에이전트1",
@@ -78,7 +88,9 @@
       "hits": 110,
       "pending": 0,
       "last_beat": "2026-07-24T09:21:00.000+09:00",
-      "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판"
+      "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판",
+      "daily_today": 13,
+      "daily_hits": 3
     }
   ]
 }
