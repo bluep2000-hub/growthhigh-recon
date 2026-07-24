@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T00:04:09+09:00",
+  "generated_at": "2026-07-25T00:05:33+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -7,8 +7,8 @@
       "today": 7965,
       "hits": 1190,
       "rate": 14.9,
-      "daily_today": 1296,
-      "daily_hits": 267
+      "daily_today": 15,
+      "daily_hits": 0
     },
     "signal": {
       "label": "신호",
