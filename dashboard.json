@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T14:14:50+09:00",
+  "generated_at": "2026-07-24T14:16:11+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9450,
-      "hits": 1879,
+      "today": 9465,
+      "hits": 1882,
       "rate": 19.9,
-      "daily_today": 1080,
-      "daily_hits": 207
+      "daily_today": 1095,
+      "daily_hits": 210
     },
     "signal": {
       "label": "신호",
@@ -32,13 +32,13 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6840,
-      "hits": 1173,
+      "today": 6855,
+      "hits": 1176,
       "pending": 0,
-      "last_beat": "2026-07-24T13:57:00.000+09:00",
-      "message": "배치48 완료(6827-6841, 15건): 케이브인터내셔널(주)/이앤에스개발/으뜸컴퍼니 등 완전확정 다수, 농업회사법인 가루매(양평가루매마을) email+phone 확보, 보건산업최고경영자회의 신원미확정. 누적 6840/11898건, 이메일 1173건, 전화 412건, 홈페이지 1486건",
-      "daily_today": 390,
-      "daily_hits": 32
+      "last_beat": "2026-07-24T14:13:00.000+09:00",
+      "message": "배치49 완료(6842-6856, 15건): (주)아페토월드(affetto.com email+phone+homepage), (주)노벨푸드(ricemax.net email+phone+homepage), (주)복플레이스(bokplace.com email+phone+homepage) 등 트리플히트 다수. 두진중공업/엠시티글로벌/자람테크/데스펙트라/글로벌세미 등 ",
+      "daily_today": 405,
+      "daily_hits": 35
     },
     {
       "name": "적재봇",
