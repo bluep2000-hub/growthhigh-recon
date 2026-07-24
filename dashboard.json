@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-25T01:26:33+09:00",
+  "generated_at": "2026-07-25T01:28:10+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8250,
+      "today": 8265,
       "hits": 1190,
       "rate": 14.4,
-      "daily_today": 300,
+      "daily_today": 315,
       "daily_hits": 0
     },
     "signal": {
@@ -32,12 +32,12 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 8250,
+      "today": 8265,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-25T01:23:00.000+09:00",
-      "message": "배치142 완료 (8237-8251, 15건). 완전확정 6건, 부분확인 3건, 미확정 6건. 누적 8250/11898건 진행, 이메일 1190건 확보. 배치143 계속 진행 중.",
-      "daily_today": 300,
+      "last_beat": "2026-07-25T01:27:00.000+09:00",
+      "message": "배치143 완료 (8252-8266, 15건). 완전확정 10건, 부분확인 1건, 미확정 4건. 누적 8265/11898건 진행, 이메일 1190건 확보. 배치144 계속 진행 중.",
+      "daily_today": 315,
       "daily_hits": 0
     },
     {
