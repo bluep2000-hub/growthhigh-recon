@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T13:49:08+09:00",
+  "generated_at": "2026-07-24T13:50:40+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9330,
-      "hits": 1854,
+      "today": 9360,
+      "hits": 1862,
       "rate": 19.9,
-      "daily_today": 960,
-      "daily_hits": 182
+      "daily_today": 990,
+      "daily_hits": 190
     },
     "signal": {
       "label": "신호",
@@ -58,26 +58,26 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1650,
-      "hits": 487,
+      "today": 1665,
+      "hits": 494,
       "pending": 0,
-      "last_beat": "2026-07-24T13:39:00.000+09:00",
-      "message": "111차 1651~1665 공개 연락처 조사 시작",
-      "daily_today": 210,
-      "daily_hits": 75
+      "last_beat": "2026-07-24T13:49:00.000+09:00",
+      "message": "112차 1666~1680 공개 연락처 조사 시작",
+      "daily_today": 225,
+      "daily_hits": 82
     },
     {
       "name": "코워크-01",
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 855,
-      "hits": 196,
+      "today": 870,
+      "hits": 197,
       "pending": 0,
-      "last_beat": "2026-07-24T13:38:00.000+09:00",
-      "message": "배치57 완료(2716-2730), 2729건 누적. 1건 연락처 확보(천지홀딩스-bizno 전화). 이랑건설/다온플랫폼/코어링크네트워크/투모로우엑스는 bizno 비공개 또는 주소일치(moneypin/cookiedeal)로 신원확인했으나 연락처 미확보. 나머지는 무관/미확인 결과로 미기재.",
-      "daily_today": 375,
-      "daily_hits": 77
+      "last_beat": "2026-07-24T13:47:00.000+09:00",
+      "message": "배치58 완료(2731-2745), 2744건 누적. 1건 연락처 확보(마이가다이내믹스-bizno 대표자명·주소일치, 이메일+홈페이지). 후앤컴퍼니/아시아그린인프라/노바넥서스는 bizno/marketbz 주소일치로 신원확인했으나 연락처 미확보. 나머지는 무관/미확인 결과로 미기재.",
+      "daily_today": 390,
+      "daily_hits": 78
     },
     {
       "name": "컨택로그 에이전트1",
