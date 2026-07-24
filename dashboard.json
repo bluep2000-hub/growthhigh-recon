@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-25T02:27:05+09:00",
+  "generated_at": "2026-07-25T02:30:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8460,
+      "today": 8475,
       "hits": 1190,
-      "rate": 14.1
+      "rate": 14.0
     },
     "signal": {
       "label": "신호",
@@ -37,11 +37,11 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 8460,
+      "today": 8475,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-25T02:23:00.000+09:00",
-      "message": "배치156 완료(8447-8461, 12건 완전확정/1건 부분확인/2건 미확정). 누적 done=8460/11898, email=1190, phone=439, web=1507. 배치157 진행 예정(8462-8476)."
+      "last_beat": "2026-07-25T02:27:00.000+09:00",
+      "message": "배치157 완료(8462-8476, 8건 완전확정/0건 부분확인/7건 미확정). 누적 done=8475/11898, email=1190, phone=439, web=1507. 배치158 진행 예정(8477-8491)."
     },
     {
       "name": "적재봇",
