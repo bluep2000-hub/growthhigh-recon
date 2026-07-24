@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T14:19:10+09:00",
+  "generated_at": "2026-07-24T14:23:42+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9465,
-      "hits": 1882,
+      "today": 9495,
+      "hits": 1894,
       "rate": 19.9,
-      "daily_today": 1095,
-      "daily_hits": 210
+      "daily_today": 1125,
+      "daily_hits": 222
     },
     "signal": {
       "label": "신호",
@@ -58,26 +58,26 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1710,
-      "hits": 506,
+      "today": 1725,
+      "hits": 516,
       "pending": 0,
-      "last_beat": "2026-07-24T14:14:00.000+09:00",
-      "message": "115차 1711~1725 공개 연락처 조사 시작",
-      "daily_today": 270,
-      "daily_hits": 94
+      "last_beat": "2026-07-24T14:23:00.000+09:00",
+      "message": "116차 1726~1740 공개 연락처 조사 시작",
+      "daily_today": 285,
+      "daily_hits": 104
     },
     {
       "name": "코워크-01",
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 900,
-      "hits": 200,
+      "today": 915,
+      "hits": 202,
       "pending": 0,
-      "last_beat": "2026-07-24T14:11:00.000+09:00",
-      "message": "배치60 완료(2761-2775), 2774건 누적. 2건 연락처 확보(온코밀-이메일, 새결회계법인-전화). 선웨이로지스틱스/넥스트베이/유니콘빌딩관리단/엔제이세이프티/아쿠아웰니스랩은 moneypin/bizno 주소일치 또는 대표자명 언론확인으로 신원확인했으나 연락처 미확보. 나머지는 무관/미확인 결과로 미기재.",
-      "daily_today": 420,
-      "daily_hits": 81
+      "last_beat": "2026-07-24T14:21:00.000+09:00",
+      "message": "배치61 완료(2776-2790), 2789건 누적. 2건 연락처 확보(회계법인리파인드-전화, 정률회계법인-전화). 회계법인대륙아주/회계법인산/펜타스트/디씨지시스템/엑시스랩은 bizno/moneypin/marketbz/사람인 주소일치 또는 대표자명 언론확인으로 신원확인했으나 연락처 미확보. 나머지는 무관/미확인 결과로 미기재.",
+      "daily_today": 435,
+      "daily_hits": 83
     },
     {
       "name": "컨택로그 에이전트1",
