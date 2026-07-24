@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T11:01:07+09:00",
+  "generated_at": "2026-07-24T11:04:14+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8775,
-      "hits": 1732,
+      "today": 8790,
+      "hits": 1736,
       "rate": 19.7,
-      "daily_today": 105,
-      "daily_hits": 22
+      "daily_today": 120,
+      "daily_hits": 26
     },
     "signal": {
       "label": "신호",
@@ -32,13 +32,13 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6660,
-      "hits": 1153,
+      "today": 6675,
+      "hits": 1157,
       "pending": 0,
-      "last_beat": "2026-07-24T10:44:00.000+09:00",
-      "message": "배치36 완료(6647-6661, 15건). (주)삼호 전화/이메일 확보, (주)엘브이에이아이 전화/이메일 확보. 다수 동명 데코이 배제(에이에치코리아(주), 디자인루카, 초이스데이 알리익스프레스 프로모션 등). 누적 6660/11898건 완료.",
-      "daily_today": 30,
-      "daily_hits": 4
+      "last_beat": "2026-07-24T11:02:00.000+09:00",
+      "message": "배치37 완료(6662-6676, 15건). 자사 홈페이지 3건(와이그래픽스/블루하이브/이코미 등) 트리플 히트, 부분확인 1건, 신원미확정 1건((주)아이론).",
+      "daily_today": 45,
+      "daily_hits": 8
     },
     {
       "name": "적재봇",
