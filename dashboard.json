@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T12:56:37+09:00",
+  "generated_at": "2026-07-24T12:58:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -7,8 +7,8 @@
       "today": 9120,
       "hits": 1800,
       "rate": 19.7,
-      "daily_today": 750,
-      "daily_hits": 128
+      "daily_today": 375,
+      "daily_hits": 40
     },
     "signal": {
       "label": "신호",
@@ -63,8 +63,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T12:56:00.000+09:00",
       "message": "105차 1561~1575 공개 연락처 교차검증 재개",
-      "daily_today": 120,
-      "daily_hits": 36
+      "daily_today": 15,
+      "daily_hits": 6
     },
     {
       "name": "코워크-01",
@@ -76,8 +76,8 @@
       "pending": 0,
       "last_beat": "2026-07-24T12:51:00.000+09:00",
       "message": "배치52 완료(2641-2655), 2654건 누적. 4건 연락처 확보(김앤박컴퍼니-bizno 이메일, 노블리아-bizno 이메일, 다잇아이티-bizno 이메일, 무브웰-bizno 대표자명일치+자사몰 010휴대폰+이메일). 말을탄원숭이는 bizno 주소일치하나 연락처 미확보. 뉴리디파인은 동일대표자의 폐업한 이전 개인사업자만 확인, 신규법인 정보 미확보. ",
-      "daily_today": 300,
-      "daily_hits": 65
+      "daily_today": 30,
+      "daily_hits": 7
     },
     {
       "name": "컨택로그 에이전트1",
