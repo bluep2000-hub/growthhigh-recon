@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-25T01:54:05+09:00",
+  "generated_at": "2026-07-25T01:57:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8340,
+      "today": 8355,
       "hits": 1190,
-      "rate": 14.3
+      "rate": 14.2
     },
     "signal": {
       "label": "신호",
@@ -37,11 +37,11 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 8340,
+      "today": 8355,
       "hits": 1190,
       "pending": 0,
-      "last_beat": "2026-07-25T01:50:00.000+09:00",
-      "message": "배치148 완료 (rows 8327-8341), 경기 신설법인 리서치 진행중 (8340/11898)"
+      "last_beat": "2026-07-25T01:53:00.000+09:00",
+      "message": "배치149 완료 (rows 8342-8356), 경기 신설법인 리서치 진행중 (8355/11898)"
     },
     {
       "name": "적재봇",
