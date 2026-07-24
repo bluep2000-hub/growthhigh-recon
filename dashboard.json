@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T20:10:23+09:00",
+  "generated_at": "2026-07-24T20:11:37+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 10290,
-      "hits": 1980,
+      "today": 10305,
+      "hits": 1983,
       "rate": 19.2,
-      "daily_today": 1920,
-      "daily_hits": 308
+      "daily_today": 1935,
+      "daily_hits": 311
     },
     "signal": {
       "label": "신호",
@@ -71,13 +71,13 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 1200,
-      "hits": 243,
+      "today": 1215,
+      "hits": 246,
       "pending": 0,
-      "last_beat": "2026-07-24T19:58:00.000+09:00",
-      "message": "배치79 완료(3046-3060), 3059건 누적. 2건 연락처 확보(신우컨설팅솔루션-이메일, 엑스넥스-이메일). 계속 순차 진행 중.",
-      "daily_today": 720,
-      "daily_hits": 124
+      "last_beat": "2026-07-24T20:10:00.000+09:00",
+      "message": "배치80 완료(3061-3075), 3074건 누적. 3건 연락처 확보(만사스튜디오-홈페이지, 소마픽-이메일/홈페이지, 씨넥스-전화). 계속 순차 진행 중.",
+      "daily_today": 735,
+      "daily_hits": 127
     },
     {
       "name": "컨택로그 에이전트1",
