@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-24T23:54:05+09:00",
+  "generated_at": "2026-07-25T00:00:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 11136,
-      "hits": 1988,
-      "rate": 17.9
+      "today": 0,
+      "hits": 0,
+      "rate": 0.0
     },
     "signal": {
       "label": "신호",
       "skill": "ta-contact-memo",
-      "today": 358
+      "today": 0
     },
     "load": {
       "label": "적재",
@@ -37,18 +37,18 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 7935,
-      "hits": 1190,
+      "today": 0,
+      "hits": 0,
       "pending": 0,
-      "last_beat": "2026-07-24T23:51:00.000+09:00",
-      "message": "배치121 완료 (rows 7922-7936, 13 완전확정/0 부분확인/2 미확정). 누적 7935/11898건 진행, 이메일 1190건 확보."
+      "last_beat": "2026-07-24T23:56:00.000+09:00",
+      "message": "배치122 완료 (rows 7937-7951, 7 완전확정/2 부분확인/6 미확정). 누적 7950/11898건 진행."
     },
     {
       "name": "적재봇",
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
       "state": "idle",
-      "today": 81,
+      "today": 0,
       "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-24T13:51:00.000+09:00",
@@ -59,8 +59,8 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 1950,
-      "hits": 547,
+      "today": 0,
+      "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-24T16:18:00.000+09:00",
       "message": "131차 1951~1965 공개 연락처 조사 시작"
@@ -70,8 +70,8 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 1251,
-      "hits": 251,
+      "today": 0,
+      "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-24T20:39:00.000+09:00",
       "message": "배치83(최종) 완료(3106-3111), 3110건 전체 완료! 전체 3110행 데이터셋 리서치 100% 완료. 1건 연락처 확보(팅민크리에이티브-이메일). 3111행(허니기프트)이 누락되어 있던 것을 발견해 함께 처리 완료."
@@ -81,8 +81,8 @@
       "stage": "signal",
       "machine": "데스크톱 A",
       "state": "idle",
-      "today": 358,
-      "hits": 110,
+      "today": 0,
+      "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-24T09:21:00.000+09:00",
       "message": "전체 868건 리서치 완료 (867 완료 + 1 타임아웃). [수상]헥사랩스 4차산업PowerKorea대상+DEFCON수상팀, [판로]휘게체어 와디즈크라우드펀딩 완판"
