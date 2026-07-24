@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T12:50:33+09:00",
+  "generated_at": "2026-07-24T12:53:37+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 9090,
-      "hits": 1796,
+      "today": 9105,
+      "hits": 1800,
       "rate": 19.8,
-      "daily_today": 720,
-      "daily_hits": 124
+      "daily_today": 735,
+      "daily_hits": 128
     },
     "signal": {
       "label": "신호",
@@ -84,13 +84,13 @@
       "stage": "collect",
       "machine": "박재현 노트북",
       "state": "working",
-      "today": 765,
-      "hits": 180,
+      "today": 780,
+      "hits": 184,
       "pending": 0,
-      "last_beat": "2026-07-24T12:40:00.000+09:00",
-      "message": "배치51 완료(2626-2640), 2639건 누적. 3건 연락처 확보(장수온돌-bizno 전화+이메일+스마트스토어, 제이케이플러스자산관리-bizno 이메일, 카비엘컴퍼니-bizno 이메일). 클린타투뷰티랩은 공식 인스타그램으로 주소일치 확인, 카카오채널만 확보(이메일/전화 없음). 케이하우스그룹은 moneypin 주소일치하나 연락처 미확보. 이리/인겐스/",
-      "daily_today": 285,
-      "daily_hits": 61
+      "last_beat": "2026-07-24T12:51:00.000+09:00",
+      "message": "배치52 완료(2641-2655), 2654건 누적. 4건 연락처 확보(김앤박컴퍼니-bizno 이메일, 노블리아-bizno 이메일, 다잇아이티-bizno 이메일, 무브웰-bizno 대표자명일치+자사몰 010휴대폰+이메일). 말을탄원숭이는 bizno 주소일치하나 연락처 미확보. 뉴리디파인은 동일대표자의 폐업한 이전 개인사업자만 확인, 신규법인 정보 미확보. ",
+      "daily_today": 300,
+      "daily_hits": 65
     },
     {
       "name": "컨택로그 에이전트1",
