@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T11:16:07+09:00",
+  "generated_at": "2026-07-24T11:19:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8790,
-      "hits": 1736,
-      "rate": 19.7,
-      "daily_today": 120,
-      "daily_hits": 26
+      "today": 8805,
+      "hits": 1741,
+      "rate": 19.8,
+      "daily_today": 135,
+      "daily_hits": 31
     },
     "signal": {
       "label": "신호",
@@ -32,13 +32,13 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 6675,
-      "hits": 1157,
+      "today": 6690,
+      "hits": 1162,
       "pending": 0,
-      "last_beat": "2026-07-24T11:02:00.000+09:00",
-      "message": "배치37 완료(6662-6676, 15건). 자사 홈페이지 3건(와이그래픽스/블루하이브/이코미 등) 트리플 히트, 부분확인 1건, 신원미확정 1건((주)아이론).",
-      "daily_today": 45,
-      "daily_hits": 8
+      "last_beat": "2026-07-24T11:17:00.000+09:00",
+      "message": "배치38 완료(6677-6691, 15건). 자사 홈페이지/G마켓/사업자정보 기반 다수 트리플 히트(잭솔루션/우리메탈코리아/일로밀로/에르디아대화학교/에스케이엔제이디 등).",
+      "daily_today": 60,
+      "daily_hits": 13
     },
     {
       "name": "적재봇",
