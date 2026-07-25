@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-25T23:51:04+09:00",
+  "generated_at": "2026-07-26T00:00:13+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 8835,
-      "hits": 1190,
-      "rate": 13.5
+      "today": 0,
+      "hits": 0,
+      "rate": 0.0
     },
     "signal": {
       "label": "신호",
@@ -37,8 +37,8 @@
       "stage": "collect",
       "machine": "데스크톱 A",
       "state": "working",
-      "today": 8835,
-      "hits": 1190,
+      "today": 0,
+      "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-25T04:22:00.000+09:00",
       "message": "batch181 완료 (rows 8822-8836). 신규 연락처 없음, 신원 확인만 진행."
