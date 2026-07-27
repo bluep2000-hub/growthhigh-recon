@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-27T17:13:08+09:00",
+  "generated_at": "2026-07-27T17:19:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 2685,
-      "hits": 732,
-      "rate": 27.3,
-      "daily_today": 735,
-      "daily_hits": 185
+      "today": 2700,
+      "hits": 734,
+      "rate": 27.2,
+      "daily_today": 750,
+      "daily_hits": 187
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 2685,
-      "hits": 732,
+      "today": 2700,
+      "hits": 734,
       "pending": 0,
-      "last_beat": "2026-07-27T17:10:00.000+09:00",
-      "message": "세션 시작: 배치 180, 2,686~2,700번 수집 시작",
-      "daily_today": 735,
-      "daily_hits": 185
+      "last_beat": "2026-07-27T17:17:00.000+09:00",
+      "message": "배치 180 완료: 2,700건 처리, 씨씨씨에프앤비 010번호·더이룸하우스 연락처 확보; 배치 181 준비",
+      "daily_today": 750,
+      "daily_hits": 187
     },
     {
       "name": "코워크-01",
