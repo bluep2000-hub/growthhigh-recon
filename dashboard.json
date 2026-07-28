@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-28T11:55:08+09:00",
+  "generated_at": "2026-07-28T12:06:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 2925,
-      "hits": 754,
-      "rate": 25.8,
-      "daily_today": 975,
-      "daily_hits": 207
+      "today": 2940,
+      "hits": 761,
+      "rate": 25.9,
+      "daily_today": 990,
+      "daily_hits": 214
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 2925,
-      "hits": 754,
+      "today": 2940,
+      "hits": 761,
       "pending": 0,
-      "last_beat": "2026-07-28T11:53:00.000+09:00",
-      "message": "배치 195 완료: 2911~2925 처리, 랑브루·에스파이온코리아·윈드에듀 연락 경로 확보",
-      "daily_today": 975,
-      "daily_hits": 207
+      "last_beat": "2026-07-28T12:04:00.000+09:00",
+      "message": "배치 196 완료: 2926~2940 처리, 휴대전화·안심번호 우선으로 7개사 연락 경로 확보",
+      "daily_today": 990,
+      "daily_hits": 214
     },
     {
       "name": "코워크-01",
