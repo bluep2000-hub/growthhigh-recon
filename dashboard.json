@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T09:37:09+09:00",
+  "generated_at": "2026-07-28T09:45:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -57,12 +57,12 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "working",
+      "state": "error",
       "today": 2865,
       "hits": 749,
       "pending": 0,
-      "last_beat": "2026-07-28T09:31:00.000+09:00",
-      "message": "세션 재개: 배치192 2,866~2,880번 공개 연락처 수집 시작",
+      "last_beat": "2026-07-28T09:43:00.000+09:00",
+      "message": "배치192 부분수집: 2,866~2,867번 검색 결과 임시 보존, Chrome 반복 타임아웃·세션 초기화로 2,868~2,880번 대기",
       "daily_today": 915,
       "daily_hits": 202
     },
