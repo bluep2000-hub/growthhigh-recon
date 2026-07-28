@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-28T23:59:53+09:00",
+  "generated_at": "2026-07-29T00:00:06+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 3510,
-      "hits": 829,
-      "rate": 23.6,
+      "today": 0,
+      "hits": 0,
+      "rate": 0.0,
       "daily_today": 1560,
       "daily_hits": 282
     },
@@ -45,7 +45,7 @@
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
       "state": "idle",
-      "today": 2,
+      "today": 0,
       "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-28T15:49:00.000+09:00",
@@ -58,8 +58,8 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "error",
-      "today": 3510,
-      "hits": 829,
+      "today": 0,
+      "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-28T18:57:00.000+09:00",
       "message": "배치 235 수집 중 Chrome 연결 종료: 3515번부터 재연결 대기, 결과 파일 미변경",
