@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T18:58:07+09:00",
+  "generated_at": "2026-07-28T19:00:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -57,12 +57,12 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "working",
+      "state": "error",
       "today": 3510,
       "hits": 829,
       "pending": 0,
-      "last_beat": "2026-07-28T18:53:00.000+09:00",
-      "message": "자동 연속 진행: 배치 235, 3511번부터 수집 시작",
+      "last_beat": "2026-07-28T18:57:00.000+09:00",
+      "message": "배치 235 수집 중 Chrome 연결 종료: 3515번부터 재연결 대기, 결과 파일 미변경",
       "daily_today": 1560,
       "daily_hits": 282
     },
