@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-28T14:13:08+09:00",
+  "generated_at": "2026-07-28T14:18:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 3105,
+      "today": 3120,
       "hits": 777,
-      "rate": 25.0,
-      "daily_today": 1155,
+      "rate": 24.9,
+      "daily_today": 1170,
       "daily_hits": 230
     },
     "signal": {
@@ -58,12 +58,12 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 3105,
+      "today": 3120,
       "hits": 777,
       "pending": 0,
-      "last_beat": "2026-07-28T14:09:00.000+09:00",
-      "message": "세션 재개: 배치 208, 3106번부터 수집 시작",
-      "daily_today": 1155,
+      "last_beat": "2026-07-28T14:17:00.000+09:00",
+      "message": "세션 재개: 배치 209, 3121번부터 수집 시작",
+      "daily_today": 1170,
       "daily_hits": 230
     },
     {
