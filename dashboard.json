@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-28T12:10:07+09:00",
+  "generated_at": "2026-07-28T12:18:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 2940,
-      "hits": 761,
+      "today": 2955,
+      "hits": 764,
       "rate": 25.9,
-      "daily_today": 990,
-      "daily_hits": 214
+      "daily_today": 1005,
+      "daily_hits": 217
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 2940,
-      "hits": 761,
+      "today": 2955,
+      "hits": 764,
       "pending": 0,
-      "last_beat": "2026-07-28T12:07:00.000+09:00",
-      "message": "Chrome 재연결 후 배치 197 재개 준비: 누적 2940건부터 계속",
-      "daily_today": 990,
-      "daily_hits": 214
+      "last_beat": "2026-07-28T12:16:00.000+09:00",
+      "message": "배치 197 완료: 2941~2955 처리, 호가파트너스·위드제이코칭·피앤알아트스튜디오 연락 경로 확보",
+      "daily_today": 1005,
+      "daily_hits": 217
     },
     {
       "name": "코워크-01",
