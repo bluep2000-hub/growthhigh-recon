@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T10:43:09+09:00",
+  "generated_at": "2026-07-28T10:54:06+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -57,12 +57,12 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "error",
+      "state": "working",
       "today": 2865,
       "hits": 749,
       "pending": 0,
-      "last_beat": "2026-07-28T10:41:00.000+09:00",
-      "message": "배치192 재개 3차 실패: 롤링모션 Bing 탭 확인 후 화면 캡처 단계에서 Chrome 세션 초기화; 동일 장애 3회 연속, 체크포인트 유지",
+      "last_beat": "2026-07-28T10:51:00.000+09:00",
+      "message": "사용자 재개 요청: 갱신된 Chrome 플러그인으로 배치192 2,868~2,880번 수집 재시작",
       "daily_today": 915,
       "daily_hits": 202
     },
