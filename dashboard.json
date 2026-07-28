@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-28T09:19:15+09:00",
+  "generated_at": "2026-07-28T09:24:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 2835,
-      "hits": 747,
-      "rate": 26.3,
-      "daily_today": 885,
-      "daily_hits": 200
+      "today": 2850,
+      "hits": 748,
+      "rate": 26.2,
+      "daily_today": 900,
+      "daily_hits": 201
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 2835,
-      "hits": 747,
+      "today": 2850,
+      "hits": 748,
       "pending": 0,
-      "last_beat": "2026-07-28T09:16:00.000+09:00",
-      "message": "세션 재개: 배치190 2,836~2,850번 공개 연락처 수집 시작",
-      "daily_today": 885,
-      "daily_hits": 200
+      "last_beat": "2026-07-28T09:22:00.000+09:00",
+      "message": "배치190 완료: 2,836~2,850번 15건 반영, 케이에프엠씨한국유체기계 전화 1건 확보",
+      "daily_today": 900,
+      "daily_hits": 201
     },
     {
       "name": "코워크-01",
