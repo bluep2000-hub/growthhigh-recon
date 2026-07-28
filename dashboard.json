@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-28T11:34:08+09:00",
+  "generated_at": "2026-07-28T11:42:06+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 2895,
-      "hits": 749,
-      "rate": 25.9,
-      "daily_today": 945,
-      "daily_hits": 202
+      "today": 2910,
+      "hits": 751,
+      "rate": 25.8,
+      "daily_today": 960,
+      "daily_hits": 204
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 2895,
-      "hits": 749,
+      "today": 2910,
+      "hits": 751,
       "pending": 0,
-      "last_beat": "2026-07-28T11:31:00.000+09:00",
-      "message": "배치193 완료: 2,881~2,895번 15건 Google/Bing 교대·반대엔진 교차검증, 누적 2,895건; 다음 배치 준비",
-      "daily_today": 945,
-      "daily_hits": 202
+      "last_beat": "2026-07-28T11:41:00.000+09:00",
+      "message": "배치194 완료: 2,896~2,910번 15건 교대·교차검증, 우주고래심리발달연구소 010·홈페이지 및 산업마켓 이메일·홈페이지 확보; 누적 2,910건",
+      "daily_today": 960,
+      "daily_hits": 204
     },
     {
       "name": "코워크-01",
