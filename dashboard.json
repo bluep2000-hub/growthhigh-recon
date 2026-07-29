@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-29T19:01:08+09:00",
+  "generated_at": "2026-07-29T19:08:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 3870,
-      "hits": 886,
-      "rate": 22.9,
-      "daily_today": 1920,
-      "daily_hits": 339
+      "today": 3885,
+      "hits": 892,
+      "rate": 23.0,
+      "daily_today": 1935,
+      "daily_hits": 345
     },
     "signal": {
       "label": "신호",
@@ -57,14 +57,14 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "working",
-      "today": 3870,
-      "hits": 886,
+      "state": "error",
+      "today": 3885,
+      "hits": 892,
       "pending": 0,
-      "last_beat": "2026-07-29T18:58:00.000+09:00",
-      "message": "배치 259 시작: 3871~3885번 15건 공개 연락처 조사",
-      "daily_today": 1920,
-      "daily_hits": 339
+      "last_beat": "2026-07-29T19:08:00.000+09:00",
+      "message": "배치 260 일시 중단: 첫 Google 검색에서 CAPTCHA 재발, Bing 결과 목록 미표시. 3886~3900 데이터 완료 처리 없이 재시도 대기",
+      "daily_today": 1935,
+      "daily_hits": 345
     },
     {
       "name": "코워크-01",
