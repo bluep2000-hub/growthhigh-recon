@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T13:10:08+09:00",
+  "generated_at": "2026-07-29T13:11:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -57,12 +57,12 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "working",
+      "state": "error",
       "today": 3790,
       "hits": 872,
       "pending": 0,
-      "last_beat": "2026-07-29T13:07:00.000+09:00",
-      "message": "배치 253 중간 저장: 3781~3790번 10건 처리, 하이롭 연락처 확보; 검색엔진 연결 복구 후 3791~3795 재시도 예정",
+      "last_beat": "2026-07-29T13:09:00.000+09:00",
+      "message": "배치 253 잔여 5건 재시도: Google 자동 트래픽 확인 화면 지속, Bing 연결 종료 반복; 이오피에스 동명 공식 사이트는 대표·지역 불일치로 제외",
       "daily_today": 1840,
       "daily_hits": 325
     },
