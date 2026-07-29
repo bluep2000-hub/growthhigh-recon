@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-29T23:59:53+09:00",
+  "generated_at": "2026-07-30T00:00:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 3885,
-      "hits": 892,
-      "rate": 23.0,
+      "today": 0,
+      "hits": 0,
+      "rate": 0.0,
       "daily_today": 1935,
       "daily_hits": 345
     },
@@ -58,8 +58,8 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "error",
-      "today": 3885,
-      "hits": 892,
+      "today": 0,
+      "hits": 0,
       "pending": 0,
       "last_beat": "2026-07-29T19:11:00.000+09:00",
       "message": "배치 260 재시도 3회차: Google CAPTCHA 및 Bing 결과 미표시 지속. 사용자 CAPTCHA 해제 필요로 수집 중단",
