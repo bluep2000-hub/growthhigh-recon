@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T08:31:08+09:00",
+  "generated_at": "2026-07-30T08:32:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 4020,
-      "hits": 911,
-      "rate": 22.7,
-      "daily_today": 2070,
-      "daily_hits": 364
+      "today": 4035,
+      "hits": 912,
+      "rate": 22.6,
+      "daily_today": 2085,
+      "daily_hits": 365
     },
     "signal": {
       "label": "신호",
@@ -57,14 +57,14 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "working",
-      "today": 4020,
-      "hits": 911,
+      "state": "error",
+      "today": 4035,
+      "hits": 912,
       "pending": 0,
-      "last_beat": "2026-07-30T08:16:00.000+09:00",
-      "message": "4,021~4,035번 15개 배치 수집 시작",
-      "daily_today": 2070,
-      "daily_hits": 364
+      "last_beat": "2026-07-30T08:32:00.000+09:00",
+      "message": "배치 270 시작 중 검색 차단: Google CAPTCHA, Bing ERR_CONNECTION_CLOSED. 4036부터 재개 대기",
+      "daily_today": 2085,
+      "daily_hits": 365
     },
     {
       "name": "코워크-01",
