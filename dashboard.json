@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T12:04:07+09:00",
+  "generated_at": "2026-07-30T12:14:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 4215,
-      "hits": 940,
-      "rate": 22.3,
-      "daily_today": 2265,
-      "daily_hits": 393
+      "today": 4230,
+      "hits": 941,
+      "rate": 22.2,
+      "daily_today": 2280,
+      "daily_hits": 394
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 4215,
-      "hits": 940,
+      "today": 4230,
+      "hits": 941,
       "pending": 0,
-      "last_beat": "2026-07-30T11:59:00.000+09:00",
-      "message": "배치 281 완료: 4201~4215 처리, 루돌프미디어·티에스케이코퍼레이션·리커버리핏 공개 연락처 또는 홈페이지 확보",
-      "daily_today": 2265,
-      "daily_hits": 393
+      "last_beat": "2026-07-30T12:13:00.000+09:00",
+      "message": "배치 282 완료: 4216~4230 처리, 후아코리아 공식 이메일·대표전화·홈페이지 확보",
+      "daily_today": 2280,
+      "daily_hits": 394
     },
     {
       "name": "코워크-01",
