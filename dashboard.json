@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T21:01:08+09:00",
+  "generated_at": "2026-07-30T21:08:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 4470,
-      "hits": 973,
+      "today": 4485,
+      "hits": 977,
       "rate": 21.8,
-      "daily_today": 2520,
-      "daily_hits": 426
+      "daily_today": 2535,
+      "daily_hits": 430
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 4470,
-      "hits": 973,
+      "today": 4485,
+      "hits": 977,
       "pending": 0,
-      "last_beat": "2026-07-30T20:56:00.000+09:00",
-      "message": "배치 299 시작: 선라이즈파워부터 15개 기업, 010·050 우선 느린 검색 진행",
-      "daily_today": 2520,
-      "daily_hits": 426
+      "last_beat": "2026-07-30T21:07:00.000+09:00",
+      "message": "배치 299 완료: 15건 처리, 씨엠스튜디오·디티제이·보리너스·푸판 연락처 확보; 010 우선 및 동명 업체 제외",
+      "daily_today": 2535,
+      "daily_hits": 430
     },
     {
       "name": "코워크-01",
