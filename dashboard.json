@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T17:22:08+09:00",
+  "generated_at": "2026-07-30T17:23:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 4245,
-      "hits": 943,
+      "today": 4260,
+      "hits": 945,
       "rate": 22.2,
-      "daily_today": 2295,
-      "daily_hits": 396
+      "daily_today": 2310,
+      "daily_hits": 398
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 4245,
-      "hits": 943,
+      "today": 4260,
+      "hits": 945,
       "pending": 0,
-      "last_beat": "2026-07-30T17:08:00.000+09:00",
-      "message": "세션재개:배치284_4246~4260_저속리서치시작;010·050우선",
-      "daily_today": 2295,
-      "daily_hits": 396
+      "last_beat": "2026-07-30T17:23:00.000+09:00",
+      "message": "배치284완료:4246~4260_15건저장,신규확보2건(대한수소발전·앳더플),010우선·지역번호최후순위,누적4260건",
+      "daily_today": 2310,
+      "daily_hits": 398
     },
     {
       "name": "코워크-01",
