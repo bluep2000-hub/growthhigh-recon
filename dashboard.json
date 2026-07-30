@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T17:28:09+09:00",
+  "generated_at": "2026-07-30T17:38:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 4260,
-      "hits": 945,
+      "today": 4275,
+      "hits": 948,
       "rate": 22.2,
-      "daily_today": 2310,
-      "daily_hits": 398
+      "daily_today": 2325,
+      "daily_hits": 401
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 4260,
-      "hits": 945,
+      "today": 4275,
+      "hits": 948,
       "pending": 0,
-      "last_beat": "2026-07-30T17:24:00.000+09:00",
-      "message": "세션재개:배치285_4261~4275_저속리서치시작;010·050우선",
-      "daily_today": 2310,
-      "daily_hits": 398
+      "last_beat": "2026-07-30T17:37:00.000+09:00",
+      "message": "배치285완료:4261~4275_15건저장,신규확보3건(엠씨에프코리아·케이엔디펜스테크·제이스에듀),010우선,누적4275건",
+      "daily_today": 2325,
+      "daily_hits": 401
     },
     {
       "name": "코워크-01",
