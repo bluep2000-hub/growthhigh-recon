@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T12:25:08+09:00",
+  "generated_at": "2026-07-30T12:29:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -61,8 +61,8 @@
       "today": 4230,
       "hits": 941,
       "pending": 0,
-      "last_beat": "2026-07-30T12:23:00.000+09:00",
-      "message": "배치 283 재개: 4237~4241 Bing 2단계 검색 완료(확정 연락처 없음), 4242부터 Bing ERR_CONNECTION_RESET 및 Google CAPTCHA 지속",
+      "last_beat": "2026-07-30T12:27:00.000+09:00",
+      "message": "배치 283: 4231~4245 Bing 포함 2단계 검색 완료, 4232·4234·4236 Bing 교차검색 완료(확정 연락처 없음). 나머지 Google 교차검증은 CAPTCHA 해제 대기",
       "daily_today": 2280,
       "daily_hits": 394
     },
