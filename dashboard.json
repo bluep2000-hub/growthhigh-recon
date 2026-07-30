@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T18:46:07+09:00",
+  "generated_at": "2026-07-30T18:53:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 4350,
-      "hits": 956,
-      "rate": 22.0,
-      "daily_today": 2400,
-      "daily_hits": 409
+      "today": 4365,
+      "hits": 957,
+      "rate": 21.9,
+      "daily_today": 2415,
+      "daily_hits": 410
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 4350,
-      "hits": 956,
+      "today": 4365,
+      "hits": 957,
       "pending": 0,
-      "last_beat": "2026-07-30T18:43:00.000+09:00",
-      "message": "세션재개:배치291_4351~4365_저속리서치시작;010·050우선",
-      "daily_today": 2400,
-      "daily_hits": 409
+      "last_beat": "2026-07-30T18:53:00.000+09:00",
+      "message": "배치291완료:4351~4365;신규확보1;한국마케팅감리협회010·홈페이지;누적4365",
+      "daily_today": 2415,
+      "daily_hits": 410
     },
     {
       "name": "코워크-01",
