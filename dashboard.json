@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T12:16:07+09:00",
+  "generated_at": "2026-07-30T12:20:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -57,12 +57,12 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "working",
+      "state": "error",
       "today": 4230,
       "hits": 941,
       "pending": 0,
-      "last_beat": "2026-07-30T12:13:00.000+09:00",
-      "message": "배치 282 완료: 4216~4230 처리, 후아코리아 공식 이메일·대표전화·홈페이지 확보",
+      "last_beat": "2026-07-30T12:17:00.000+09:00",
+      "message": "배치 283 진행 중 중단: Google CAPTCHA 발생, Bing 연결 재시도도 초기화됨. 4231~4236 검색 완료 후 4237부터 대기",
       "daily_today": 2280,
       "daily_hits": 394
     },
