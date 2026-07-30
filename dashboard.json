@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-30T22:28:08+09:00",
+  "generated_at": "2026-07-30T22:35:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 4575,
-      "hits": 992,
+      "today": 4590,
+      "hits": 994,
       "rate": 21.7,
-      "daily_today": 2625,
-      "daily_hits": 445
+      "daily_today": 2640,
+      "daily_hits": 447
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 4575,
-      "hits": 992,
+      "today": 4590,
+      "hits": 994,
       "pending": 0,
-      "last_beat": "2026-07-30T22:23:00.000+09:00",
-      "message": "306차 15건 저속 조사 시작, 010·050 번호 최우선",
-      "daily_today": 2625,
-      "daily_hits": 445
+      "last_beat": "2026-07-30T22:34:00.000+09:00",
+      "message": "306차 15건 완료, 비지역 우선 확인 후 070 1건·지역번호 보조 1건 확보",
+      "daily_today": 2640,
+      "daily_hits": 447
     },
     {
       "name": "코워크-01",
