@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-03T17:04:09+09:00",
+  "generated_at": "2026-08-03T17:05:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6855,
+      "today": 6870,
       "hits": 1253,
-      "rate": 18.3,
-      "daily_today": 4905,
+      "rate": 18.2,
+      "daily_today": 4920,
       "daily_hits": 706
     },
     "signal": {
@@ -58,12 +58,12 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 6855,
+      "today": 6870,
       "hits": 1253,
       "pending": 0,
-      "last_beat": "2026-08-03T17:00:00.000+09:00",
-      "message": "배치 457 완료: 누적 6,855건, 연락처 확보 1,253건; 공식 010 대표번호 확보",
-      "daily_today": 4905,
+      "last_beat": "2026-08-03T17:02:00.000+09:00",
+      "message": "배치 458 완료: 누적 6,870건, 연락처 확보 1,253건; 타 사업자 010 번호 제외",
+      "daily_today": 4920,
       "daily_hits": 706
     },
     {
