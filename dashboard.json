@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T11:43:07+09:00",
+  "generated_at": "2026-08-03T11:46:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 4830,
-      "hits": 1028,
+      "today": 4845,
+      "hits": 1030,
       "rate": 21.3,
-      "daily_today": 2880,
-      "daily_hits": 481
+      "daily_today": 2895,
+      "daily_hits": 483
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 4830,
-      "hits": 1028,
+      "today": 4845,
+      "hits": 1030,
       "pending": 0,
-      "last_beat": "2026-08-03T11:38:00.000+09:00",
-      "message": "세션 시작: 배치 323, 다음 15건 공개 연락처 교차검증 시작",
-      "daily_today": 2880,
-      "daily_hits": 481
+      "last_beat": "2026-08-03T11:43:00.000+09:00",
+      "message": "배치 323 완료: 15건 처리, 2건 확보; 한국반려동물펠트공예교육원 010 우선 반영",
+      "daily_today": 2895,
+      "daily_hits": 483
     },
     {
       "name": "코워크-01",
