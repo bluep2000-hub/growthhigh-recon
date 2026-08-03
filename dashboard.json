@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T14:52:08+09:00",
+  "generated_at": "2026-08-03T14:53:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6105,
-      "hits": 1173,
+      "today": 6120,
+      "hits": 1175,
       "rate": 19.2,
-      "daily_today": 4155,
-      "daily_hits": 626
+      "daily_today": 4170,
+      "daily_hits": 628
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 6105,
-      "hits": 1173,
+      "today": 6120,
+      "hits": 1175,
       "pending": 0,
-      "last_beat": "2026-08-03T14:48:00.000+09:00",
-      "message": "배치 407 완료: 15건 검증, 슈퍼노바·그레이잇 공식 010 연락처 확보",
-      "daily_today": 4155,
-      "daily_hits": 626
+      "last_beat": "2026-08-03T14:50:00.000+09:00",
+      "message": "배치 408 완료: 6120건 처리, 아크뱅크 010 및 솔루션캐슬 공식 이메일·홈페이지 확보",
+      "daily_today": 4170,
+      "daily_hits": 628
     },
     {
       "name": "코워크-01",
