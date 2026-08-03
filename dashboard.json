@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T13:31:08+09:00",
+  "generated_at": "2026-08-03T13:34:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5370,
-      "hits": 1100,
-      "rate": 20.5,
-      "daily_today": 3420,
-      "daily_hits": 553
+      "today": 5415,
+      "hits": 1103,
+      "rate": 20.4,
+      "daily_today": 3465,
+      "daily_hits": 556
     },
     "signal": {
       "label": "신호",
@@ -20,9 +20,9 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 122,
-      "done_total": 606,
-      "daily_today": 0,
+      "pending": 0,
+      "done_total": 728,
+      "daily_today": 122,
       "daily_hits": 0
     }
   },
@@ -44,13 +44,13 @@
       "name": "적재봇",
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
-      "state": "working",
-      "today": 0,
+      "state": "idle",
+      "today": 122,
       "hits": 0,
-      "pending": 122,
-      "last_beat": "2026-08-03T13:25:00.000+09:00",
-      "message": "연락처 122건 반영 중",
-      "daily_today": 0,
+      "pending": 0,
+      "last_beat": "2026-08-03T13:31:00.000+09:00",
+      "message": "122건 병합 반영 완료",
+      "daily_today": 122,
       "daily_hits": 0
     },
     {
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5370,
-      "hits": 1100,
+      "today": 5415,
+      "hits": 1103,
       "pending": 0,
-      "last_beat": "2026-08-03T13:28:00.000+09:00",
-      "message": "배치 358 완료: 15건 검증, 공개 연락처 4건 추가(010 대표번호 1건 포함), 누적 5,370건",
-      "daily_today": 3420,
-      "daily_hits": 553
+      "last_beat": "2026-08-03T13:32:00.000+09:00",
+      "message": "배치 361 완료: 15건 검증, 공개 연락처 1건 추가(010 대표번호), 누적 5,415건",
+      "daily_today": 3465,
+      "daily_hits": 556
     },
     {
       "name": "코워크-01",
