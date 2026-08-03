@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T12:58:08+09:00",
+  "generated_at": "2026-08-03T13:01:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5070,
-      "hits": 1063,
-      "rate": 21.0,
-      "daily_today": 3120,
-      "daily_hits": 516
+      "today": 5085,
+      "hits": 1065,
+      "rate": 20.9,
+      "daily_today": 3135,
+      "daily_hits": 518
     },
     "signal": {
       "label": "신호",
@@ -20,8 +20,8 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 163,
-      "done_total": 433,
+      "pending": 153,
+      "done_total": 443,
       "daily_today": 0,
       "daily_hits": 0
     }
@@ -47,9 +47,9 @@
       "state": "working",
       "today": 0,
       "hits": 0,
-      "pending": 163,
+      "pending": 153,
       "last_beat": "2026-08-03T12:58:00.000+09:00",
-      "message": "연락처 163건 반영 중",
+      "message": "연락처 153건 반영 중",
       "daily_today": 0,
       "daily_hits": 0
     },
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5070,
-      "hits": 1063,
+      "today": 5085,
+      "hits": 1065,
       "pending": 0,
-      "last_beat": "2026-08-03T12:53:00.000+09:00",
-      "message": "배치 338 완료: Bing 저속 검색으로 법인·동명업체 구분, 공개 연락처 미확보 15건 기록, 5,070건 누적",
-      "daily_today": 3120,
-      "daily_hits": 516
+      "last_beat": "2026-08-03T12:56:00.000+09:00",
+      "message": "배치 339 완료: 아레네 010 연락처·이메일, 모닝스타 공식 연락처 확보, 5,085건 누적",
+      "daily_today": 3135,
+      "daily_hits": 518
     },
     {
       "name": "코워크-01",
