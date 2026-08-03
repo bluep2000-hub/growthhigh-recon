@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T17:43:09+09:00",
+  "generated_at": "2026-08-03T17:44:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7020,
-      "hits": 1264,
+      "today": 7035,
+      "hits": 1265,
       "rate": 18.0,
-      "daily_today": 5070,
-      "daily_hits": 717
+      "daily_today": 5085,
+      "daily_hits": 718
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 7020,
-      "hits": 1264,
+      "today": 7035,
+      "hits": 1265,
       "pending": 0,
-      "last_beat": "2026-08-03T17:40:00.000+09:00",
-      "message": "배치 468 완료: 15건 처리, 오렌지보이 010 대표전화 확보",
-      "daily_today": 5070,
-      "daily_hits": 717
+      "last_beat": "2026-08-03T17:44:00.000+09:00",
+      "message": "배치 469 완료: 15건 처리, 자유지성미디어 공식 연락처 확보·팩스 제외",
+      "daily_today": 5085,
+      "daily_hits": 718
     },
     {
       "name": "코워크-01",
