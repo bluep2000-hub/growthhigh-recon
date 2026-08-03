@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T18:35:53+09:00",
+  "generated_at": "2026-08-03T18:42:05+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -57,12 +57,12 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "working",
+      "state": "error",
       "today": 7140,
       "hits": 1274,
       "pending": 0,
-      "last_beat": "2026-08-03T18:32:00.000+09:00",
-      "message": "세션 재개: 배치 477 Chrome 연결 재점검, 누적 7,140건에서 계속",
+      "last_beat": "2026-08-03T18:36:00.000+09:00",
+      "message": "Chrome 네이티브 연결 구성 누락 3회 연속 확인; 플러그인 재설치 전 수집 불가, 누적 7,140건 보존",
       "daily_today": 5190,
       "daily_hits": 727
     },
