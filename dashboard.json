@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T14:49:09+09:00",
+  "generated_at": "2026-08-03T14:50:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6090,
-      "hits": 1171,
+      "today": 6105,
+      "hits": 1173,
       "rate": 19.2,
-      "daily_today": 4140,
-      "daily_hits": 624
+      "daily_today": 4155,
+      "daily_hits": 626
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 6090,
-      "hits": 1171,
+      "today": 6105,
+      "hits": 1173,
       "pending": 0,
-      "last_beat": "2026-08-03T14:47:00.000+09:00",
-      "message": "배치 406 완료: 15건 검증, 엠박스·페어웰·위드토이 연락처 확보(위드토이 010)",
-      "daily_today": 4140,
-      "daily_hits": 624
+      "last_beat": "2026-08-03T14:48:00.000+09:00",
+      "message": "배치 407 완료: 15건 검증, 슈퍼노바·그레이잇 공식 010 연락처 확보",
+      "daily_today": 4155,
+      "daily_hits": 626
     },
     {
       "name": "코워크-01",
