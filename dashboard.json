@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T13:19:08+09:00",
+  "generated_at": "2026-08-03T13:22:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5250,
-      "hits": 1083,
+      "today": 5280,
+      "hits": 1087,
       "rate": 20.6,
-      "daily_today": 3300,
-      "daily_hits": 536
+      "daily_today": 3330,
+      "daily_hits": 540
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5250,
-      "hits": 1083,
+      "today": 5280,
+      "hits": 1087,
       "pending": 0,
-      "last_beat": "2026-08-03T13:17:00.000+09:00",
-      "message": "누적 5,250건 완료; 제이팜 010, 중소기업평생교육원 010, 한국디지털경제연구소 이메일·홈페이지 확보",
-      "daily_today": 3300,
-      "daily_hits": 536
+      "last_beat": "2026-08-03T13:19:00.000+09:00",
+      "message": "누적 5,280건 완료; 너나들이뷰 회사 이메일·홈페이지와 그합 070·이메일·판매 페이지 확보",
+      "daily_today": 3330,
+      "daily_hits": 540
     },
     {
       "name": "코워크-01",
