@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T14:37:09+09:00",
+  "generated_at": "2026-08-03T14:38:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6000,
-      "hits": 1159,
+      "today": 6015,
+      "hits": 1160,
       "rate": 19.3,
-      "daily_today": 4050,
-      "daily_hits": 612
+      "daily_today": 4065,
+      "daily_hits": 613
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 6000,
-      "hits": 1159,
+      "today": 6015,
+      "hits": 1160,
       "pending": 0,
-      "last_beat": "2026-08-03T14:34:00.000+09:00",
-      "message": "배치 400 완료: 6,000건 처리, 몸마음 010 및 로우엔슬로우 공식 연락처 확보",
-      "daily_today": 4050,
-      "daily_hits": 612
+      "last_beat": "2026-08-03T14:36:00.000+09:00",
+      "message": "배치 401 완료: 6,015건 처리, 하이코리아 공식 연락처 확보",
+      "daily_today": 4065,
+      "daily_hits": 613
     },
     {
       "name": "코워크-01",
