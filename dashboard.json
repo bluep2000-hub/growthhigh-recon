@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T15:28:08+09:00",
+  "generated_at": "2026-08-03T15:32:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6390,
-      "hits": 1206,
-      "rate": 18.9,
-      "daily_today": 4440,
-      "daily_hits": 659
+      "today": 6435,
+      "hits": 1211,
+      "rate": 18.8,
+      "daily_today": 4485,
+      "daily_hits": 664
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 6390,
-      "hits": 1206,
+      "today": 6435,
+      "hits": 1211,
       "pending": 0,
-      "last_beat": "2026-08-03T15:25:00.000+09:00",
-      "message": "6390건 처리 완료; 디케이테크 사업자등록 기반 대표번호 확보, 채용번호 제외",
-      "daily_today": 4440,
-      "daily_hits": 659
+      "last_beat": "2026-08-03T15:32:00.000+09:00",
+      "message": "배치 429 완료: 6,435건 처리, 폴라도레 공식 연락처와 다이아닉스 이메일 확보",
+      "daily_today": 4485,
+      "daily_hits": 664
     },
     {
       "name": "코워크-01",
