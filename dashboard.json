@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T14:34:09+09:00",
+  "generated_at": "2026-08-03T14:35:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5970,
-      "hits": 1157,
-      "rate": 19.4,
-      "daily_today": 4020,
-      "daily_hits": 610
+      "today": 6000,
+      "hits": 1159,
+      "rate": 19.3,
+      "daily_today": 4050,
+      "daily_hits": 612
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5970,
-      "hits": 1157,
+      "today": 6000,
+      "hits": 1159,
       "pending": 0,
-      "last_beat": "2026-08-03T14:32:00.000+09:00",
-      "message": "배치 398 완료: 5,970건 처리, 흥로직스 010·투에스엔디 대표 연락처 확보",
-      "daily_today": 4020,
-      "daily_hits": 610
+      "last_beat": "2026-08-03T14:34:00.000+09:00",
+      "message": "배치 400 완료: 6,000건 처리, 몸마음 010 및 로우엔슬로우 공식 연락처 확보",
+      "daily_today": 4050,
+      "daily_hits": 612
     },
     {
       "name": "코워크-01",
