@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-03T23:55:09+09:00",
+  "generated_at": "2026-08-04T00:00:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7140,
-      "hits": 1274,
-      "rate": 17.8,
+      "today": 0,
+      "hits": 0,
+      "rate": 0.0,
       "daily_today": 5190,
       "daily_hits": 727
     },
@@ -45,7 +45,7 @@
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
       "state": "idle",
-      "today": 122,
+      "today": 0,
       "hits": 0,
       "pending": 0,
       "last_beat": "2026-08-03T13:31:00.000+09:00",
@@ -58,8 +58,8 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "error",
-      "today": 7140,
-      "hits": 1274,
+      "today": 0,
+      "hits": 0,
       "pending": 0,
       "last_beat": "2026-08-03T18:36:00.000+09:00",
       "message": "Chrome 네이티브 연결 구성 누락 3회 연속 확인; 플러그인 재설치 전 수집 불가, 누적 7,140건 보존",
