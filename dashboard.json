@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T18:10:08+09:00",
+  "generated_at": "2026-08-03T18:14:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7095,
-      "hits": 1270,
+      "today": 7110,
+      "hits": 1271,
       "rate": 17.9,
-      "daily_today": 5145,
-      "daily_hits": 723
+      "daily_today": 5160,
+      "daily_hits": 724
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 7095,
-      "hits": 1270,
+      "today": 7110,
+      "hits": 1271,
       "pending": 0,
-      "last_beat": "2026-08-03T18:06:00.000+09:00",
-      "message": "배치 473 완료: 15건 처리, 두손바이오 대표번호 및 퀄 010·이메일·홈페이지 확보",
-      "daily_today": 5145,
-      "daily_hits": 723
+      "last_beat": "2026-08-03T18:11:00.000+09:00",
+      "message": "배치 474 완료: 15건 처리, 라운드플러스 공개 이메일 확보; 비표준 번호·타 법인·플랫폼 연락처 제외",
+      "daily_today": 5160,
+      "daily_hits": 724
     },
     {
       "name": "코워크-01",
