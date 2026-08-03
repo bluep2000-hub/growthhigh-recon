@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T14:07:08+09:00",
+  "generated_at": "2026-08-03T14:10:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5730,
-      "hits": 1128,
-      "rate": 19.7,
-      "daily_today": 3780,
-      "daily_hits": 581
+      "today": 5760,
+      "hits": 1129,
+      "rate": 19.6,
+      "daily_today": 3810,
+      "daily_hits": 582
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5730,
-      "hits": 1128,
+      "today": 5760,
+      "hits": 1129,
       "pending": 0,
-      "last_beat": "2026-08-03T14:04:00.000+09:00",
-      "message": "배치382 완료: 제이와이테크머트리얼즈 공식 이메일·전화·홈페이지 확보; 누적 5730건, 계속 수집 중",
-      "daily_today": 3780,
-      "daily_hits": 581
+      "last_beat": "2026-08-03T14:07:00.000+09:00",
+      "message": "배치384 완료: 15건 교차검증, 모회사·플랫폼 번호는 제외; 누적 5760건, 다음 배치 수집 중",
+      "daily_today": 3810,
+      "daily_hits": 582
     },
     {
       "name": "코워크-01",
