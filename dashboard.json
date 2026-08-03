@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T12:49:07+09:00",
+  "generated_at": "2026-08-03T12:52:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5025,
-      "hits": 1061,
+      "today": 5040,
+      "hits": 1063,
       "rate": 21.1,
-      "daily_today": 3075,
-      "daily_hits": 514
+      "daily_today": 3090,
+      "daily_hits": 516
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5025,
-      "hits": 1061,
+      "today": 5040,
+      "hits": 1063,
       "pending": 0,
-      "last_beat": "2026-08-03T12:44:00.000+09:00",
-      "message": "배치 335 완료: 하우고 010 연락처 및 엠에스시그널 대표전화 확보, 5,025건 누적",
-      "daily_today": 3075,
-      "daily_hits": 514
+      "last_beat": "2026-08-03T12:47:00.000+09:00",
+      "message": "배치 336 완료: 리퀴드브릿지 010 문의번호 및 펫포워드 공식 연락처 확보, 5,040건 누적",
+      "daily_today": 3090,
+      "daily_hits": 516
     },
     {
       "name": "코워크-01",
