@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T15:22:08+09:00",
+  "generated_at": "2026-08-03T15:23:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6345,
-      "hits": 1204,
-      "rate": 19.0,
-      "daily_today": 4395,
-      "daily_hits": 657
+      "today": 6375,
+      "hits": 1205,
+      "rate": 18.9,
+      "daily_today": 4425,
+      "daily_hits": 658
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 6345,
-      "hits": 1204,
+      "today": 6375,
+      "hits": 1205,
       "pending": 0,
-      "last_beat": "2026-08-03T15:19:00.000+09:00",
-      "message": "6345건 처리 완료; 신기글로벌 대표이사 010·공식 홈페이지 확보",
-      "daily_today": 4395,
-      "daily_hits": 657
+      "last_beat": "2026-08-03T15:23:00.000+09:00",
+      "message": "6375건 처리 완료; 주소·사업자번호 불일치 구 사업체 연락처 배제",
+      "daily_today": 4425,
+      "daily_hits": 658
     },
     {
       "name": "코워크-01",
