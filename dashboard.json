@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-03T18:22:07+09:00",
+  "generated_at": "2026-08-03T18:23:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7125,
+      "today": 7140,
       "hits": 1274,
-      "rate": 17.9,
-      "daily_today": 5175,
+      "rate": 17.8,
+      "daily_today": 5190,
       "daily_hits": 727
     },
     "signal": {
@@ -58,12 +58,12 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 7125,
+      "today": 7140,
       "hits": 1274,
       "pending": 0,
-      "last_beat": "2026-08-03T18:17:00.000+09:00",
-      "message": "배치 475 완료: 15건 처리, 라인올로지 010·이메일, 엠브이피시스템 전화, 똑똑한주문 대표번호·이메일 확보",
-      "daily_today": 5175,
+      "last_beat": "2026-08-03T18:23:00.000+09:00",
+      "message": "배치 476 완료: 15건 처리, 신규 공개 연락처 없음; 동명·불확실 번호 제외",
+      "daily_today": 5190,
       "daily_hits": 727
     },
     {
