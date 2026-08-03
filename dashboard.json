@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T12:46:08+09:00",
+  "generated_at": "2026-08-03T12:49:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5010,
-      "hits": 1059,
+      "today": 5025,
+      "hits": 1061,
       "rate": 21.1,
-      "daily_today": 3060,
-      "daily_hits": 512
+      "daily_today": 3075,
+      "daily_hits": 514
     },
     "signal": {
       "label": "신호",
@@ -20,7 +20,7 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 508,
+      "pending": 611,
       "done_total": 433,
       "daily_today": 0,
       "daily_hits": 0
@@ -47,9 +47,9 @@
       "state": "input",
       "today": 0,
       "hits": 0,
-      "pending": 508,
-      "last_beat": "2026-08-03T12:29:00.000+09:00",
-      "message": "배치 508건 준비 완료 · 승인 대기",
+      "pending": 611,
+      "last_beat": "2026-08-03T12:46:00.000+09:00",
+      "message": "배치 611건 준비 완료 · 승인 대기",
       "daily_today": 0,
       "daily_hits": 0
     },
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5010,
-      "hits": 1059,
+      "today": 5025,
+      "hits": 1061,
       "pending": 0,
-      "last_beat": "2026-08-03T12:41:00.000+09:00",
-      "message": "배치 334 완료: 유니즈 010 연락처와 화이트온 공식 대표번호 확보, 5,010건 누적",
-      "daily_today": 3060,
-      "daily_hits": 512
+      "last_beat": "2026-08-03T12:44:00.000+09:00",
+      "message": "배치 335 완료: 하우고 010 연락처 및 엠에스시그널 대표전화 확보, 5,025건 누적",
+      "daily_today": 3075,
+      "daily_hits": 514
     },
     {
       "name": "코워크-01",
