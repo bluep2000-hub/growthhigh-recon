@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-03T17:28:10+09:00",
+  "generated_at": "2026-08-03T17:29:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6945,
+      "today": 6960,
       "hits": 1259,
       "rate": 18.1,
-      "daily_today": 4995,
+      "daily_today": 5010,
       "daily_hits": 712
     },
     "signal": {
@@ -58,12 +58,12 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 6945,
+      "today": 6960,
       "hits": 1259,
       "pending": 0,
-      "last_beat": "2026-08-03T17:24:00.000+09:00",
-      "message": "배치 463 완료: 15건 처리, 바다코퍼레이션 010 연락처·이메일 확보",
-      "daily_today": 4995,
+      "last_beat": "2026-08-03T17:27:00.000+09:00",
+      "message": "배치 464 완료: 15건 교차검증, 대표자·업종 불일치 연락처 제외",
+      "daily_today": 5010,
       "daily_hits": 712
     },
     {
