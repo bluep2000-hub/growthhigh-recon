@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T12:28:08+09:00",
+  "generated_at": "2026-08-03T12:31:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 4950,
-      "hits": 1050,
+      "today": 4965,
+      "hits": 1052,
       "rate": 21.2,
-      "daily_today": 3000,
-      "daily_hits": 503
+      "daily_today": 3015,
+      "daily_hits": 505
     },
     "signal": {
       "label": "신호",
@@ -20,9 +20,9 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 0,
+      "pending": 508,
       "done_total": 433,
-      "daily_today": 2,
+      "daily_today": 0,
       "daily_hits": 0
     }
   },
@@ -44,13 +44,13 @@
       "name": "적재봇",
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
-      "state": "idle",
+      "state": "input",
       "today": 0,
       "hits": 0,
-      "pending": 0,
-      "last_beat": "2026-07-28T15:49:00.000+09:00",
-      "message": "2건 병합 반영 완료",
-      "daily_today": 2,
+      "pending": 508,
+      "last_beat": "2026-08-03T12:29:00.000+09:00",
+      "message": "배치 508건 준비 완료 · 승인 대기",
+      "daily_today": 0,
       "daily_hits": 0
     },
     {
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 4950,
-      "hits": 1050,
+      "today": 4965,
+      "hits": 1052,
       "pending": 0,
-      "last_beat": "2026-08-03T12:24:00.000+09:00",
-      "message": "330차 배치 15건 완료; 가평레이크애비뉴 0507 및 아워즈 공식 이메일 확보",
-      "daily_today": 3000,
-      "daily_hits": 503
+      "last_beat": "2026-08-03T12:27:00.000+09:00",
+      "message": "331차 배치 15건 완료; 하남제빵소 0507 및 진주북스 이메일 확보",
+      "daily_today": 3015,
+      "daily_hits": 505
     },
     {
       "name": "코워크-01",
