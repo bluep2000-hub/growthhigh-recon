@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-03T17:37:11+09:00",
+  "generated_at": "2026-08-03T17:38:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6990,
+      "today": 7005,
       "hits": 1263,
-      "rate": 18.1,
-      "daily_today": 5040,
+      "rate": 18.0,
+      "daily_today": 5055,
       "daily_hits": 716
     },
     "signal": {
@@ -58,12 +58,12 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 6990,
+      "today": 7005,
       "hits": 1263,
       "pending": 0,
-      "last_beat": "2026-08-03T17:34:00.000+09:00",
-      "message": "배치 466 완료: 15건 처리, 페이온·다온다미 연락처 확보",
-      "daily_today": 5040,
+      "last_beat": "2026-08-03T17:37:00.000+09:00",
+      "message": "배치 467 완료: 누적 7,005건, 동명이인 휴대폰 번호 제외",
+      "daily_today": 5055,
       "daily_hits": 716
     },
     {
