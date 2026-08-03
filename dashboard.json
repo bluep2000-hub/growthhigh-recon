@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T15:16:08+09:00",
+  "generated_at": "2026-08-03T15:17:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6300,
-      "hits": 1200,
+      "today": 6315,
+      "hits": 1201,
       "rate": 19.0,
-      "daily_today": 4350,
-      "daily_hits": 653
+      "daily_today": 4365,
+      "daily_hits": 654
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 6300,
-      "hits": 1200,
+      "today": 6315,
+      "hits": 1201,
       "pending": 0,
-      "last_beat": "2026-08-03T15:13:00.000+09:00",
-      "message": "6300건 처리 완료; 프린트바이브 공식 010·이메일·홈페이지 확보, 채용 연락처 제외",
-      "daily_today": 4350,
-      "daily_hits": 653
+      "last_beat": "2026-08-03T15:16:00.000+09:00",
+      "message": "6315건 처리 완료; 브라이트웨이 공개 이메일 확보, 주소 불일치 동명법인 연락처 제외",
+      "daily_today": 4365,
+      "daily_hits": 654
     },
     {
       "name": "코워크-01",
