@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T14:58:09+09:00",
+  "generated_at": "2026-08-03T14:59:53+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 6135,
-      "hits": 1176,
-      "rate": 19.2,
-      "daily_today": 4185,
-      "daily_hits": 629
+      "today": 6165,
+      "hits": 1179,
+      "rate": 19.1,
+      "daily_today": 4215,
+      "daily_hits": 632
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 6135,
-      "hits": 1176,
+      "today": 6165,
+      "hits": 1179,
       "pending": 0,
-      "last_beat": "2026-08-03T14:54:00.000+09:00",
-      "message": "배치 409 완료: 6135건 처리, 아리솜 공식 070·고객센터 이메일·홈페이지 확보",
-      "daily_today": 4185,
-      "daily_hits": 629
+      "last_beat": "2026-08-03T14:58:00.000+09:00",
+      "message": "배치 411 완료: 6165건 처리, 테이크웰 010·이메일 및 크로사이트 공식 홈페이지 확보",
+      "daily_today": 4215,
+      "daily_hits": 632
     },
     {
       "name": "코워크-01",
