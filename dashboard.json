@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T14:25:09+09:00",
+  "generated_at": "2026-08-03T14:26:56+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5910,
-      "hits": 1148,
+      "today": 5940,
+      "hits": 1153,
       "rate": 19.4,
-      "daily_today": 3960,
-      "daily_hits": 601
+      "daily_today": 3990,
+      "daily_hits": 606
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5910,
-      "hits": 1148,
+      "today": 5940,
+      "hits": 1153,
       "pending": 0,
-      "last_beat": "2026-08-03T14:23:00.000+09:00",
-      "message": "5,895~5,909번 검증 완료: 헤이미디어(뮤지엄헤이) 공식 연락처 확보",
-      "daily_today": 3960,
-      "daily_hits": 601
+      "last_beat": "2026-08-03T14:26:00.000+09:00",
+      "message": "5,925~5,939번 검증 완료: 단초 이메일·대건세이프티 공식 연락처 확보",
+      "daily_today": 3990,
+      "daily_hits": 606
     },
     {
       "name": "코워크-01",
