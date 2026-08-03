@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T13:28:09+09:00",
+  "generated_at": "2026-08-03T13:31:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5340,
-      "hits": 1092,
-      "rate": 20.4,
-      "daily_today": 3390,
-      "daily_hits": 545
+      "today": 5370,
+      "hits": 1100,
+      "rate": 20.5,
+      "daily_today": 3420,
+      "daily_hits": 553
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5340,
-      "hits": 1092,
+      "today": 5370,
+      "hits": 1100,
       "pending": 0,
-      "last_beat": "2026-08-03T13:24:00.000+09:00",
-      "message": "누적 5,340건 완료; 바이탈릭스 공식 이메일·홈페이지 확보, 마스킹된 휴대전화는 제외",
-      "daily_today": 3390,
-      "daily_hits": 545
+      "last_beat": "2026-08-03T13:28:00.000+09:00",
+      "message": "배치 358 완료: 15건 검증, 공개 연락처 4건 추가(010 대표번호 1건 포함), 누적 5,370건",
+      "daily_today": 3420,
+      "daily_hits": 553
     },
     {
       "name": "코워크-01",
