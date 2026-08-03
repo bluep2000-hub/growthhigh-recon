@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T13:01:08+09:00",
+  "generated_at": "2026-08-03T13:04:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5085,
-      "hits": 1065,
+      "today": 5100,
+      "hits": 1066,
       "rate": 20.9,
-      "daily_today": 3135,
-      "daily_hits": 518
+      "daily_today": 3150,
+      "daily_hits": 519
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5085,
-      "hits": 1065,
+      "today": 5100,
+      "hits": 1066,
       "pending": 0,
-      "last_beat": "2026-08-03T12:56:00.000+09:00",
-      "message": "배치 339 완료: 아레네 010 연락처·이메일, 모닝스타 공식 연락처 확보, 5,085건 누적",
-      "daily_today": 3135,
-      "daily_hits": 518
+      "last_beat": "2026-08-03T12:59:00.000+09:00",
+      "message": "배치 340 완료: 한국트숨 공식 이메일·홈페이지 확보, 02 번호와 타 사업자 사이트 제외, 5,100건 누적",
+      "daily_today": 3150,
+      "daily_hits": 519
     },
     {
       "name": "코워크-01",
