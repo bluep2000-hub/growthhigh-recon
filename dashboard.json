@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-03T13:55:09+09:00",
+  "generated_at": "2026-08-03T13:58:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5595,
-      "hits": 1115,
-      "rate": 19.9,
-      "daily_today": 3645,
-      "daily_hits": 568
+      "today": 5640,
+      "hits": 1119,
+      "rate": 19.8,
+      "daily_today": 3690,
+      "daily_hits": 572
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5595,
-      "hits": 1115,
+      "today": 5640,
+      "hits": 1119,
       "pending": 0,
-      "last_beat": "2026-08-03T13:52:00.000+09:00",
-      "message": "배치 373 완료: 15건 검증, 킥스타·모피어스 연락처 확보, 누적 5,595건/1,115건",
-      "daily_today": 3645,
-      "daily_hits": 568
+      "last_beat": "2026-08-03T13:55:00.000+09:00",
+      "message": "배치 376 완료: 15건 교차검증, 누적 5,640건/1,119건",
+      "daily_today": 3690,
+      "daily_hits": 572
     },
     {
       "name": "코워크-01",
