@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-03T12:52:08+09:00",
+  "generated_at": "2026-08-03T12:55:07+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 5040,
+      "today": 5055,
       "hits": 1063,
-      "rate": 21.1,
-      "daily_today": 3090,
+      "rate": 21.0,
+      "daily_today": 3105,
       "daily_hits": 516
     },
     "signal": {
@@ -58,12 +58,12 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 5040,
+      "today": 5055,
       "hits": 1063,
       "pending": 0,
-      "last_beat": "2026-08-03T12:47:00.000+09:00",
-      "message": "배치 336 완료: 리퀴드브릿지 010 문의번호 및 펫포워드 공식 연락처 확보, 5,040건 누적",
-      "daily_today": 3090,
+      "last_beat": "2026-08-03T12:51:00.000+09:00",
+      "message": "배치 337 완료: 구글 자동확인으로 Bing 저속 대체검색, 오연결 후보 제외, 5,055건 누적",
+      "daily_today": 3105,
       "daily_hits": 516
     },
     {
