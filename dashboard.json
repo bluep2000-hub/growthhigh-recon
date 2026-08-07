@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:54:06+09:00",
+  "generated_at": "2026-08-08T00:00:09+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -45,7 +45,7 @@
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
       "state": "idle",
-      "today": 64,
+      "today": 0,
       "hits": 0,
       "pending": 0,
       "last_beat": "2026-08-07T14:46:00.000+09:00",
