@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-11T09:25:09+09:00",
+  "generated_at": "2026-08-11T09:28:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 0,
-      "hits": 0,
-      "rate": 0.0,
+      "today": 7140,
+      "hits": 1274,
+      "rate": 17.8,
       "daily_today": 5190,
       "daily_hits": 727
     },
@@ -57,12 +57,12 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "error",
-      "today": 0,
-      "hits": 0,
+      "state": "working",
+      "today": 7140,
+      "hits": 1274,
       "pending": 0,
-      "last_beat": "2026-08-03T18:36:00.000+09:00",
-      "message": "Chrome 네이티브 연결 구성 누락 3회 연속 확인; 플러그인 재설치 전 수집 불가, 누적 7,140건 보존",
+      "last_beat": "2026-08-11T09:24:00.000+09:00",
+      "message": "Chrome 재연결 확인 완료; 7,141번째 기업부터 수집 재개",
       "daily_today": 5190,
       "daily_hits": 727
     },
