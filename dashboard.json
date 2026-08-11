@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-11T12:04:08+09:00",
+  "generated_at": "2026-08-11T12:10:11+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7420,
-      "hits": 1318,
+      "today": 7435,
+      "hits": 1320,
       "rate": 17.8,
-      "daily_today": 5470,
-      "daily_hits": 771
+      "daily_today": 5485,
+      "daily_hits": 773
     },
     "signal": {
       "label": "신호",
@@ -58,13 +58,13 @@
       "stage": "collect",
       "machine": "박재현 노트북 codex",
       "state": "working",
-      "today": 7420,
-      "hits": 1318,
+      "today": 7435,
+      "hits": 1320,
       "pending": 0,
-      "last_beat": "2026-08-11T12:00:00.000+09:00",
-      "message": "배치 496 시작: 7,420번부터 저속 2단계 검색 재개",
-      "daily_today": 5470,
-      "daily_hits": 771
+      "last_beat": "2026-08-11T12:08:00.000+09:00",
+      "message": "배치 497 시작: 7,435번부터 저속 2단계 검색 재개",
+      "daily_today": 5485,
+      "daily_hits": 773
     },
     {
       "name": "코워크-01",
