@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-11T09:55:08+09:00",
+  "generated_at": "2026-08-11T09:58:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
       "skill": "db-research-agent",
-      "today": 7178,
+      "today": 7180,
       "hits": 1279,
       "rate": 17.8,
-      "daily_today": 5228,
+      "daily_today": 5230,
       "daily_hits": 732
     },
     "signal": {
@@ -57,13 +57,13 @@
       "name": "codex-DB-노트북",
       "stage": "collect",
       "machine": "박재현 노트북 codex",
-      "state": "error",
-      "today": 7178,
+      "state": "working",
+      "today": 7180,
       "hits": 1279,
       "pending": 0,
-      "last_beat": "2026-08-11T09:50:00.000+09:00",
-      "message": "Google CAPTCHA 발생; 7,170~7,179 중 8건 저장, 금양솔라제6호·우노워크 교차검증 대기",
-      "daily_today": 5228,
+      "last_beat": "2026-08-11T09:55:00.000+09:00",
+      "message": "배치 479 완료: 7,170~7,179 총 10건 저장, 공개 연락처 1건 확보; Bing 전환으로 CAPTCHA 대기 2건 해소",
+      "daily_today": 5230,
       "daily_hits": 732
     },
     {
