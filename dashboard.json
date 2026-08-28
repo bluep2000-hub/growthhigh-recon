@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T14:40:09+09:00",
+  "generated_at": "2026-08-28T14:47:29+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -20,7 +20,7 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 54,
+      "pending": 114,
       "done_total": 936,
       "daily_today": 0,
       "daily_hits": 0
@@ -47,9 +47,9 @@
       "state": "input",
       "today": 0,
       "hits": 0,
-      "pending": 54,
-      "last_beat": "2026-08-28T14:01:00.000+09:00",
-      "message": "배치 54건 준비 완료 · 승인 대기",
+      "pending": 114,
+      "last_beat": "2026-08-28T14:46:00.000+09:00",
+      "message": "배치 114건 준비 완료 · 승인 대기",
       "daily_today": 0,
       "daily_hits": 0
     },
