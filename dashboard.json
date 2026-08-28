@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T15:13:09+09:00",
+  "generated_at": "2026-08-28T15:14:29+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -20,8 +20,8 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 114,
-      "done_total": 936,
+      "pending": 55,
+      "done_total": 946,
       "daily_today": 0,
       "daily_hits": 0
     }
@@ -44,12 +44,12 @@
       "name": "적재봇",
       "stage": "load",
       "machine": "데스크톱 A · 클로드코드",
-      "state": "input",
+      "state": "working",
       "today": 0,
       "hits": 0,
-      "pending": 114,
-      "last_beat": "2026-08-28T14:46:00.000+09:00",
-      "message": "배치 114건 준비 완료 · 승인 대기",
+      "pending": 55,
+      "last_beat": "2026-08-28T15:13:00.000+09:00",
+      "message": "연락처 55건 반영 중",
       "daily_today": 0,
       "daily_hits": 0
     },
