@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T12:19:08+09:00",
+  "generated_at": "2026-08-31T12:22:08+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -20,8 +20,8 @@
     "load": {
       "label": "적재",
       "skill": "db-notion-pipeline",
-      "pending": 219,
-      "done_total": 1001,
+      "pending": 209,
+      "done_total": 1011,
       "daily_today": 0,
       "daily_hits": 0
     }
@@ -47,9 +47,9 @@
       "state": "working",
       "today": 0,
       "hits": 0,
-      "pending": 219,
-      "last_beat": "2026-08-31T12:18:00.000+09:00",
-      "message": "연락처 219건 반영 중",
+      "pending": 209,
+      "last_beat": "2026-08-31T12:19:00.000+09:00",
+      "message": "연락처 209건 반영 중",
       "daily_today": 0,
       "daily_hits": 0
     },
