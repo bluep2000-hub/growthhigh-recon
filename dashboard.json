@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:13:09+09:00",
+  "generated_at": "2026-09-11T11:15:06+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -48,7 +48,7 @@
       "today": 0,
       "hits": 0,
       "pending": 726,
-      "last_beat": "2026-09-11T11:10:00.000+09:00",
+      "last_beat": "2026-09-11T11:13:00.000+09:00",
       "message": "배치 726건 준비 완료 · 승인 대기",
       "daily_today": 0,
       "daily_hits": 0
