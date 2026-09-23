@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.zip
+*.xlsx
+*.xls
+*.csv
+*.db
+*.sqlite*
+auth.json
+credentials.json
+secrets/
+backups/
