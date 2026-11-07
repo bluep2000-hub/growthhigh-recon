@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:45:06+09:00",
+  "generated_at": "2026-11-08T06:45:44+09:00",
   "stages": {
     "collect": {
       "label": "수집",
@@ -7,8 +7,8 @@
       "today": 0,
       "hits": 0,
       "rate": 0.0,
-      "daily_today": 5500,
-      "daily_hits": 774
+      "daily_today": 0,
+      "daily_hits": 0
     },
     "signal": {
       "label": "신호",
@@ -63,8 +63,8 @@
       "pending": 0,
       "last_beat": "2026-08-11T12:17:00.000+09:00",
       "message": "배치 498 대기: Bing 검색 확인 과제가 지속되어 7,450번 검색 시작 전 중단; 탭 연결 유지",
-      "daily_today": 5500,
-      "daily_hits": 774
+      "daily_today": 0,
+      "daily_hits": 0
     },
     {
       "name": "코워크-01",
